@@ -1,0 +1,243 @@
+{
+  "cases": [
+    {
+      "key": "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9], 68.5, 1]",
+      "route": [
+        0,
+        39,
+        43,
+        19,
+        30,
+        29,
+        15,
+        28,
+        1,
+        45,
+        48,
+        9
+      ],
+      "time": 68.5,
+      "special_used": 1,
+      "normal_count": 1,
+      "special_count": 13,
+      "normal_options": [
+        {
+          "target": 37,
+          "wait": 0,
+          "tof": 34,
+          "arrival": 102.5,
+          "dv": 78.85561002925327
+        }
+      ],
+      "evaluations": 2960
+    },
+    {
+      "key": "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9], 70.5, 1]",
+      "route": [
+        0,
+        39,
+        43,
+        19,
+        30,
+        29,
+        15,
+        28,
+        1,
+        45,
+        48,
+        9
+      ],
+      "time": 70.5,
+      "special_used": 1,
+      "normal_count": 1,
+      "special_count": 11,
+      "normal_options": [
+        {
+          "target": 37,
+          "wait": 0,
+          "tof": 34,
+          "arrival": 104.5,
+          "dv": 77.97746277830262
+        }
+      ],
+      "evaluations": 2960
+    },
+    {
+      "key": "[[0, 43, 19, 30, 29, 45, 28, 1, 15, 4, 17, 11], 48.0, 2]",
+      "route": [
+        0,
+        43,
+        19,
+        30,
+        29,
+        45,
+        28,
+        1,
+        15,
+        4,
+        17,
+        11
+      ],
+      "time": 48.0,
+      "special_used": 2,
+      "normal_count": 0,
+      "special_count": 0,
+      "normal_options": [],
+      "evaluations": 2960
+    },
+    {
+      "key": "[[0, 43, 19, 30, 29, 45, 28, 1, 15, 4, 17, 11], 50.0, 2]",
+      "route": [
+        0,
+        43,
+        19,
+        30,
+        29,
+        45,
+        28,
+        1,
+        15,
+        4,
+        17,
+        11
+      ],
+      "time": 50.0,
+      "special_used": 2,
+      "normal_count": 0,
+      "special_count": 0,
+      "normal_options": [],
+      "evaluations": 2960
+    },
+    {
+      "key": "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 37], 56.5, 2]",
+      "route": [
+        0,
+        39,
+        43,
+        19,
+        30,
+        29,
+        15,
+        28,
+        1,
+        45,
+        48,
+        37
+      ],
+      "time": 56.5,
+      "special_used": 2,
+      "normal_count": 2,
+      "special_count": 12,
+      "normal_options": [
+        {
+          "target": 9,
+          "wait": 0.5,
+          "tof": 13,
+          "arrival": 70.0,
+          "dv": 99.17715036979672
+        },
+        {
+          "target": 31,
+          "wait": 0.5,
+          "tof": 34,
+          "arrival": 91.0,
+          "dv": 79.94436736622333
+        }
+      ],
+      "evaluations": 2960
+    },
+    {
+      "key": "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9], 56.5, 2]",
+      "route": [
+        0,
+        39,
+        43,
+        19,
+        30,
+        29,
+        15,
+        28,
+        1,
+        45,
+        48,
+        9
+      ],
+      "time": 56.5,
+      "special_used": 2,
+      "normal_count": 1,
+      "special_count": 12,
+      "normal_options": [
+        {
+          "target": 37,
+          "wait": 0.5,
+          "tof": 34,
+          "arrival": 91.0,
+          "dv": 87.41841012268635
+        }
+      ],
+      "evaluations": 2960
+    },
+    {
+      "key": "[[0, 39, 1, 28, 15, 45, 29, 30, 47, 36, 31, 37], 72.5, 2]",
+      "route": [
+        0,
+        39,
+        1,
+        28,
+        15,
+        45,
+        29,
+        30,
+        47,
+        36,
+        31,
+        37
+      ],
+      "time": 72.5,
+      "special_used": 2,
+      "normal_count": 1,
+      "special_count": 12,
+      "normal_options": [
+        {
+          "target": 9,
+          "wait": 2,
+          "tof": 13,
+          "arrival": 87.5,
+          "dv": 99.88442510265082
+        }
+      ],
+      "evaluations": 2960
+    },
+    {
+      "key": "[[0, 39, 1, 28, 15, 45, 29, 30, 47, 36, 31, 37], 74.5, 2]",
+      "route": [
+        0,
+        39,
+        1,
+        28,
+        15,
+        45,
+        29,
+        30,
+        47,
+        36,
+        31,
+        37
+      ],
+      "time": 74.5,
+      "special_used": 2,
+      "normal_count": 1,
+      "special_count": 12,
+      "normal_options": [
+        {
+          "target": 9,
+          "wait": 0,
+          "tof": 13,
+          "arrival": 87.5,
+          "dv": 99.88442510265082
+        }
+      ],
+      "evaluations": 2960
+    }
+  ]
+}
