@@ -1,0 +1,278 @@
+{
+  "method": "Beam Search V4",
+  "beam_width": 10,
+  "beam": [
+    {
+      "route": [
+        0,
+        39,
+        8
+      ],
+      "transfers": [
+        {
+          "from": 0,
+          "to": 39,
+          "start_time": 0.0,
+          "tof": 5.0,
+          "dv": 93.85011375965821,
+          "status": "NORMAL"
+        },
+        {
+          "from": 39,
+          "to": 8,
+          "start_time": 5.0,
+          "tof": 10,
+          "dv": 83.83925635353066,
+          "status": "NORMAL"
+        }
+      ],
+      "current_time": 15.0,
+      "special_used": 0
+    },
+    {
+      "route": [
+        0,
+        6,
+        35
+      ],
+      "transfers": [
+        {
+          "from": 0,
+          "to": 6,
+          "start_time": 0.0,
+          "tof": 0.5,
+          "dv": 409.03528627868644,
+          "status": "SPECIAL"
+        },
+        {
+          "from": 6,
+          "to": 35,
+          "start_time": 0.5,
+          "tof": 3,
+          "dv": 94.43233157960461,
+          "status": "NORMAL"
+        }
+      ],
+      "current_time": 3.5,
+      "special_used": 1
+    },
+    {
+      "route": [
+        0,
+        37,
+        9
+      ],
+      "transfers": [
+        {
+          "from": 0,
+          "to": 37,
+          "start_time": 0.0,
+          "tof": 0.5,
+          "dv": 504.23481524573765,
+          "status": "SPECIAL"
+        },
+        {
+          "from": 37,
+          "to": 9,
+          "start_time": 0.5,
+          "tof": 7,
+          "dv": 99.65797726530253,
+          "status": "NORMAL"
+        }
+      ],
+      "current_time": 7.5,
+      "special_used": 1
+    },
+    {
+      "route": [
+        0,
+        8,
+        39
+      ],
+      "transfers": [
+        {
+          "from": 0,
+          "to": 8,
+          "start_time": 0.0,
+          "tof": 0.5,
+          "dv": 577.0175964311809,
+          "status": "SPECIAL"
+        },
+        {
+          "from": 8,
+          "to": 39,
+          "start_time": 0.5,
+          "tof": 7,
+          "dv": 95.42780409291709,
+          "status": "NORMAL"
+        }
+      ],
+      "current_time": 7.5,
+      "special_used": 1
+    },
+    {
+      "route": [
+        0,
+        21,
+        7
+      ],
+      "transfers": [
+        {
+          "from": 0,
+          "to": 21,
+          "start_time": 0.0,
+          "tof": 0.5,
+          "dv": 578.6080772986376,
+          "status": "SPECIAL"
+        },
+        {
+          "from": 21,
+          "to": 7,
+          "start_time": 0.5,
+          "tof": 15,
+          "dv": 77.68182391757819,
+          "status": "NORMAL"
+        }
+      ],
+      "current_time": 15.5,
+      "special_used": 1
+    },
+    {
+      "route": [
+        0,
+        43,
+        19
+      ],
+      "transfers": [
+        {
+          "from": 0,
+          "to": 43,
+          "start_time": 0.0,
+          "tof": 1.0,
+          "dv": 247.21262385255085,
+          "status": "SPECIAL"
+        },
+        {
+          "from": 43,
+          "to": 19,
+          "start_time": 1.0,
+          "tof": 5,
+          "dv": 85.30980629271488,
+          "status": "NORMAL"
+        }
+      ],
+      "current_time": 6.0,
+      "special_used": 1
+    },
+    {
+      "route": [
+        0,
+        19,
+        43
+      ],
+      "transfers": [
+        {
+          "from": 0,
+          "to": 19,
+          "start_time": 0.0,
+          "tof": 1.0,
+          "dv": 290.9558743877162,
+          "status": "SPECIAL"
+        },
+        {
+          "from": 19,
+          "to": 43,
+          "start_time": 1.0,
+          "tof": 10,
+          "dv": 82.69517975183908,
+          "status": "NORMAL"
+        }
+      ],
+      "current_time": 11.0,
+      "special_used": 1
+    },
+    {
+      "route": [
+        0,
+        39,
+        43
+      ],
+      "transfers": [
+        {
+          "from": 0,
+          "to": 39,
+          "start_time": 0.0,
+          "tof": 5.0,
+          "dv": 93.85011375965821,
+          "status": "NORMAL"
+        },
+        {
+          "from": 39,
+          "to": 43,
+          "start_time": 5.0,
+          "tof": 0.5,
+          "dv": 348.70344699452403,
+          "status": "SPECIAL"
+        }
+      ],
+      "current_time": 5.5,
+      "special_used": 1
+    },
+    {
+      "route": [
+        0,
+        39,
+        1
+      ],
+      "transfers": [
+        {
+          "from": 0,
+          "to": 39,
+          "start_time": 0.0,
+          "tof": 5.0,
+          "dv": 93.85011375965821,
+          "status": "NORMAL"
+        },
+        {
+          "from": 39,
+          "to": 1,
+          "start_time": 5.0,
+          "tof": 0.5,
+          "dv": 485.8214659369647,
+          "status": "SPECIAL"
+        }
+      ],
+      "current_time": 5.5,
+      "special_used": 1
+    },
+    {
+      "route": [
+        0,
+        19,
+        30
+      ],
+      "transfers": [
+        {
+          "from": 0,
+          "to": 19,
+          "start_time": 0.0,
+          "tof": 1.0,
+          "dv": 290.9558743877162,
+          "status": "SPECIAL"
+        },
+        {
+          "from": 19,
+          "to": 30,
+          "start_time": 1.0,
+          "tof": 10,
+          "dv": 93.16470340131694,
+          "status": "NORMAL"
+        }
+      ],
+      "current_time": 11.0,
+      "special_used": 1
+    }
+  ],
+  "evaluations_last_level": 2632,
+  "completed": false
+}
