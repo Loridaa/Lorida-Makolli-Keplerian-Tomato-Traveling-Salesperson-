@@ -1,0 +1,4149 @@
+{
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 12, 46, 41, 10, 2, 25], 172.0, 2]": [
+    {
+      "target": 22,
+      "wait": 1,
+      "tof": 8,
+      "arrival": 181.0,
+      "dv": 93.91364313861914,
+      "status": "NORMAL"
+    },
+    {
+      "target": 22,
+      "wait": 3,
+      "tof": 8,
+      "arrival": 183.0,
+      "dv": 98.17845778521547,
+      "status": "NORMAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 173.0,
+      "dv": 364.8746582262206,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 173.0,
+      "dv": 580.4881053555251,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 173.5,
+      "dv": 433.3156785650491,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 174.0,
+      "dv": 319.5621886458136,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 44,
+      "wait": 0.5,
+      "tof": 2,
+      "arrival": 174.5,
+      "dv": 466.2114901873485,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 0.5,
+      "tof": 2,
+      "arrival": 174.5,
+      "dv": 494.50294677137515,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 1,
+      "tof": 2,
+      "arrival": 175.0,
+      "dv": 325.4687144969769,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 2,
+      "tof": 1.5,
+      "arrival": 175.5,
+      "dv": 416.7360110495088,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 5, 44, 40, 2, 41, 46], 173.5, 2]": [
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 8,
+      "arrival": 181.5,
+      "dv": 32.60823769613218,
+      "status": "NORMAL"
+    },
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 8,
+      "arrival": 181.5,
+      "dv": 92.2468046332689,
+      "status": "NORMAL"
+    },
+    {
+      "target": 12,
+      "wait": 2,
+      "tof": 8,
+      "arrival": 183.5,
+      "dv": 46.28233980011419,
+      "status": "NORMAL"
+    },
+    {
+      "target": 10,
+      "wait": 2,
+      "tof": 8,
+      "arrival": 183.5,
+      "dv": 94.44412068417992,
+      "status": "NORMAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 174.0,
+      "dv": 359.9661801092225,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 34,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 174.0,
+      "dv": 598.6727355151957,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 23,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 174.0,
+      "dv": 598.8629791256624,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 25,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 174.5,
+      "dv": 294.2339070667073,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 174.5,
+      "dv": 396.14200085255465,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 0.5,
+      "tof": 0.5,
+      "arrival": 174.5,
+      "dv": 539.0407641859726,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 174.5,
+      "dv": 570.8053623183432,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 175.5,
+      "dv": 360.3941647579803,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 176.0,
+      "dv": 282.0240766624594,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 1,
+      "tof": 2,
+      "arrival": 176.5,
+      "dv": 109.5529432002795,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 5, 44, 40, 10, 12, 46], 176.0, 2]": [
+    {
+      "target": 41,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 177.5,
+      "dv": 82.33681900378303,
+      "status": "NORMAL"
+    },
+    {
+      "target": 2,
+      "wait": 0.5,
+      "tof": 5,
+      "arrival": 181.5,
+      "dv": 99.55124812343888,
+      "status": "NORMAL"
+    },
+    {
+      "target": 41,
+      "wait": 2,
+      "tof": 1.5,
+      "arrival": 179.5,
+      "dv": 69.87857022855582,
+      "status": "NORMAL"
+    },
+    {
+      "target": 2,
+      "wait": 3,
+      "tof": 5,
+      "arrival": 184.0,
+      "dv": 98.88424481358267,
+      "status": "NORMAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 176.5,
+      "dv": 371.5161758947517,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 41,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 176.5,
+      "dv": 424.0465015214462,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 2,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 177.0,
+      "dv": 242.71564392650936,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 25,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 177.0,
+      "dv": 364.1969919581636,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 177.0,
+      "dv": 384.82807385681656,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 34,
+      "wait": 0.5,
+      "tof": 0.5,
+      "arrival": 177.0,
+      "dv": 579.2796427013493,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 1,
+      "tof": 0.5,
+      "arrival": 177.5,
+      "dv": 518.0649198877384,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 178.0,
+      "dv": 516.9606371289568,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 178.5,
+      "dv": 246.3570788975557,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 41,
+      "wait": 2,
+      "tof": 0.5,
+      "arrival": 178.5,
+      "dv": 413.7535667350239,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 5, 44, 40, 10, 46, 41], 176.5, 2]": [
+    {
+      "target": 2,
+      "wait": 0.5,
+      "tof": 1.5,
+      "arrival": 178.5,
+      "dv": 73.68528633666213,
+      "status": "NORMAL"
+    },
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 8,
+      "arrival": 184.5,
+      "dv": 78.81228216821516,
+      "status": "NORMAL"
+    },
+    {
+      "target": 2,
+      "wait": 1,
+      "tof": 3,
+      "arrival": 180.5,
+      "dv": 87.03118357549374,
+      "status": "NORMAL"
+    },
+    {
+      "target": 12,
+      "wait": 2,
+      "tof": 8,
+      "arrival": 186.5,
+      "dv": 82.41470565201874,
+      "status": "NORMAL"
+    },
+    {
+      "target": 2,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 177.0,
+      "dv": 476.7886177592335,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 177.0,
+      "dv": 599.4936570267421,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 25,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 177.5,
+      "dv": 276.47103348836697,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 177.5,
+      "dv": 466.1468100100732,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 177.5,
+      "dv": 504.68004377679074,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 178.0,
+      "dv": 483.94253949239794,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 178.5,
+      "dv": 414.71809926503647,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 23,
+      "wait": 0.5,
+      "tof": 1.5,
+      "arrival": 178.5,
+      "dv": 593.3268923293115,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 2,
+      "wait": 0.5,
+      "tof": 2,
+      "arrival": 179.0,
+      "dv": 114.72405958721001,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 25,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 179.5,
+      "dv": 184.05876451442583,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 5, 44, 40, 2, 41, 10], 177.0, 2]": [
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 180.0,
+      "dv": 86.17838920554618,
+      "status": "NORMAL"
+    },
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 5,
+      "arrival": 182.0,
+      "dv": 93.1903534827513,
+      "status": "NORMAL"
+    },
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 5,
+      "arrival": 182.0,
+      "dv": 49.56182543166657,
+      "status": "NORMAL"
+    },
+    {
+      "target": 46,
+      "wait": 2,
+      "tof": 5,
+      "arrival": 184.0,
+      "dv": 94.40849991388014,
+      "status": "NORMAL"
+    },
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 178.0,
+      "dv": 227.2134306884991,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 178.0,
+      "dv": 430.54672656171607,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 178.0,
+      "dv": 449.80189951173907,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 25,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 178.0,
+      "dv": 463.0324243250609,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 23,
+      "wait": 1,
+      "tof": 0.5,
+      "arrival": 178.5,
+      "dv": 521.287215685099,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 179.0,
+      "dv": 354.6841542621029,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 1,
+      "tof": 1,
+      "arrival": 179.0,
+      "dv": 371.67252171652876,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 2,
+      "tof": 1.5,
+      "arrival": 180.5,
+      "dv": 541.6160101185446,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 25,
+      "wait": 1,
+      "tof": 2,
+      "arrival": 180.0,
+      "dv": 176.02067464388352,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 2,
+      "tof": 1,
+      "arrival": 180.0,
+      "dv": 229.09471475038268,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 5, 44, 40, 2, 41, 12], 180.0, 2]": [
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 183.0,
+      "dv": 89.96306448542674,
+      "status": "NORMAL"
+    },
+    {
+      "target": 10,
+      "wait": 0.5,
+      "tof": 8,
+      "arrival": 188.5,
+      "dv": 34.290257086742685,
+      "status": "NORMAL"
+    },
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 5,
+      "arrival": 185.0,
+      "dv": 49.956182361694765,
+      "status": "NORMAL"
+    },
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 13,
+      "arrival": 193.0,
+      "dv": 78.97533221372373,
+      "status": "NORMAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 180.5,
+      "dv": 363.0257013575795,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 34,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 180.5,
+      "dv": 533.4941425881855,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 181.0,
+      "dv": 240.6636229445397,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 181.0,
+      "dv": 326.49218925889113,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 181.0,
+      "dv": 544.2913241265857,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0.5,
+      "tof": 1,
+      "arrival": 181.5,
+      "dv": 446.0501987520428,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 1,
+      "tof": 0.5,
+      "arrival": 181.5,
+      "dv": 564.5739756359724,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 25,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 182.0,
+      "dv": 432.72248874405443,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 2,
+      "tof": 0.5,
+      "arrival": 182.5,
+      "dv": 422.70065377566095,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 10,
+      "wait": 1,
+      "tof": 2,
+      "arrival": 183.0,
+      "dv": 110.04374605035117,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 5, 44, 40, 10, 46, 2], 180.5, 2]": [
+    {
+      "target": 41,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 182.5,
+      "dv": 77.7236867493828,
+      "status": "NORMAL"
+    },
+    {
+      "target": 25,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 183.0,
+      "dv": 87.4466592373645,
+      "status": "NORMAL"
+    },
+    {
+      "target": 41,
+      "wait": 2,
+      "tof": 2,
+      "arrival": 184.5,
+      "dv": 63.83179045017957,
+      "status": "NORMAL"
+    },
+    {
+      "target": 25,
+      "wait": 3,
+      "tof": 1.5,
+      "arrival": 185.0,
+      "dv": 85.27399311383401,
+      "status": "NORMAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 181.0,
+      "dv": 212.27507065510292,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 25,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 181.0,
+      "dv": 480.8404364727302,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 41,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 181.5,
+      "dv": 252.947578755102,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 182.0,
+      "dv": 353.86260009228096,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 182.5,
+      "dv": 365.3914135856764,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 182.5,
+      "dv": 459.56735329507194,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 25,
+      "wait": 0.5,
+      "tof": 2,
+      "arrival": 183.0,
+      "dv": 139.76391775218275,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 183.0,
+      "dv": 195.72118734225347,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 5, 44, 40, 10, 2, 25], 182.5, 2]": [
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 8,
+      "arrival": 190.5,
+      "dv": 87.02418084223287,
+      "status": "NORMAL"
+    },
+    {
+      "target": 22,
+      "wait": 2,
+      "tof": 8,
+      "arrival": 192.5,
+      "dv": 92.47624165223677,
+      "status": "NORMAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 183.5,
+      "dv": 348.8055416454405,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 41,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 183.5,
+      "dv": 562.8090443572303,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 183.5,
+      "dv": 582.9989327409182,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 184.0,
+      "dv": 555.4609340377617,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 184.5,
+      "dv": 267.60406205831805,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0.5,
+      "tof": 5,
+      "arrival": 188.0,
+      "dv": 380.2951618064293,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 41,
+      "wait": 1,
+      "tof": 2,
+      "arrival": 185.5,
+      "dv": 170.8232331343906,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 1,
+      "tof": 2,
+      "arrival": 185.5,
+      "dv": 393.59185634979053,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 12, 46, 41, 2, 25, 22], 183.0, 2]": [
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 5,
+      "arrival": 188.0,
+      "dv": 78.97134750770572,
+      "status": "NORMAL"
+    },
+    {
+      "target": 13,
+      "wait": 2,
+      "tof": 5,
+      "arrival": 190.0,
+      "dv": 78.67576555445595,
+      "status": "NORMAL"
+    },
+    {
+      "target": 44,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 183.5,
+      "dv": 306.0752188659298,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 183.5,
+      "dv": 440.924841664109,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 184.0,
+      "dv": 253.59272786608483,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 184.0,
+      "dv": 329.0415430103336,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 184.0,
+      "dv": 431.14437516272613,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 185.0,
+      "dv": 404.7284593487925,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 44,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 185.5,
+      "dv": 293.45943365786576,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 185.5,
+      "dv": 329.3299075965121,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 10, 46, 41, 2, 25, 22], 183.0, 2]": [
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 5,
+      "arrival": 188.0,
+      "dv": 78.97134750770572,
+      "status": "NORMAL"
+    },
+    {
+      "target": 13,
+      "wait": 2,
+      "tof": 5,
+      "arrival": 190.0,
+      "dv": 78.67576555445595,
+      "status": "NORMAL"
+    },
+    {
+      "target": 44,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 183.5,
+      "dv": 306.0752188659298,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 183.5,
+      "dv": 440.924841664109,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 184.0,
+      "dv": 253.59272786608483,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 184.0,
+      "dv": 329.0415430103336,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 184.0,
+      "dv": 431.14437516272613,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 184.0,
+      "dv": 463.48477001695335,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 44,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 185.5,
+      "dv": 293.45943365786576,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 185.5,
+      "dv": 329.3299075965121,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 5, 44, 40, 2, 25, 22], 183.0, 2]": [
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 5,
+      "arrival": 188.0,
+      "dv": 78.97134750770572,
+      "status": "NORMAL"
+    },
+    {
+      "target": 13,
+      "wait": 2,
+      "tof": 5,
+      "arrival": 190.0,
+      "dv": 78.67576555445595,
+      "status": "NORMAL"
+    },
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 183.5,
+      "dv": 364.7140196848876,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 184.0,
+      "dv": 253.59272786608483,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 41,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 184.0,
+      "dv": 286.1391526823371,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 184.0,
+      "dv": 431.14437516272613,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 184.0,
+      "dv": 463.48477001695335,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 185.0,
+      "dv": 404.7284593487925,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 185.5,
+      "dv": 208.34599183315,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 186.0,
+      "dv": 111.70950436472828,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 5, 44, 40, 10, 12, 41], 186.0, 2]": [
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 187.5,
+      "dv": 79.34278622185617,
+      "status": "NORMAL"
+    },
+    {
+      "target": 2,
+      "wait": 0.5,
+      "tof": 1.5,
+      "arrival": 188.0,
+      "dv": 78.0352014709396,
+      "status": "NORMAL"
+    },
+    {
+      "target": 46,
+      "wait": 2,
+      "tof": 1.5,
+      "arrival": 189.5,
+      "dv": 73.68719244052807,
+      "status": "NORMAL"
+    },
+    {
+      "target": 2,
+      "wait": 1,
+      "tof": 3,
+      "arrival": 190.0,
+      "dv": 89.43242219009863,
+      "status": "NORMAL"
+    },
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 186.5,
+      "dv": 443.60183266216796,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 2,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 186.5,
+      "dv": 504.06513999208295,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 23,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 186.5,
+      "dv": 593.0529748874324,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 25,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 187.0,
+      "dv": 268.682688430044,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 187.0,
+      "dv": 498.38536883555946,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 187.0,
+      "dv": 502.9569102637779,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 188.0,
+      "dv": 425.75420971776504,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 0.5,
+      "tof": 1.5,
+      "arrival": 188.0,
+      "dv": 576.5256908042272,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 2,
+      "wait": 0.5,
+      "tof": 2,
+      "arrival": 188.5,
+      "dv": 125.03844773071921,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 2,
+      "tof": 0.5,
+      "arrival": 188.5,
+      "dv": 427.7246605410511,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 31, 36, 47, 5, 44, 12, 10, 46, 41, 2], 114.0, 3]": [
+    {
+      "target": 25,
+      "wait": 0,
+      "tof": 5,
+      "arrival": 119.0,
+      "dv": 76.73104846036718,
+      "status": "NORMAL"
+    },
+    {
+      "target": 25,
+      "wait": 2,
+      "tof": 5,
+      "arrival": 121.0,
+      "dv": 83.67566469346296,
+      "status": "NORMAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 114.5,
+      "dv": 402.2174200035781,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 25,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 115.0,
+      "dv": 260.5014265186537,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 115.0,
+      "dv": 446.64083284969456,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 115.5,
+      "dv": 576.7028018522398,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 116.0,
+      "dv": 478.9778676653408,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 23,
+      "wait": 0,
+      "tof": 13,
+      "arrival": 127.0,
+      "dv": 563.6183783834579,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 116.5,
+      "dv": 198.56346388602316,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 25,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 117.0,
+      "dv": 108.6845654333332,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 31, 36, 47, 5, 44, 12, 10, 41, 2, 25], 121.0, 3]": [
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 34,
+      "arrival": 155.0,
+      "dv": 76.12852959546625,
+      "status": "NORMAL"
+    },
+    {
+      "target": 22,
+      "wait": 2,
+      "tof": 34,
+      "arrival": 157.0,
+      "dv": 76.4848687931045,
+      "status": "NORMAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 122.0,
+      "dv": 337.01298347306243,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 122.0,
+      "dv": 338.3906956318534,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 122.0,
+      "dv": 363.1266720096135,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 122.0,
+      "dv": 389.1481018931725,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 122.0,
+      "dv": 508.40337436225866,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 23,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 122.5,
+      "dv": 545.8706093892368,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 37,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 122.5,
+      "dv": 578.578186138809,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 0,
+      "tof": 8,
+      "arrival": 129.0,
+      "dv": 540.0037185346223,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 124.0,
+      "dv": 143.8074213797342,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 1,
+      "tof": 2,
+      "arrival": 124.0,
+      "dv": 164.39963858887756,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 31, 36, 47, 5, 41, 2, 25, 22, 13, 20], 152.5, 3]": [
+    {
+      "target": 40,
+      "wait": 0.5,
+      "tof": 34,
+      "arrival": 187.0,
+      "dv": 78.03229458463537,
+      "status": "NORMAL"
+    },
+    {
+      "target": 40,
+      "wait": 3,
+      "tof": 34,
+      "arrival": 189.5,
+      "dv": 98.74119104650794,
+      "status": "NORMAL"
+    },
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 153.0,
+      "dv": 423.9009059246755,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 44,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 153.5,
+      "dv": 230.37152674559195,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 153.5,
+      "dv": 428.3110370670108,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 154.5,
+      "dv": 438.9694315971105,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 154.5,
+      "dv": 561.8595858570579,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 37,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 154.5,
+      "dv": 574.5653801649495,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 2,
+      "tof": 0.5,
+      "arrival": 155.0,
+      "dv": 435.80758534004997,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 44,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 155.5,
+      "dv": 162.08864449563114,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 31, 36, 47, 5, 44, 2, 25, 22, 13, 20], 153.5, 3]": [
+    {
+      "target": 40,
+      "wait": 0.5,
+      "tof": 34,
+      "arrival": 188.0,
+      "dv": 77.63132907872458,
+      "status": "NORMAL"
+    },
+    {
+      "target": 40,
+      "wait": 3,
+      "tof": 34,
+      "arrival": 190.5,
+      "dv": 93.128448577807,
+      "status": "NORMAL"
+    },
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 154.0,
+      "dv": 429.974292990327,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 154.5,
+      "dv": 434.7603500963404,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 41,
+      "wait": 0.5,
+      "tof": 1,
+      "arrival": 155.0,
+      "dv": 408.59984384758843,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 155.5,
+      "dv": 435.82796921674594,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 155.5,
+      "dv": 555.0968882641654,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 37,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 155.5,
+      "dv": 580.4430615395527,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 2,
+      "tof": 0.5,
+      "arrival": 156.0,
+      "dv": 426.7076449767975,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 2,
+      "tof": 1,
+      "arrival": 156.5,
+      "dv": 438.6776812997912,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 12, 46, 41, 2, 44, 5], 159.0, 3]": [
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 159.5,
+      "dv": 526.4497849782337,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 160.0,
+      "dv": 286.28761581663446,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 160.0,
+      "dv": 365.499006085014,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 25,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 160.0,
+      "dv": 479.4575680811446,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 160.5,
+      "dv": 363.68248349052124,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 162.0,
+      "dv": 531.7078287288462,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 161.5,
+      "dv": 360.65125791416654,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 162.0,
+      "dv": 168.12686120314552,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 10, 46, 41, 2, 5, 44], 161.0, 3]": [
+    {
+      "target": 40,
+      "wait": 3,
+      "tof": 5,
+      "arrival": 169.0,
+      "dv": 85.35488445383669,
+      "status": "NORMAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 13,
+      "arrival": 174.0,
+      "dv": 73.78845251230733,
+      "status": "NORMAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 161.5,
+      "dv": 348.4673087080298,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 162.0,
+      "dv": 288.18781064887276,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 162.0,
+      "dv": 374.20576786896174,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 162.0,
+      "dv": 388.13818538734887,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 162.5,
+      "dv": 497.68041407066653,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 25,
+      "wait": 2,
+      "tof": 1,
+      "arrival": 164.0,
+      "dv": 581.8084458479036,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 163.5,
+      "dv": 302.4015257174756,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 164.0,
+      "dv": 177.8610660562332,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 12, 46, 41, 2, 25, 13], 162.0, 3]": [
+    {
+      "target": 22,
+      "wait": 0.5,
+      "tof": 8,
+      "arrival": 170.5,
+      "dv": 68.50716777526927,
+      "status": "NORMAL"
+    },
+    {
+      "target": 20,
+      "wait": 0.5,
+      "tof": 34,
+      "arrival": 196.5,
+      "dv": 82.75395444107667,
+      "status": "NORMAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 21,
+      "arrival": 183.0,
+      "dv": 74.85327759604401,
+      "status": "NORMAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 162.5,
+      "dv": 272.0383954514426,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 163.0,
+      "dv": 487.1958781388166,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 0.5,
+      "tof": 1,
+      "arrival": 163.5,
+      "dv": 553.487677309434,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 164.0,
+      "dv": 171.77765034152748,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 44,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 164.0,
+      "dv": 288.4564196197616,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 164.0,
+      "dv": 398.4714950119833,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 164.5,
+      "dv": 221.5753343296337,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 10,
+      "wait": 2,
+      "tof": 1,
+      "arrival": 165.0,
+      "dv": 503.0190307377536,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 12, 46, 41, 2, 25, 20], 162.0, 3]": [
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 34,
+      "arrival": 196.0,
+      "dv": 93.88180008477103,
+      "status": "NORMAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 34,
+      "arrival": 196.0,
+      "dv": 98.89080204902547,
+      "status": "NORMAL"
+    },
+    {
+      "target": 13,
+      "wait": 2,
+      "tof": 34,
+      "arrival": 198.0,
+      "dv": 95.50525967221665,
+      "status": "NORMAL"
+    },
+    {
+      "target": 40,
+      "wait": 2,
+      "tof": 34,
+      "arrival": 198.0,
+      "dv": 99.49828496863805,
+      "status": "NORMAL"
+    },
+    {
+      "target": 44,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 163.0,
+      "dv": 236.7543679196503,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 163.0,
+      "dv": 246.79722055513116,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 163.0,
+      "dv": 347.2421865335399,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0.5,
+      "tof": 1,
+      "arrival": 163.5,
+      "dv": 507.23786690039617,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0.5,
+      "tof": 1,
+      "arrival": 163.5,
+      "dv": 569.1296791305199,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 164.0,
+      "dv": 552.6150893845411,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 44,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 165.0,
+      "dv": 161.85213615380883,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 165.0,
+      "dv": 176.1352839269769,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 12, 46, 41, 10, 44, 5], 162.0, 3]": [
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 162.5,
+      "dv": 542.6639475495813,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 163.0,
+      "dv": 281.2202310794893,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 163.0,
+      "dv": 387.4074740246265,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 25,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 163.0,
+      "dv": 438.4291787882413,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 2,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 163.0,
+      "dv": 588.315368893584,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 164.0,
+      "dv": 255.36947152708325,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 164.5,
+      "dv": 447.0365334383549,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 165.0,
+      "dv": 162.28838997899237,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 12, 46, 41, 2, 25, 40], 162.5, 3]": [
+    {
+      "target": 44,
+      "wait": 0,
+      "tof": 8,
+      "arrival": 170.5,
+      "dv": 81.60967691064711,
+      "status": "NORMAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 34,
+      "arrival": 196.5,
+      "dv": 74.99379074652914,
+      "status": "NORMAL"
+    },
+    {
+      "target": 44,
+      "wait": 2,
+      "tof": 8,
+      "arrival": 172.5,
+      "dv": 85.09001940430154,
+      "status": "NORMAL"
+    },
+    {
+      "target": 20,
+      "wait": 2,
+      "tof": 34,
+      "arrival": 198.5,
+      "dv": 74.84225534900574,
+      "status": "NORMAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 163.0,
+      "dv": 253.76449973688693,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 163.5,
+      "dv": 478.1863354781961,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 163.5,
+      "dv": 581.0598980359814,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 44,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 164.0,
+      "dv": 475.1135721990129,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 164.5,
+      "dv": 193.05144698898619,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 164.5,
+      "dv": 325.8474632024457,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 165.0,
+      "dv": 174.3533582635724,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 165.5,
+      "dv": 231.05710662254933,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 10, 46, 41, 2, 25, 40], 162.5, 3]": [
+    {
+      "target": 44,
+      "wait": 0,
+      "tof": 8,
+      "arrival": 170.5,
+      "dv": 81.60967691064711,
+      "status": "NORMAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 34,
+      "arrival": 196.5,
+      "dv": 74.99379074652914,
+      "status": "NORMAL"
+    },
+    {
+      "target": 44,
+      "wait": 2,
+      "tof": 8,
+      "arrival": 172.5,
+      "dv": 85.09001940430154,
+      "status": "NORMAL"
+    },
+    {
+      "target": 20,
+      "wait": 2,
+      "tof": 34,
+      "arrival": 198.5,
+      "dv": 74.84225534900574,
+      "status": "NORMAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 163.0,
+      "dv": 253.76449973688693,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 163.5,
+      "dv": 581.0598980359814,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 44,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 164.0,
+      "dv": 475.1135721990129,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 164.5,
+      "dv": 193.05144698898619,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 164.5,
+      "dv": 325.8474632024457,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 0.5,
+      "tof": 5,
+      "arrival": 168.0,
+      "dv": 570.909211445745,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 165.0,
+      "dv": 174.3533582635724,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 165.5,
+      "dv": 231.05710662254933,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 12, 46, 41, 2, 25, 5], 163.0, 3]": [
+    {
+      "target": 44,
+      "wait": 0,
+      "tof": 13,
+      "arrival": 176.0,
+      "dv": 89.3001900410989,
+      "status": "NORMAL"
+    },
+    {
+      "target": 44,
+      "wait": 2,
+      "tof": 13,
+      "arrival": 178.0,
+      "dv": 91.00035246096856,
+      "status": "NORMAL"
+    },
+    {
+      "target": 44,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 163.5,
+      "dv": 502.3360209963295,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 163.5,
+      "dv": 536.6983798714683,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 164.0,
+      "dv": 282.6854260074541,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 164.0,
+      "dv": 397.82978901357905,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 165.0,
+      "dv": 252.6295547249171,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 10,
+      "wait": 0.5,
+      "tof": 5,
+      "arrival": 168.5,
+      "dv": 512.7489369997991,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 44,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 165.5,
+      "dv": 135.83915746727317,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 165.5,
+      "dv": 466.81743060684096,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 12, 46, 41, 2, 25, 44], 163.0, 3]": [
+    {
+      "target": 5,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 164.5,
+      "dv": 88.88052634415678,
+      "status": "NORMAL"
+    },
+    {
+      "target": 40,
+      "wait": 1,
+      "tof": 5,
+      "arrival": 169.0,
+      "dv": 85.35488445383669,
+      "status": "NORMAL"
+    },
+    {
+      "target": 5,
+      "wait": 2,
+      "tof": 1.5,
+      "arrival": 166.5,
+      "dv": 81.32979589071257,
+      "status": "NORMAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 13,
+      "arrival": 176.0,
+      "dv": 70.94015735834112,
+      "status": "NORMAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 163.5,
+      "dv": 307.928684118848,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 163.5,
+      "dv": 417.8331878600314,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 164.0,
+      "dv": 278.08673168003656,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 164.0,
+      "dv": 341.3883406774435,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 164.0,
+      "dv": 356.999508946722,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 165.0,
+      "dv": 553.7439872524683,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 0.5,
+      "tof": 2,
+      "arrival": 165.5,
+      "dv": 129.48554248329384,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 165.5,
+      "dv": 252.69193298616383,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 10, 46, 41, 2, 25, 13], 163.0, 3]": [
+    {
+      "target": 22,
+      "wait": 0.5,
+      "tof": 8,
+      "arrival": 171.5,
+      "dv": 71.41994198913595,
+      "status": "NORMAL"
+    },
+    {
+      "target": 20,
+      "wait": 0.5,
+      "tof": 34,
+      "arrival": 197.5,
+      "dv": 79.06281594253954,
+      "status": "NORMAL"
+    },
+    {
+      "target": 22,
+      "wait": 8,
+      "tof": 8,
+      "arrival": 179.0,
+      "dv": 75.50280194051636,
+      "status": "NORMAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 163.5,
+      "dv": 271.8776155811277,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 0.5,
+      "tof": 1,
+      "arrival": 164.5,
+      "dv": 535.303952620127,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 165.0,
+      "dv": 170.8886737476555,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 44,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 165.0,
+      "dv": 293.38418728163583,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 165.0,
+      "dv": 389.0602456721313,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 166.0,
+      "dv": 579.4391171443524,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 165.5,
+      "dv": 229.464329750984,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 0.5,
+      "tof": 3,
+      "arrival": 166.5,
+      "dv": 363.92405927903883,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 10, 46, 41, 2, 25, 44], 164.0, 3]": [
+    {
+      "target": 5,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 165.5,
+      "dv": 86.63699631725261,
+      "status": "NORMAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 5,
+      "arrival": 169.0,
+      "dv": 85.35488445383669,
+      "status": "NORMAL"
+    },
+    {
+      "target": 5,
+      "wait": 2,
+      "tof": 1.5,
+      "arrival": 167.5,
+      "dv": 81.3574414198079,
+      "status": "NORMAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 13,
+      "arrival": 177.0,
+      "dv": 82.93114706018609,
+      "status": "NORMAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 164.5,
+      "dv": 310.8190622541171,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 164.5,
+      "dv": 432.1884477335325,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 165.0,
+      "dv": 276.08051782133253,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 165.0,
+      "dv": 330.3524181555377,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 165.0,
+      "dv": 340.8684820575862,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 165.0,
+      "dv": 583.0020258341435,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 0.5,
+      "tof": 2,
+      "arrival": 166.5,
+      "dv": 128.26515458918038,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 166.5,
+      "dv": 270.2304130860734,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 12, 46, 41, 10, 2, 13], 167.5, 3]": [
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 21,
+      "arrival": 188.5,
+      "dv": 84.36413847700098,
+      "status": "NORMAL"
+    },
+    {
+      "target": 22,
+      "wait": 2,
+      "tof": 21,
+      "arrival": 190.5,
+      "dv": 75.63480134420851,
+      "status": "NORMAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 168.0,
+      "dv": 236.60825069758926,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 25,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 168.5,
+      "dv": 289.26943091301155,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 168.5,
+      "dv": 549.8600852285688,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 169.5,
+      "dv": 163.8772357369828,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 44,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 169.5,
+      "dv": 304.47855787232777,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 169.5,
+      "dv": 397.25468631391993,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0.5,
+      "tof": 2,
+      "arrival": 170.0,
+      "dv": 127.32868399073985,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 25,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 170.5,
+      "dv": 199.641073690074,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 12, 46, 41, 10, 2, 40], 167.5, 3]": [
+    {
+      "target": 44,
+      "wait": 0.5,
+      "tof": 8,
+      "arrival": 176.0,
+      "dv": 99.74447860798985,
+      "status": "NORMAL"
+    },
+    {
+      "target": 44,
+      "wait": 13,
+      "tof": 8,
+      "arrival": 188.5,
+      "dv": 84.36046625804643,
+      "status": "NORMAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 168.0,
+      "dv": 249.6629641477571,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 25,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 168.5,
+      "dv": 575.214410876931,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0.5,
+      "tof": 1,
+      "arrival": 169.0,
+      "dv": 511.4487553843164,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 44,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 169.0,
+      "dv": 532.118730268571,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 169.5,
+      "dv": 195.57648224053227,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 22,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 169.5,
+      "dv": 309.9357111724792,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 170.0,
+      "dv": 143.81894897936263,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 25,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 170.5,
+      "dv": 430.0497948679448,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 12, 46, 41, 10, 2, 18], 170.5, 3]": [
+    {
+      "target": 34,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 171.0,
+      "dv": 71.66183635807633,
+      "status": "NORMAL"
+    },
+    {
+      "target": 23,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 172.0,
+      "dv": 53.078224845070906,
+      "status": "NORMAL"
+    },
+    {
+      "target": 34,
+      "wait": 0.5,
+      "tof": 2,
+      "arrival": 173.0,
+      "dv": 47.26007354651467,
+      "status": "NORMAL"
+    },
+    {
+      "target": 23,
+      "wait": 2,
+      "tof": 1.5,
+      "arrival": 174.0,
+      "dv": 49.866569169041995,
+      "status": "NORMAL"
+    },
+    {
+      "target": 23,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 171.0,
+      "dv": 108.97463157341059,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 34,
+      "wait": 1,
+      "tof": 0.5,
+      "arrival": 172.0,
+      "dv": 101.57426509784636,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 23,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 173.0,
+      "dv": 106.19948456276765,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 34,
+      "wait": 1,
+      "tof": 3,
+      "arrival": 174.5,
+      "dv": 101.7991024668842,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 10, 46, 41, 2, 25, 18], 173.0, 3]": [
+    {
+      "target": 34,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 173.5,
+      "dv": 81.29753300655474,
+      "status": "NORMAL"
+    },
+    {
+      "target": 23,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 173.5,
+      "dv": 88.99168753356352,
+      "status": "NORMAL"
+    },
+    {
+      "target": 34,
+      "wait": 0.5,
+      "tof": 2,
+      "arrival": 175.5,
+      "dv": 47.70150219562771,
+      "status": "NORMAL"
+    },
+    {
+      "target": 23,
+      "wait": 0.5,
+      "tof": 2,
+      "arrival": 175.5,
+      "dv": 64.20776291289923,
+      "status": "NORMAL"
+    },
+    {
+      "target": 34,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 174.0,
+      "dv": 260.3225596108309,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 23,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 174.0,
+      "dv": 498.2707917765,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 0.5,
+      "tof": 0.5,
+      "arrival": 174.0,
+      "dv": 556.318354575698,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 23,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 176.0,
+      "dv": 127.7572913899262,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 34,
+      "wait": 2,
+      "tof": 1,
+      "arrival": 176.0,
+      "dv": 243.08180502178544,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 37, 31, 36, 47, 5, 44, 40, 2, 41, 23], 173.5, 3]": [
+    {
+      "target": 34,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 174.0,
+      "dv": 55.48685386790368,
+      "status": "NORMAL"
+    },
+    {
+      "target": 18,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 176.5,
+      "dv": 56.31174417875397,
+      "status": "NORMAL"
+    },
+    {
+      "target": 34,
+      "wait": 0.5,
+      "tof": 2,
+      "arrival": 176.0,
+      "dv": 55.61601065519709,
+      "status": "NORMAL"
+    },
+    {
+      "target": 18,
+      "wait": 2,
+      "tof": 3,
+      "arrival": 178.5,
+      "dv": 56.27458047476949,
+      "status": "NORMAL"
+    },
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 174.0,
+      "dv": 562.290655689432,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 34,
+      "wait": 1,
+      "tof": 0.5,
+      "arrival": 175.0,
+      "dv": 169.49116964067343,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 175.5,
+      "dv": 118.58058173297317,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 2,
+      "tof": 0.5,
+      "arrival": 176.0,
+      "dv": 558.5193451417126,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 3,
+      "tof": 8,
+      "arrival": 184.5,
+      "dv": 577.2823446531896,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 34,
+      "wait": 3,
+      "tof": 0.5,
+      "arrival": 177.0,
+      "dv": 187.06274647302467,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 3,
+      "tof": 1,
+      "arrival": 177.5,
+      "dv": 579.2578142270506,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 40, 44, 22, 25, 2, 41, 10, 12, 34, 18], 105.5, 4]": [
+    {
+      "target": 23,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 108.5,
+      "dv": 49.07262468335715,
+      "status": "NORMAL"
+    },
+    {
+      "target": 23,
+      "wait": 2,
+      "tof": 3,
+      "arrival": 110.5,
+      "dv": 37.74879948602521,
+      "status": "NORMAL"
+    },
+    {
+      "target": 23,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 106.0,
+      "dv": 319.72585518177186,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 0.5,
+      "tof": 1.5,
+      "arrival": 107.5,
+      "dv": 535.4450650317533,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 23,
+      "wait": 0.5,
+      "tof": 2,
+      "arrival": 108.0,
+      "dv": 148.66391083319905,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 5,
+      "tof": 0.5,
+      "arrival": 111.0,
+      "dv": 572.3391156385351,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 40, 44, 22, 25, 2, 41, 10, 12, 34, 23], 106.0, 4]": [
+    {
+      "target": 18,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 106.5,
+      "dv": 89.4832575904534,
+      "status": "NORMAL"
+    },
+    {
+      "target": 18,
+      "wait": 0.5,
+      "tof": 2,
+      "arrival": 108.5,
+      "dv": 63.96323839876234,
+      "status": "NORMAL"
+    },
+    {
+      "target": 18,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 107.0,
+      "dv": 106.18624487932522,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 2,
+      "tof": 0.5,
+      "arrival": 108.5,
+      "dv": 587.9246217873648,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 109.0,
+      "dv": 135.9591086082043,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 13,
+      "arrival": 119.0,
+      "dv": 598.4945827713597,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 40, 44, 22, 25, 2, 41, 10, 12, 46, 23], 106.5, 4]": [
+    {
+      "target": 18,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 107.0,
+      "dv": 86.69450255187373,
+      "status": "NORMAL"
+    },
+    {
+      "target": 34,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 109.5,
+      "dv": 78.0350906458149,
+      "status": "NORMAL"
+    },
+    {
+      "target": 18,
+      "wait": 0.5,
+      "tof": 2,
+      "arrival": 109.0,
+      "dv": 61.132969291500046,
+      "status": "NORMAL"
+    },
+    {
+      "target": 34,
+      "wait": 2,
+      "tof": 3,
+      "arrival": 111.5,
+      "dv": 65.71433375362673,
+      "status": "NORMAL"
+    },
+    {
+      "target": 34,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 107.0,
+      "dv": 198.3064602501728,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 0.5,
+      "tof": 0.5,
+      "arrival": 107.5,
+      "dv": 121.83013899131737,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 34,
+      "wait": 2,
+      "tof": 0.5,
+      "arrival": 109.0,
+      "dv": 154.66369730101056,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 109.5,
+      "dv": 120.69228473592005,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 40, 44, 22, 25, 2, 41, 10, 12, 46, 36], 107.5, 4]": [
+    {
+      "target": 31,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 108.5,
+      "dv": 67.37146049428341,
+      "status": "NORMAL"
+    },
+    {
+      "target": 47,
+      "wait": 0,
+      "tof": 8,
+      "arrival": 115.5,
+      "dv": 94.07823164109008,
+      "status": "NORMAL"
+    },
+    {
+      "target": 31,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 110.5,
+      "dv": 64.25410603724228,
+      "status": "NORMAL"
+    },
+    {
+      "target": 47,
+      "wait": 2,
+      "tof": 8,
+      "arrival": 117.5,
+      "dv": 84.73767077017726,
+      "status": "NORMAL"
+    },
+    {
+      "target": 31,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 108.0,
+      "dv": 110.96095352317658,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 108.0,
+      "dv": 192.92535529306411,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 37,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 108.5,
+      "dv": 463.0066376769813,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 108.5,
+      "dv": 476.6048591951903,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 109.0,
+      "dv": 430.31700960409046,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 47,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 109.0,
+      "dv": 517.4247388159965,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 110.0,
+      "dv": 127.46418048164585,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 31,
+      "wait": 0.5,
+      "tof": 2,
+      "arrival": 110.0,
+      "dv": 289.590430788106,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 40, 44, 22, 25, 2, 41, 10, 46, 18, 34], 108.0, 4]": [
+    {
+      "target": 23,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 109.5,
+      "dv": 86.1175170278184,
+      "status": "NORMAL"
+    },
+    {
+      "target": 23,
+      "wait": 2,
+      "tof": 1.5,
+      "arrival": 111.5,
+      "dv": 63.059494704518784,
+      "status": "NORMAL"
+    },
+    {
+      "target": 23,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 108.5,
+      "dv": 138.63214460297326,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 1,
+      "tof": 0.5,
+      "arrival": 109.5,
+      "dv": 562.1187895868388,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 23,
+      "wait": 3,
+      "tof": 0.5,
+      "arrival": 111.5,
+      "dv": 566.297280954735,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 40, 44, 22, 25, 2, 41, 10, 12, 46, 34], 108.5, 4]": [
+    {
+      "target": 18,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 109.5,
+      "dv": 81.0014747595366,
+      "status": "NORMAL"
+    },
+    {
+      "target": 23,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 110.0,
+      "dv": 98.61836440329938,
+      "status": "NORMAL"
+    },
+    {
+      "target": 18,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 111.5,
+      "dv": 59.35808881369627,
+      "status": "NORMAL"
+    },
+    {
+      "target": 23,
+      "wait": 2,
+      "tof": 1.5,
+      "arrival": 112.0,
+      "dv": 68.57433479121022,
+      "status": "NORMAL"
+    },
+    {
+      "target": 18,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 109.0,
+      "dv": 196.10856500320085,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 23,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 109.0,
+      "dv": 519.3785289300797,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 2,
+      "tof": 0.5,
+      "arrival": 111.0,
+      "dv": 179.27260730142365,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 23,
+      "wait": 2,
+      "tof": 0.5,
+      "arrival": 111.0,
+      "dv": 383.429425722024,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 40, 44, 22, 25, 2, 41, 10, 46, 36, 31], 108.5, 4]": [
+    {
+      "target": 37,
+      "wait": 0,
+      "tof": 34,
+      "arrival": 142.5,
+      "dv": 75.4764689727321,
+      "status": "NORMAL"
+    },
+    {
+      "target": 37,
+      "wait": 2,
+      "tof": 34,
+      "arrival": 144.5,
+      "dv": 81.30808149940182,
+      "status": "NORMAL"
+    },
+    {
+      "target": 5,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 109.0,
+      "dv": 210.6413631063046,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 109.5,
+      "dv": 528.5303536645388,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 37,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 109.5,
+      "dv": 539.2105215084454,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 47,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 110.0,
+      "dv": 545.1446176746952,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 110.5,
+      "dv": 437.55251323280186,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 111.0,
+      "dv": 205.43323768466567,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 37,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 111.5,
+      "dv": 183.65347432160678,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 40, 44, 22, 25, 2, 41, 10, 46, 36, 47], 115.5, 4]": [
+    {
+      "target": 5,
+      "wait": 0,
+      "tof": 13,
+      "arrival": 128.5,
+      "dv": 85.70070263037613,
+      "status": "NORMAL"
+    },
+    {
+      "target": 5,
+      "wait": 2,
+      "tof": 13,
+      "arrival": 130.5,
+      "dv": 84.56482435604886,
+      "status": "NORMAL"
+    },
+    {
+      "target": 5,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 116.5,
+      "dv": 330.8989587783963,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 31,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 116.5,
+      "dv": 406.9217972162659,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 116.5,
+      "dv": 431.7761051688247,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 37,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 116.5,
+      "dv": 551.3804755891354,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 117.5,
+      "dv": 548.5306365103509,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 5,
+      "arrival": 120.5,
+      "dv": 558.1358841319382,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 118.5,
+      "dv": 277.26167358790997,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 5,
+      "wait": 2,
+      "tof": 1,
+      "arrival": 118.5,
+      "dv": 319.7548112269188,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 31, 36, 47, 5, 41, 2, 25, 22, 12, 10], 116.5, 4]": [
+    {
+      "target": 46,
+      "wait": 0.5,
+      "tof": 3,
+      "arrival": 120.0,
+      "dv": 92.8839481602451,
+      "status": "NORMAL"
+    },
+    {
+      "target": 46,
+      "wait": 0.5,
+      "tof": 5,
+      "arrival": 122.0,
+      "dv": 61.48883363812413,
+      "status": "NORMAL"
+    },
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 117.5,
+      "dv": 266.7753061264974,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 117.5,
+      "dv": 427.91915119782345,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 23,
+      "wait": 0.5,
+      "tof": 0.5,
+      "arrival": 117.5,
+      "dv": 561.4663371915057,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 118.0,
+      "dv": 538.974947983857,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 44,
+      "wait": 0.5,
+      "tof": 1,
+      "arrival": 118.0,
+      "dv": 540.9583349130265,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 118.5,
+      "dv": 340.01837871586804,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0.5,
+      "tof": 1.5,
+      "arrival": 118.5,
+      "dv": 455.9645279784779,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 34,
+      "wait": 2,
+      "tof": 8,
+      "arrival": 126.5,
+      "dv": 596.5543147742986,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 119.5,
+      "dv": 100.11190283759265,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 119.5,
+      "dv": 350.006526325466,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 31, 36, 47, 5, 41, 2, 25, 22, 12, 46], 117.5, 4]": [
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 8,
+      "arrival": 125.5,
+      "dv": 44.98574444682659,
+      "status": "NORMAL"
+    },
+    {
+      "target": 10,
+      "wait": 2,
+      "tof": 8,
+      "arrival": 127.5,
+      "dv": 46.86316346466619,
+      "status": "NORMAL"
+    },
+    {
+      "target": 44,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 118.0,
+      "dv": 584.6112724616453,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 118.5,
+      "dv": 377.99875745866507,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 118.5,
+      "dv": 472.5008977499866,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 0.5,
+      "tof": 0.5,
+      "arrival": 118.5,
+      "dv": 585.6965610404359,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 119.0,
+      "dv": 476.7072802174988,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 34,
+      "wait": 1,
+      "tof": 0.5,
+      "arrival": 119.0,
+      "dv": 599.3998556559994,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 23,
+      "wait": 2,
+      "tof": 1.5,
+      "arrival": 121.0,
+      "dv": 573.3230170095857,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0.5,
+      "tof": 8,
+      "arrival": 126.0,
+      "dv": 473.55907680336657,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 44,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 120.0,
+      "dv": 544.786629546418,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 13,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 120.5,
+      "dv": 395.8846441663905,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 31, 36, 47, 5, 41, 2, 25, 22, 13, 10], 119.5, 4]": [
+    {
+      "target": 12,
+      "wait": 0.5,
+      "tof": 1.5,
+      "arrival": 121.5,
+      "dv": 83.99157606155114,
+      "status": "NORMAL"
+    },
+    {
+      "target": 46,
+      "wait": 0.5,
+      "tof": 3,
+      "arrival": 123.0,
+      "dv": 90.88011314744782,
+      "status": "NORMAL"
+    },
+    {
+      "target": 12,
+      "wait": 1,
+      "tof": 3,
+      "arrival": 123.5,
+      "dv": 84.38670364689503,
+      "status": "NORMAL"
+    },
+    {
+      "target": 46,
+      "wait": 5,
+      "tof": 3,
+      "arrival": 127.5,
+      "dv": 98.77720723627647,
+      "status": "NORMAL"
+    },
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 120.5,
+      "dv": 189.4214390764803,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 120.5,
+      "dv": 268.83322858906,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 120.5,
+      "dv": 421.067563378528,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 23,
+      "wait": 0.5,
+      "tof": 0.5,
+      "arrival": 120.5,
+      "dv": 526.1543285110847,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 34,
+      "wait": 0.5,
+      "tof": 0.5,
+      "arrival": 120.5,
+      "dv": 584.1509144438984,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 44,
+      "wait": 0.5,
+      "tof": 1,
+      "arrival": 121.0,
+      "dv": 490.6666350041189,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 121.0,
+      "dv": 580.0520197432731,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0.5,
+      "tof": 2,
+      "arrival": 122.0,
+      "dv": 424.1085823102915,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 122.5,
+      "dv": 105.55934923443381,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 2,
+      "tof": 1,
+      "arrival": 122.5,
+      "dv": 190.73109870971973,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 31, 36, 47, 5, 41, 2, 25, 22, 13, 37], 119.5, 4]": [
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 120.5,
+      "dv": 561.0823984439021,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 44,
+      "wait": 0.5,
+      "tof": 1,
+      "arrival": 121.0,
+      "dv": 400.89159836137287,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0.5,
+      "tof": 1,
+      "arrival": 121.0,
+      "dv": 548.2684087373955,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 8,
+      "wait": 5,
+      "tof": 21,
+      "arrival": 145.5,
+      "dv": 599.29087766788,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 44,
+      "wait": 0.5,
+      "tof": 3,
+      "arrival": 123.0,
+      "dv": 304.15035617655826,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0.5,
+      "tof": 3,
+      "arrival": 123.0,
+      "dv": 443.33242645081043,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 31, 36, 47, 5, 41, 2, 25, 22, 13, 12], 120.5, 4]": [
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 122.5,
+      "dv": 69.88735070972206,
+      "status": "NORMAL"
+    },
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 123.5,
+      "dv": 83.79907367691733,
+      "status": "NORMAL"
+    },
+    {
+      "target": 10,
+      "wait": 2,
+      "tof": 2,
+      "arrival": 124.5,
+      "dv": 68.80328781162396,
+      "status": "NORMAL"
+    },
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 5,
+      "arrival": 125.5,
+      "dv": 45.56986799986457,
+      "status": "NORMAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 121.0,
+      "dv": 440.73676490158186,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 121.5,
+      "dv": 213.05991849991636,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 121.5,
+      "dv": 366.42884258592505,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 44,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 121.5,
+      "dv": 515.444555500871,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 1,
+      "tof": 0.5,
+      "arrival": 122.0,
+      "dv": 572.5933245698002,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 122.5,
+      "dv": 517.8795273851883,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 34,
+      "wait": 2,
+      "tof": 0.5,
+      "arrival": 123.0,
+      "dv": 561.9662530446874,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 23,
+      "wait": 1,
+      "tof": 13,
+      "arrival": 134.5,
+      "dv": 563.0029180240235,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 1,
+      "tof": 1.5,
+      "arrival": 123.0,
+      "dv": 327.6245608061135,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 2,
+      "tof": 1,
+      "arrival": 123.5,
+      "dv": 215.82574739927605,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 31, 36, 47, 5, 44, 2, 25, 22, 13, 41], 120.5, 4]": [
+    {
+      "target": 46,
+      "wait": 0.5,
+      "tof": 2,
+      "arrival": 123.0,
+      "dv": 91.56367490596541,
+      "status": "NORMAL"
+    },
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 5,
+      "arrival": 125.5,
+      "dv": 84.7682595374839,
+      "status": "NORMAL"
+    },
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 8,
+      "arrival": 128.5,
+      "dv": 81.02486340099809,
+      "status": "NORMAL"
+    },
+    {
+      "target": 46,
+      "wait": 3,
+      "tof": 2,
+      "arrival": 125.5,
+      "dv": 89.45534386776336,
+      "status": "NORMAL"
+    },
+    {
+      "target": 10,
+      "wait": 2,
+      "tof": 5,
+      "arrival": 127.5,
+      "dv": 75.75196222431748,
+      "status": "NORMAL"
+    },
+    {
+      "target": 12,
+      "wait": 2,
+      "tof": 8,
+      "arrival": 130.5,
+      "dv": 77.21286316468453,
+      "status": "NORMAL"
+    },
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 121.5,
+      "dv": 319.9907403122541,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 121.5,
+      "dv": 446.81097281224527,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 121.5,
+      "dv": 495.7814917769217,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 12,
+      "wait": 0,
+      "tof": 1.5,
+      "arrival": 122.0,
+      "dv": 570.2382309627653,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 2,
+      "arrival": 122.5,
+      "dv": 417.14243910438813,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 3,
+      "tof": 0.5,
+      "arrival": 124.0,
+      "dv": 529.7887981104839,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 23,
+      "wait": 5,
+      "tof": 1.5,
+      "arrival": 127.0,
+      "dv": 573.7691371430187,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 34,
+      "wait": 2,
+      "tof": 8,
+      "arrival": 130.5,
+      "dv": 552.5406720616634,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 46,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 123.5,
+      "dv": 272.76728488262677,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 10,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 123.5,
+      "dv": 285.3161102620809,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 19, 30, 29, 45, 15, 28, 1, 39, 8, 35, 26, 21, 7, 3, 42, 33, 14, 38, 24, 48, 9], 87.5, 5]": [
+    {
+      "target": 37,
+      "wait": 0,
+      "tof": 34,
+      "arrival": 121.5,
+      "dv": 81.5891442007082,
+      "status": "NORMAL"
+    },
+    {
+      "target": 37,
+      "wait": 2,
+      "tof": 34,
+      "arrival": 123.5,
+      "dv": 75.60156375598265,
+      "status": "NORMAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 40, 44, 22, 25, 2, 41, 10, 46, 18, 12], 108.0, 5]": [],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 31, 36, 47, 5, 44, 2, 25, 22, 13, 37], 120.5, 4]": [
+    {
+      "target": 20,
+      "wait": 0,
+      "tof": 1,
+      "arrival": 121.5,
+      "dv": 589.4578365366444,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0.5,
+      "tof": 1,
+      "arrival": 122.0,
+      "dv": 514.450576057387,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 20,
+      "wait": 0.5,
+      "tof": 3,
+      "arrival": 124.0,
+      "dv": 456.26363770157855,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 40,
+      "wait": 0.5,
+      "tof": 3,
+      "arrival": 124.0,
+      "dv": 466.1459224058558,
+      "status": "SPECIAL"
+    }
+  ],
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 31, 36, 47, 5, 2, 10, 46, 41, 12, 34], 123.0, 4]": [
+    {
+      "target": 18,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 123.5,
+      "dv": 92.19421852796498,
+      "status": "NORMAL"
+    },
+    {
+      "target": 23,
+      "wait": 0,
+      "tof": 3,
+      "arrival": 126.0,
+      "dv": 60.051949105019744,
+      "status": "NORMAL"
+    },
+    {
+      "target": 18,
+      "wait": 0.5,
+      "tof": 2,
+      "arrival": 125.5,
+      "dv": 48.68681986721976,
+      "status": "NORMAL"
+    },
+    {
+      "target": 23,
+      "wait": 2,
+      "tof": 3,
+      "arrival": 128.0,
+      "dv": 88.64201859935488,
+      "status": "NORMAL"
+    },
+    {
+      "target": 23,
+      "wait": 0,
+      "tof": 0.5,
+      "arrival": 123.5,
+      "dv": 120.90357963478297,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 0.5,
+      "tof": 1,
+      "arrival": 124.5,
+      "dv": 585.0494562341751,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 23,
+      "wait": 2,
+      "tof": 0.5,
+      "arrival": 125.5,
+      "dv": 253.6506479347495,
+      "status": "SPECIAL"
+    },
+    {
+      "target": 18,
+      "wait": 3,
+      "tof": 1,
+      "arrival": 127.0,
+      "dv": 272.6679462295591,
+      "status": "SPECIAL"
+    }
+  ]
+}
