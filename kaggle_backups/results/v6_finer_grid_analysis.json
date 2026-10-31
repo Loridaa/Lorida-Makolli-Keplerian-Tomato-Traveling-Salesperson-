@@ -1,0 +1,95 @@
+{
+  "cases": [
+    {
+      "route_number": 1,
+      "route": [
+        0,
+        43,
+        19,
+        30,
+        29,
+        45,
+        28,
+        1,
+        15,
+        4,
+        17,
+        11
+      ],
+      "current_time": 48.0,
+      "special_used": 2,
+      "normal_old": 0,
+      "normal_new": 0,
+      "new_targets": [],
+      "normal_candidates": [],
+      "special_count": 1,
+      "evaluations": 10545
+    },
+    {
+      "route_number": 2,
+      "route": [
+        0,
+        37,
+        9,
+        48,
+        45,
+        29,
+        30,
+        38,
+        42,
+        33,
+        3,
+        7
+      ],
+      "current_time": 32.5,
+      "special_used": 3,
+      "normal_old": 2,
+      "normal_new": 2,
+      "new_targets": [],
+      "normal_candidates": [
+        {
+          "target": 14,
+          "wait": 0,
+          "tof": 34,
+          "arrival": 66.5,
+          "dv": 92.49815911073536
+        },
+        {
+          "target": 21,
+          "wait": 0,
+          "tof": 3.5,
+          "arrival": 36.0,
+          "dv": 95.1072932943317
+        }
+      ],
+      "special_count": 12,
+      "evaluations": 10545
+    },
+    {
+      "route_number": 3,
+      "route": [
+        0,
+        39,
+        1,
+        28,
+        15,
+        45,
+        29,
+        30,
+        38,
+        8,
+        43,
+        19
+      ],
+      "current_time": 36.0,
+      "special_used": 3,
+      "normal_old": 0,
+      "normal_new": 0,
+      "new_targets": [],
+      "normal_candidates": [],
+      "special_count": 12,
+      "evaluations": 10545
+    }
+  ],
+  "completed": true
+}
