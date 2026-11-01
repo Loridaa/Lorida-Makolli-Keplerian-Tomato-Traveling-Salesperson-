@@ -1,0 +1,21 @@
+{
+  "[[0, 19, 30, 29, 45, 15, 28, 1, 39, 8, 35, 26, 21, 7, 3, 42, 33, 14, 27, 32, 16], 70.5, 4]": {
+    "targets": {
+      "2": {
+        "best_normal": null,
+        "best_special": null,
+        "min_dv": 1253.4876257986323
+      },
+      "4": {
+        "best_normal": null,
+        "best_special": null,
+        "min_dv": 1645.1427476628278
+      },
+      "5": {
+        "best_normal": null,
+        "best_special": null,
+        "min_dv": 1194.0119178501125
+      }
+    }
+  }
+}
