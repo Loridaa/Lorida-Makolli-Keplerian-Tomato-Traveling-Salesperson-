@@ -1,0 +1,318 @@
+{
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 31, 36, 47, 5, 44, 12, 10, 46, 41, 2, 25, 34, 18, 23, 22, 13], 137.5, 5]": {
+    "targets": {
+      "3": {
+        "min_dv": 1119.2786433136203,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "4": {
+        "min_dv": 947.242265982683,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "6": {
+        "min_dv": 1032.7629023812992,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "7": {
+        "min_dv": 1117.4475594802539,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "8": {
+        "min_dv": 930.6170070127703,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "11": {
+        "min_dv": 1011.6433966746306,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "14": {
+        "min_dv": 1128.8180683848834,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "16": {
+        "min_dv": 1303.118569128379,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "17": {
+        "min_dv": 926.5897436166401,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "20": {
+        "min_dv": 77.97182254864006,
+        "best_normal": {
+          "target": 20,
+          "wait": 2,
+          "tof": 34,
+          "arrival": 173.5,
+          "dv": 93.8423869450837,
+          "status": "NORMAL"
+        },
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "21": {
+        "min_dv": 1089.766854030358,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "24": {
+        "min_dv": 1001.6656010376241,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "26": {
+        "min_dv": 1070.5430882428175,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "27": {
+        "min_dv": 1283.6164387199867,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "32": {
+        "min_dv": 1265.7712981129168,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "33": {
+        "min_dv": 1132.0973592059458,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "35": {
+        "min_dv": 1055.5595030114953,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "37": {
+        "min_dv": 466.0487668930548,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "38": {
+        "min_dv": 967.6763188361132,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "40": {
+        "min_dv": 123.52362829154939,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      },
+      "42": {
+        "min_dv": 1123.71233345739,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 80,
+        "errors": 0
+      }
+    }
+  },
+  "[[0, 39, 43, 19, 30, 29, 15, 28, 1, 45, 48, 9, 31, 36, 47, 5, 44, 12, 10, 46, 41, 2, 25, 34, 18, 22, 13, 20], 163.0, 5]": {
+    "targets": {
+      "3": {
+        "min_dv": 1140.215044517862,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "4": {
+        "min_dv": 1209.4775226649074,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "6": {
+        "min_dv": 988.6798028523826,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "7": {
+        "min_dv": 1087.5880242898747,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "8": {
+        "min_dv": 914.3155113327698,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "11": {
+        "min_dv": 1138.1852924409222,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "14": {
+        "min_dv": 1112.211983612634,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "16": {
+        "min_dv": 1349.9614042443723,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "17": {
+        "min_dv": 1079.104247854744,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "21": {
+        "min_dv": 1113.7204564694252,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "23": {
+        "min_dv": 715.7936058158623,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "24": {
+        "min_dv": 976.1409683256857,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "26": {
+        "min_dv": 1099.230556549084,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "27": {
+        "min_dv": 1314.2671654770265,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "32": {
+        "min_dv": 1335.925686989599,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "33": {
+        "min_dv": 1132.985267118254,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "35": {
+        "min_dv": 1074.6012719972675,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "37": {
+        "min_dv": 421.92329083026806,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "38": {
+        "min_dv": 951.5394488448209,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "40": {
+        "min_dv": 79.73075103868413,
+        "best_normal": {
+          "target": 40,
+          "wait": 0.5,
+          "tof": 34,
+          "arrival": 197.5,
+          "dv": 79.73075103868413,
+          "status": "NORMAL"
+        },
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      },
+      "42": {
+        "min_dv": 1124.7728725656684,
+        "best_normal": null,
+        "best_special": null,
+        "evaluations": 77,
+        "errors": 0
+      }
+    }
+  }
+}
