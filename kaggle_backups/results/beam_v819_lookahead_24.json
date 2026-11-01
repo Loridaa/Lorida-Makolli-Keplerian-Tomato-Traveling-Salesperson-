@@ -1,0 +1,364 @@
+{
+  "branches": {
+    "12-34-18": {
+      "metadata": {
+        "route": [
+          0,
+          39,
+          43,
+          19,
+          30,
+          29,
+          15,
+          28,
+          1,
+          45,
+          48,
+          9,
+          40,
+          44,
+          22,
+          25,
+          2,
+          41,
+          10,
+          46,
+          12,
+          34,
+          18
+        ],
+        "arrival": 108.5,
+        "special_used": 4,
+        "second_dv": 85.5519931975252
+      },
+      "targets": {
+        "3": {
+          "min_dv": 1246.9650906490972,
+          "best_normal": null,
+          "best_special": null
+        },
+        "4": {
+          "min_dv": 1634.355282353645,
+          "best_normal": null,
+          "best_special": null
+        },
+        "5": {
+          "min_dv": 1058.285378452184,
+          "best_normal": null,
+          "best_special": null
+        },
+        "6": {
+          "min_dv": 1255.2145786901715,
+          "best_normal": null,
+          "best_special": null
+        },
+        "7": {
+          "min_dv": 1277.235836527632,
+          "best_normal": null,
+          "best_special": null
+        },
+        "8": {
+          "min_dv": 1171.424043116374,
+          "best_normal": null,
+          "best_special": null
+        },
+        "11": {
+          "min_dv": 1662.9874249882287,
+          "best_normal": null,
+          "best_special": null
+        },
+        "13": {
+          "min_dv": 717.4658739332131,
+          "best_normal": null,
+          "best_special": null
+        },
+        "14": {
+          "min_dv": 1253.6899207577972,
+          "best_normal": null,
+          "best_special": null
+        },
+        "16": {
+          "min_dv": 2291.1762985276155,
+          "best_normal": null,
+          "best_special": null
+        },
+        "17": {
+          "min_dv": 1692.8212716494963,
+          "best_normal": null,
+          "best_special": null
+        },
+        "20": {
+          "min_dv": 684.7423449436667,
+          "best_normal": null,
+          "best_special": null
+        },
+        "21": {
+          "min_dv": 1295.0440954695966,
+          "best_normal": null,
+          "best_special": null
+        },
+        "23": {
+          "min_dv": 42.110816100986845,
+          "best_normal": {
+            "from": 18,
+            "to": 23,
+            "start_time": 108.5,
+            "wait": 0,
+            "tof": 2,
+            "arrival": 110.5,
+            "dv": 83.1570270708113
+          },
+          "best_special": {
+            "from": 18,
+            "to": 23,
+            "start_time": 109.0,
+            "wait": 0.5,
+            "tof": 1.5,
+            "arrival": 110.5,
+            "dv": 531.173883493604
+          }
+        },
+        "24": {
+          "min_dv": 1277.657855372412,
+          "best_normal": null,
+          "best_special": null
+        },
+        "26": {
+          "min_dv": 1268.9267059383799,
+          "best_normal": null,
+          "best_special": null
+        },
+        "27": {
+          "min_dv": 2284.5531372231444,
+          "best_normal": null,
+          "best_special": null
+        },
+        "31": {
+          "min_dv": 1082.0239696777003,
+          "best_normal": null,
+          "best_special": null
+        },
+        "32": {
+          "min_dv": 2284.2311861904586,
+          "best_normal": null,
+          "best_special": null
+        },
+        "33": {
+          "min_dv": 1253.0180902214593,
+          "best_normal": null,
+          "best_special": null
+        },
+        "35": {
+          "min_dv": 1307.8155538581002,
+          "best_normal": null,
+          "best_special": null
+        },
+        "36": {
+          "min_dv": 1025.801388352755,
+          "best_normal": null,
+          "best_special": null
+        },
+        "37": {
+          "min_dv": 1061.389117447275,
+          "best_normal": null,
+          "best_special": null
+        },
+        "38": {
+          "min_dv": 1192.1347703559156,
+          "best_normal": null,
+          "best_special": null
+        },
+        "42": {
+          "min_dv": 1245.2958865173327,
+          "best_normal": null,
+          "best_special": null
+        },
+        "47": {
+          "min_dv": 782.071941403548,
+          "best_normal": null,
+          "best_special": null
+        }
+      }
+    },
+    "12-34-23": {
+      "metadata": {
+        "route": [
+          0,
+          39,
+          43,
+          19,
+          30,
+          29,
+          15,
+          28,
+          1,
+          45,
+          48,
+          9,
+          40,
+          44,
+          22,
+          25,
+          2,
+          41,
+          10,
+          46,
+          12,
+          34,
+          23
+        ],
+        "arrival": 108.5,
+        "special_used": 4,
+        "second_dv": 63.41444969365526
+      },
+      "targets": {
+        "3": {
+          "min_dv": 1268.094800265353,
+          "best_normal": null,
+          "best_special": null
+        },
+        "4": {
+          "min_dv": 1619.4597203701119,
+          "best_normal": null,
+          "best_special": null
+        },
+        "5": {
+          "min_dv": 1117.491085786473,
+          "best_normal": null,
+          "best_special": null
+        },
+        "6": {
+          "min_dv": 1256.3878012929872,
+          "best_normal": null,
+          "best_special": null
+        },
+        "7": {
+          "min_dv": 1298.439801244102,
+          "best_normal": null,
+          "best_special": null
+        },
+        "8": {
+          "min_dv": 1401.3941806004889,
+          "best_normal": null,
+          "best_special": null
+        },
+        "11": {
+          "min_dv": 1650.6076971654406,
+          "best_normal": null,
+          "best_special": null
+        },
+        "13": {
+          "min_dv": 731.5542511350386,
+          "best_normal": null,
+          "best_special": null
+        },
+        "14": {
+          "min_dv": 1247.9184080300224,
+          "best_normal": null,
+          "best_special": null
+        },
+        "16": {
+          "min_dv": 2286.4746308428275,
+          "best_normal": null,
+          "best_special": null
+        },
+        "17": {
+          "min_dv": 1640.3829544679138,
+          "best_normal": null,
+          "best_special": null
+        },
+        "18": {
+          "min_dv": 37.36418032198354,
+          "best_normal": {
+            "from": 23,
+            "to": 18,
+            "start_time": 108.5,
+            "wait": 0,
+            "tof": 0.5,
+            "arrival": 109.0,
+            "dv": 94.01224289247438
+          },
+          "best_special": {
+            "from": 23,
+            "to": 18,
+            "start_time": 109.0,
+            "wait": 0.5,
+            "tof": 0.5,
+            "arrival": 109.5,
+            "dv": 105.09430939286722
+          }
+        },
+        "20": {
+          "min_dv": 742.025784398443,
+          "best_normal": null,
+          "best_special": null
+        },
+        "21": {
+          "min_dv": 1259.1975520433687,
+          "best_normal": null,
+          "best_special": null
+        },
+        "24": {
+          "min_dv": 1214.7999393776074,
+          "best_normal": null,
+          "best_special": null
+        },
+        "26": {
+          "min_dv": 1281.3875110391182,
+          "best_normal": null,
+          "best_special": null
+        },
+        "27": {
+          "min_dv": 2287.8837174509185,
+          "best_normal": null,
+          "best_special": null
+        },
+        "31": {
+          "min_dv": 1105.9869490212689,
+          "best_normal": null,
+          "best_special": null
+        },
+        "32": {
+          "min_dv": 2291.0933834469843,
+          "best_normal": null,
+          "best_special": null
+        },
+        "33": {
+          "min_dv": 1256.6594926329656,
+          "best_normal": null,
+          "best_special": null
+        },
+        "35": {
+          "min_dv": 1418.3233160720501,
+          "best_normal": null,
+          "best_special": null
+        },
+        "36": {
+          "min_dv": 1062.2557581075416,
+          "best_normal": null,
+          "best_special": null
+        },
+        "37": {
+          "min_dv": 1150.2428831475813,
+          "best_normal": null,
+          "best_special": null
+        },
+        "38": {
+          "min_dv": 1354.707934695783,
+          "best_normal": null,
+          "best_special": null
+        },
+        "42": {
+          "min_dv": 1255.5222932290371,
+          "best_normal": null,
+          "best_special": null
+        },
+        "47": {
+          "min_dv": 870.7354187416103,
+          "best_normal": null,
+          "best_special": null
+        }
+      }
+    }
+  }
+}
