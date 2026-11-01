@@ -1,0 +1,42 @@
+{
+  "method": "V8.7 Pool Diagnostic",
+  "level": 26,
+  "total_candidates": 350,
+  "statistics": {
+    "2": {
+      "total": 4,
+      "fastest": 190.5,
+      "under_145": 0,
+      "under_155": 0,
+      "omitted_under_145": 0,
+      "distinct_endpoints": 2
+    },
+    "3": {
+      "total": 47,
+      "fastest": 163.0,
+      "under_145": 0,
+      "under_155": 0,
+      "omitted_under_145": 0,
+      "distinct_endpoints": 13
+    },
+    "4": {
+      "total": 158,
+      "fastest": 129.5,
+      "under_145": 11,
+      "under_155": 11,
+      "omitted_under_145": 8,
+      "distinct_endpoints": 16
+    },
+    "5": {
+      "total": 141,
+      "fastest": 125.5,
+      "under_145": 20,
+      "under_155": 22,
+      "omitted_under_145": 15,
+      "distinct_endpoints": 17
+    }
+  },
+  "promising_count": 31,
+  "promising_omitted": 23,
+  "promising_endpoints": 6
+}
