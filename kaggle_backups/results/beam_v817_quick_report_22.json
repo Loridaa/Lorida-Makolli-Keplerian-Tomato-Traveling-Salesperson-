@@ -1,0 +1,47 @@
+{
+  "source": "beam_v817_rescue_level_21.json",
+  "route": [
+    0,
+    19,
+    30,
+    29,
+    45,
+    15,
+    28,
+    1,
+    39,
+    8,
+    35,
+    26,
+    21,
+    7,
+    3,
+    42,
+    33,
+    14,
+    16,
+    32,
+    27
+  ],
+  "initial_time": 67.0,
+  "special_used": 4,
+  "grid": {
+    "waits": [
+      0,
+      1,
+      3,
+      8
+    ],
+    "tofs": [
+      0.5,
+      1,
+      2,
+      5,
+      8,
+      13
+    ]
+  },
+  "targets_checked": 18,
+  "best_normals": [],
+  "best_specials": []
+}
