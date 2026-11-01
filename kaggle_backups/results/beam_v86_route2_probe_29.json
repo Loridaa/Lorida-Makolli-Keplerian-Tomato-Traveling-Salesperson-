@@ -1,0 +1,161 @@
+{
+  "route": [
+    0,
+    39,
+    43,
+    19,
+    30,
+    29,
+    15,
+    28,
+    1,
+    45,
+    48,
+    9,
+    31,
+    36,
+    47,
+    5,
+    44,
+    12,
+    10,
+    46,
+    41,
+    2,
+    25,
+    22,
+    13,
+    37,
+    20,
+    40
+  ],
+  "current_time": 140.25,
+  "targets": {
+    "3": {
+      "best_normal": null,
+      "min_dv": 1085.4365546115234,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "4": {
+      "best_normal": null,
+      "min_dv": 797.2178724151677,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "6": {
+      "best_normal": null,
+      "min_dv": 956.7865420389444,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "7": {
+      "best_normal": null,
+      "min_dv": 1069.4207621362475,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "8": {
+      "best_normal": null,
+      "min_dv": 851.9553411916049,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "11": {
+      "best_normal": null,
+      "min_dv": 842.7414348290604,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "14": {
+      "best_normal": null,
+      "min_dv": 1096.5048854188512,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "16": {
+      "best_normal": null,
+      "min_dv": 1233.458219236246,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "17": {
+      "best_normal": null,
+      "min_dv": 808.9911033142414,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "18": {
+      "best_normal": null,
+      "min_dv": 669.1624957142659,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "21": {
+      "best_normal": null,
+      "min_dv": 1047.4632401509098,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "23": {
+      "best_normal": null,
+      "min_dv": 671.1969823839006,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "24": {
+      "best_normal": null,
+      "min_dv": 925.4840301755862,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "26": {
+      "best_normal": null,
+      "min_dv": 1023.1484218434744,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "27": {
+      "best_normal": null,
+      "min_dv": 1216.4615886569438,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "32": {
+      "best_normal": null,
+      "min_dv": 1229.8946275112996,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "33": {
+      "best_normal": null,
+      "min_dv": 1097.211778563664,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "34": {
+      "best_normal": null,
+      "min_dv": 703.4036202974812,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "35": {
+      "best_normal": null,
+      "min_dv": 995.146266380553,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "38": {
+      "best_normal": null,
+      "min_dv": 889.8644262070829,
+      "evaluations": 891,
+      "errors": 0
+    },
+    "42": {
+      "best_normal": null,
+      "min_dv": 1089.3532628744033,
+      "evaluations": 891,
+      "errors": 0
+    }
+  }
+}
