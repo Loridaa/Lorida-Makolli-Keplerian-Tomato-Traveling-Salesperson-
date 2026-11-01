@@ -1,0 +1,714 @@
+{
+  "settings": {
+    "waits": [
+      0,
+      1,
+      3,
+      8
+    ],
+    "tofs": [
+      0.5,
+      1,
+      2,
+      5,
+      8,
+      13
+    ],
+    "candidates": [
+      [
+        "D",
+        114.5,
+        41
+      ],
+      [
+        "E",
+        115.0,
+        10
+      ],
+      [
+        "F",
+        118.0,
+        2
+      ]
+    ]
+  },
+  "branches": {
+    "D": {
+      "metadata": {
+        "route": [
+          0,
+          39,
+          43,
+          19,
+          30,
+          29,
+          15,
+          28,
+          1,
+          45,
+          48,
+          9,
+          31,
+          36,
+          47,
+          5,
+          44,
+          12,
+          10,
+          46,
+          41
+        ],
+        "day": 114.5,
+        "end": 41,
+        "special_used": 3
+      },
+      "targets": {
+        "2": {
+          "min_dv": 54.25805475554252,
+          "best_normal": {
+            "from": 41,
+            "to": 2,
+            "wait": 0,
+            "tof": 5,
+            "arrival": 119.5,
+            "dv": 68.72663025488973
+          },
+          "best_special": {
+            "from": 41,
+            "to": 2,
+            "wait": 0,
+            "tof": 0.5,
+            "arrival": 115.0,
+            "dv": 284.7199290238369
+          }
+        },
+        "3": {
+          "min_dv": 1148.3244824602791,
+          "best_normal": null,
+          "best_special": null
+        },
+        "4": {
+          "min_dv": 1390.841486856722,
+          "best_normal": null,
+          "best_special": null
+        },
+        "6": {
+          "min_dv": 1174.460249580877,
+          "best_normal": null,
+          "best_special": null
+        },
+        "7": {
+          "min_dv": 1157.015123440574,
+          "best_normal": null,
+          "best_special": null
+        },
+        "8": {
+          "min_dv": 1097.192132991061,
+          "best_normal": null,
+          "best_special": null
+        },
+        "11": {
+          "min_dv": 1440.4402618385398,
+          "best_normal": null,
+          "best_special": null
+        },
+        "13": {
+          "min_dv": 238.64754241063267,
+          "best_normal": null,
+          "best_special": {
+            "from": 41,
+            "to": 13,
+            "wait": 0,
+            "tof": 1,
+            "arrival": 115.5,
+            "dv": 416.9265794341518
+          }
+        },
+        "14": {
+          "min_dv": 1142.4679489241632,
+          "best_normal": null,
+          "best_special": null
+        },
+        "16": {
+          "min_dv": 1249.8959103419515,
+          "best_normal": null,
+          "best_special": null
+        },
+        "17": {
+          "min_dv": 1392.9543672953814,
+          "best_normal": null,
+          "best_special": null
+        },
+        "18": {
+          "min_dv": 598.3512364907906,
+          "best_normal": null,
+          "best_special": {
+            "from": 41,
+            "to": 18,
+            "wait": 8,
+            "tof": 13,
+            "arrival": 135.5,
+            "dv": 598.3512364907906
+          }
+        },
+        "20": {
+          "min_dv": 367.91886678503084,
+          "best_normal": null,
+          "best_special": {
+            "from": 41,
+            "to": 20,
+            "wait": 0,
+            "tof": 2,
+            "arrival": 116.5,
+            "dv": 457.2849309204223
+          }
+        },
+        "21": {
+          "min_dv": 1146.0502999120467,
+          "best_normal": null,
+          "best_special": null
+        },
+        "22": {
+          "min_dv": 183.81357748028535,
+          "best_normal": null,
+          "best_special": {
+            "from": 41,
+            "to": 22,
+            "wait": 0,
+            "tof": 1,
+            "arrival": 115.5,
+            "dv": 528.1308912518534
+          }
+        },
+        "23": {
+          "min_dv": 593.8858454659545,
+          "best_normal": null,
+          "best_special": {
+            "from": 41,
+            "to": 23,
+            "wait": 3,
+            "tof": 13,
+            "arrival": 130.5,
+            "dv": 593.8858454659545
+          }
+        },
+        "24": {
+          "min_dv": 1128.285307667466,
+          "best_normal": null,
+          "best_special": null
+        },
+        "25": {
+          "min_dv": 115.0199793092796,
+          "best_normal": null,
+          "best_special": {
+            "from": 41,
+            "to": 25,
+            "wait": 0,
+            "tof": 1,
+            "arrival": 115.5,
+            "dv": 352.99084799806826
+          }
+        },
+        "26": {
+          "min_dv": 1135.2918162193478,
+          "best_normal": null,
+          "best_special": null
+        },
+        "27": {
+          "min_dv": 1290.479886733012,
+          "best_normal": null,
+          "best_special": null
+        },
+        "32": {
+          "min_dv": 1294.7835586724632,
+          "best_normal": null,
+          "best_special": null
+        },
+        "33": {
+          "min_dv": 1139.8969198175475,
+          "best_normal": null,
+          "best_special": null
+        },
+        "34": {
+          "min_dv": 552.5406720616634,
+          "best_normal": null,
+          "best_special": {
+            "from": 41,
+            "to": 34,
+            "wait": 8,
+            "tof": 8,
+            "arrival": 130.5,
+            "dv": 552.5406720616634
+          }
+        },
+        "35": {
+          "min_dv": 1143.0425606637016,
+          "best_normal": null,
+          "best_special": null
+        },
+        "37": {
+          "min_dv": 689.0239967739702,
+          "best_normal": null,
+          "best_special": null
+        },
+        "38": {
+          "min_dv": 1091.9495776665651,
+          "best_normal": null,
+          "best_special": null
+        },
+        "40": {
+          "min_dv": 453.96406568528954,
+          "best_normal": null,
+          "best_special": {
+            "from": 41,
+            "to": 40,
+            "wait": 0,
+            "tof": 1,
+            "arrival": 115.5,
+            "dv": 453.96406568528954
+          }
+        },
+        "42": {
+          "min_dv": 1152.1915469521966,
+          "best_normal": null,
+          "best_special": null
+        }
+      }
+    },
+    "E": {
+      "metadata": {
+        "route": [
+          0,
+          39,
+          43,
+          19,
+          30,
+          29,
+          15,
+          28,
+          1,
+          45,
+          48,
+          9,
+          40,
+          44,
+          22,
+          25,
+          2,
+          41,
+          12,
+          46,
+          10
+        ],
+        "day": 115.0,
+        "end": 10,
+        "special_used": 3
+      },
+      "targets": {
+        "3": {
+          "min_dv": 1144.7110897098364,
+          "best_normal": null,
+          "best_special": null
+        },
+        "4": {
+          "min_dv": 1145.6266816843765,
+          "best_normal": null,
+          "best_special": null
+        },
+        "5": {
+          "min_dv": 487.0728676115012,
+          "best_normal": null,
+          "best_special": {
+            "from": 10,
+            "to": 5,
+            "wait": 0,
+            "tof": 5,
+            "arrival": 120.0,
+            "dv": 495.3960440463612
+          }
+        },
+        "6": {
+          "min_dv": 1104.337971400163,
+          "best_normal": null,
+          "best_special": null
+        },
+        "7": {
+          "min_dv": 1149.4545093467511,
+          "best_normal": null,
+          "best_special": null
+        },
+        "8": {
+          "min_dv": 1073.391501770104,
+          "best_normal": null,
+          "best_special": null
+        },
+        "11": {
+          "min_dv": 1294.866860366554,
+          "best_normal": null,
+          "best_special": null
+        },
+        "13": {
+          "min_dv": 251.67207810873924,
+          "best_normal": null,
+          "best_special": {
+            "from": 10,
+            "to": 13,
+            "wait": 0,
+            "tof": 2,
+            "arrival": 117.0,
+            "dv": 359.3360117295077
+          }
+        },
+        "14": {
+          "min_dv": 1142.366906779677,
+          "best_normal": null,
+          "best_special": null
+        },
+        "16": {
+          "min_dv": 1273.763500313129,
+          "best_normal": null,
+          "best_special": null
+        },
+        "17": {
+          "min_dv": 1201.7046028641241,
+          "best_normal": null,
+          "best_special": null
+        },
+        "18": {
+          "min_dv": 533.2549303360692,
+          "best_normal": null,
+          "best_special": {
+            "from": 10,
+            "to": 18,
+            "wait": 1,
+            "tof": 0.5,
+            "arrival": 116.5,
+            "dv": 533.2549303360692
+          }
+        },
+        "20": {
+          "min_dv": 295.91510038178086,
+          "best_normal": null,
+          "best_special": {
+            "from": 10,
+            "to": 20,
+            "wait": 0,
+            "tof": 1,
+            "arrival": 116.0,
+            "dv": 424.8661048719225
+          }
+        },
+        "21": {
+          "min_dv": 1152.1012140932107,
+          "best_normal": null,
+          "best_special": null
+        },
+        "23": {
+          "min_dv": 554.3836983827466,
+          "best_normal": null,
+          "best_special": {
+            "from": 10,
+            "to": 23,
+            "wait": 1,
+            "tof": 13,
+            "arrival": 129.0,
+            "dv": 554.3836983827466
+          }
+        },
+        "24": {
+          "min_dv": 1104.6518507785268,
+          "best_normal": null,
+          "best_special": null
+        },
+        "26": {
+          "min_dv": 1147.3285365412296,
+          "best_normal": null,
+          "best_special": null
+        },
+        "27": {
+          "min_dv": 1248.0510423202459,
+          "best_normal": null,
+          "best_special": null
+        },
+        "31": {
+          "min_dv": 648.9211051455992,
+          "best_normal": null,
+          "best_special": null
+        },
+        "32": {
+          "min_dv": 1253.4560430964355,
+          "best_normal": null,
+          "best_special": null
+        },
+        "33": {
+          "min_dv": 1147.7773476053117,
+          "best_normal": null,
+          "best_special": null
+        },
+        "34": {
+          "min_dv": 539.761989518026,
+          "best_normal": null,
+          "best_special": {
+            "from": 10,
+            "to": 34,
+            "wait": 0,
+            "tof": 8,
+            "arrival": 123.0,
+            "dv": 563.8753032909094
+          }
+        },
+        "35": {
+          "min_dv": 1152.5803412354983,
+          "best_normal": null,
+          "best_special": null
+        },
+        "36": {
+          "min_dv": 603.0370595835216,
+          "best_normal": null,
+          "best_special": null
+        },
+        "37": {
+          "min_dv": 714.5410239322616,
+          "best_normal": null,
+          "best_special": null
+        },
+        "38": {
+          "min_dv": 1076.4433224444394,
+          "best_normal": null,
+          "best_special": null
+        },
+        "42": {
+          "min_dv": 1144.7711432805493,
+          "best_normal": null,
+          "best_special": null
+        },
+        "47": {
+          "min_dv": 523.7084885383043,
+          "best_normal": null,
+          "best_special": {
+            "from": 10,
+            "to": 47,
+            "wait": 0,
+            "tof": 1,
+            "arrival": 116.0,
+            "dv": 581.8742680111477
+          }
+        }
+      }
+    },
+    "F": {
+      "metadata": {
+        "route": [
+          0,
+          39,
+          43,
+          19,
+          30,
+          29,
+          15,
+          28,
+          1,
+          45,
+          48,
+          9,
+          31,
+          36,
+          47,
+          5,
+          44,
+          12,
+          10,
+          41,
+          2
+        ],
+        "day": 118.0,
+        "end": 2,
+        "special_used": 3
+      },
+      "targets": {
+        "3": {
+          "min_dv": 1152.399335218339,
+          "best_normal": null,
+          "best_special": null
+        },
+        "4": {
+          "min_dv": 1773.6910107618855,
+          "best_normal": null,
+          "best_special": null
+        },
+        "6": {
+          "min_dv": 1112.2992044186665,
+          "best_normal": null,
+          "best_special": null
+        },
+        "7": {
+          "min_dv": 1146.2986875744668,
+          "best_normal": null,
+          "best_special": null
+        },
+        "8": {
+          "min_dv": 1122.548745806098,
+          "best_normal": null,
+          "best_special": null
+        },
+        "11": {
+          "min_dv": 1885.3254644436356,
+          "best_normal": null,
+          "best_special": null
+        },
+        "13": {
+          "min_dv": 194.67156601706083,
+          "best_normal": null,
+          "best_special": {
+            "from": 2,
+            "to": 13,
+            "wait": 0,
+            "tof": 0.5,
+            "arrival": 118.5,
+            "dv": 390.4424944580537
+          }
+        },
+        "14": {
+          "min_dv": 1153.2497191211853,
+          "best_normal": null,
+          "best_special": null
+        },
+        "16": {
+          "min_dv": 1345.5068918516943,
+          "best_normal": null,
+          "best_special": null
+        },
+        "17": {
+          "min_dv": 1881.5978702848047,
+          "best_normal": null,
+          "best_special": null
+        },
+        "18": {
+          "min_dv": 703.6985210657909,
+          "best_normal": null,
+          "best_special": null
+        },
+        "20": {
+          "min_dv": 275.2539760883334,
+          "best_normal": null,
+          "best_special": {
+            "from": 2,
+            "to": 20,
+            "wait": 0,
+            "tof": 5,
+            "arrival": 123.0,
+            "dv": 406.8240233016677
+          }
+        },
+        "21": {
+          "min_dv": 1164.4589773266473,
+          "best_normal": null,
+          "best_special": null
+        },
+        "22": {
+          "min_dv": 200.38440296565517,
+          "best_normal": null,
+          "best_special": {
+            "from": 2,
+            "to": 22,
+            "wait": 0,
+            "tof": 2,
+            "arrival": 120.0,
+            "dv": 201.67983035079692
+          }
+        },
+        "23": {
+          "min_dv": 674.1720627301918,
+          "best_normal": null,
+          "best_special": null
+        },
+        "24": {
+          "min_dv": 1099.2318141640017,
+          "best_normal": null,
+          "best_special": null
+        },
+        "25": {
+          "min_dv": 117.77194792946096,
+          "best_normal": null,
+          "best_special": {
+            "from": 2,
+            "to": 25,
+            "wait": 0,
+            "tof": 1,
+            "arrival": 119.0,
+            "dv": 255.44548955274263
+          }
+        },
+        "26": {
+          "min_dv": 1132.7308810558588,
+          "best_normal": null,
+          "best_special": null
+        },
+        "27": {
+          "min_dv": 1369.679135964368,
+          "best_normal": null,
+          "best_special": null
+        },
+        "32": {
+          "min_dv": 1395.156556848728,
+          "best_normal": null,
+          "best_special": null
+        },
+        "33": {
+          "min_dv": 1170.2485143394622,
+          "best_normal": null,
+          "best_special": null
+        },
+        "34": {
+          "min_dv": 716.2692337936103,
+          "best_normal": null,
+          "best_special": null
+        },
+        "35": {
+          "min_dv": 1193.1493778355937,
+          "best_normal": null,
+          "best_special": null
+        },
+        "37": {
+          "min_dv": 715.5837753495596,
+          "best_normal": null,
+          "best_special": null
+        },
+        "38": {
+          "min_dv": 1107.7852489506893,
+          "best_normal": null,
+          "best_special": null
+        },
+        "40": {
+          "min_dv": 316.79345673214755,
+          "best_normal": null,
+          "best_special": {
+            "from": 2,
+            "to": 40,
+            "wait": 0,
+            "tof": 1,
+            "arrival": 119.0,
+            "dv": 537.9822005804922
+          }
+        },
+        "42": {
+          "min_dv": 1163.9810655307072,
+          "best_normal": null,
+          "best_special": null
+        },
+        "46": {
+          "min_dv": 159.12964144848684,
+          "best_normal": null,
+          "best_special": {
+            "from": 2,
+            "to": 46,
+            "wait": 0,
+            "tof": 2,
+            "arrival": 120.0,
+            "dv": 159.12964144848684
+          }
+        }
+      }
+    }
+  }
+}
