@@ -1,0 +1,97 @@
+{
+  "method": "V8.6 Fine Time Grid",
+  "level": 27,
+  "next_level": 28,
+  "results": [
+    {
+      "route_index": 1,
+      "route": [
+        0,
+        39,
+        43,
+        19,
+        30,
+        29,
+        15,
+        28,
+        1,
+        45,
+        48,
+        9,
+        31,
+        36,
+        47,
+        5,
+        41,
+        2,
+        25,
+        22,
+        13,
+        10,
+        12,
+        46,
+        18,
+        23,
+        34
+      ],
+      "current_time": 128.0,
+      "special_used": 5,
+      "normal_target_count": 0,
+      "best_next": null,
+      "normal_options": []
+    },
+    {
+      "route_index": 2,
+      "route": [
+        0,
+        39,
+        43,
+        19,
+        30,
+        29,
+        15,
+        28,
+        1,
+        45,
+        48,
+        9,
+        31,
+        36,
+        47,
+        5,
+        44,
+        12,
+        10,
+        46,
+        41,
+        2,
+        25,
+        22,
+        13,
+        37,
+        20
+      ],
+      "current_time": 131.0,
+      "special_used": 5,
+      "normal_target_count": 1,
+      "best_next": {
+        "target": 40,
+        "wait": 2.75,
+        "tof": 6.5,
+        "arrival": 140.25,
+        "dv": 94.83158579926038,
+        "status": "NORMAL"
+      },
+      "normal_options": [
+        {
+          "target": 40,
+          "wait": 2.75,
+          "tof": 6.5,
+          "arrival": 140.25,
+          "dv": 94.83158579926038,
+          "status": "NORMAL"
+        }
+      ]
+    }
+  ]
+}
