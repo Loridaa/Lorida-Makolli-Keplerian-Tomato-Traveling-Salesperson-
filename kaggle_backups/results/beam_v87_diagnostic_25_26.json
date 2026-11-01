@@ -1,0 +1,1016 @@
+[
+  {
+    "level": 25,
+    "parents": 50,
+    "missing_cache": 0,
+    "routes": [
+      {
+        "level": 25,
+        "time": 182.5,
+        "special_used": 2,
+        "last_tomato": 25,
+        "normal_targets": 1,
+        "special_targets": 3,
+        "earliest_normal": 190.5,
+        "earliest_special": 183.5
+      },
+      {
+        "level": 25,
+        "time": 129.0,
+        "special_used": 3,
+        "last_tomato": 13,
+        "normal_targets": 1,
+        "special_targets": 3,
+        "earliest_normal": 163.0,
+        "earliest_special": 129.5
+      },
+      {
+        "level": 25,
+        "time": 125.0,
+        "special_used": 4,
+        "last_tomato": 40,
+        "normal_targets": 1,
+        "special_targets": 3,
+        "earliest_normal": 130.0,
+        "earliest_special": 125.5
+      },
+      {
+        "level": 25,
+        "time": 121.5,
+        "special_used": 5,
+        "last_tomato": 37,
+        "normal_targets": 0,
+        "special_targets": 0,
+        "earliest_normal": null,
+        "earliest_special": null
+      },
+      {
+        "level": 25,
+        "time": 176.0,
+        "special_used": 3,
+        "last_tomato": 23,
+        "normal_targets": 0,
+        "special_targets": 3,
+        "earliest_normal": null,
+        "earliest_special": 176.5
+      },
+      {
+        "level": 25,
+        "time": 181.5,
+        "special_used": 3,
+        "last_tomato": 22,
+        "normal_targets": 2,
+        "special_targets": 5,
+        "earliest_normal": 187.0,
+        "earliest_special": 182.5
+      },
+      {
+        "level": 25,
+        "time": 181.5,
+        "special_used": 3,
+        "last_tomato": 20,
+        "normal_targets": 0,
+        "special_targets": 3,
+        "earliest_normal": null,
+        "earliest_special": 182.5
+      },
+      {
+        "level": 25,
+        "time": 182.5,
+        "special_used": 3,
+        "last_tomato": 18,
+        "normal_targets": 1,
+        "special_targets": 3,
+        "earliest_normal": 183.5,
+        "earliest_special": 183.0
+      },
+      {
+        "level": 25,
+        "time": 183.0,
+        "special_used": 3,
+        "last_tomato": 44,
+        "normal_targets": 1,
+        "special_targets": 3,
+        "earliest_normal": 188.0,
+        "earliest_special": 184.0
+      },
+      {
+        "level": 25,
+        "time": 180.0,
+        "special_used": 3,
+        "last_tomato": 13,
+        "normal_targets": 0,
+        "special_targets": 3,
+        "earliest_normal": null,
+        "earliest_special": 180.5
+      },
+      {
+        "level": 25,
+        "time": 181.0,
+        "special_used": 3,
+        "last_tomato": 23,
+        "normal_targets": 2,
+        "special_targets": 2,
+        "earliest_normal": 182.5,
+        "earliest_special": 181.5
+      },
+      {
+        "level": 25,
+        "time": 183.0,
+        "special_used": 3,
+        "last_tomato": 18,
+        "normal_targets": 1,
+        "special_targets": 1,
+        "earliest_normal": 184.0,
+        "earliest_special": 183.5
+      },
+      {
+        "level": 25,
+        "time": 187.5,
+        "special_used": 3,
+        "last_tomato": 5,
+        "normal_targets": 1,
+        "special_targets": 3,
+        "earliest_normal": 189.0,
+        "earliest_special": 188.0
+      },
+      {
+        "level": 25,
+        "time": 184.5,
+        "special_used": 3,
+        "last_tomato": 22,
+        "normal_targets": 1,
+        "special_targets": 3,
+        "earliest_normal": 190.0,
+        "earliest_special": 185.5
+      },
+      {
+        "level": 25,
+        "time": 185.0,
+        "special_used": 3,
+        "last_tomato": 20,
+        "normal_targets": 1,
+        "special_targets": 3,
+        "earliest_normal": 193.0,
+        "earliest_special": 186.0
+      },
+      {
+        "level": 25,
+        "time": 190.0,
+        "special_used": 3,
+        "last_tomato": 46,
+        "normal_targets": 2,
+        "special_targets": 6,
+        "earliest_normal": 195.0,
+        "earliest_special": 191.0
+      },
+      {
+        "level": 25,
+        "time": 186.5,
+        "special_used": 3,
+        "last_tomato": 40,
+        "normal_targets": 0,
+        "special_targets": 3,
+        "earliest_normal": null,
+        "earliest_special": 187.5
+      },
+      {
+        "level": 25,
+        "time": 183.0,
+        "special_used": 3,
+        "last_tomato": 23,
+        "normal_targets": 1,
+        "special_targets": 2,
+        "earliest_normal": 184.0,
+        "earliest_special": 183.5
+      },
+      {
+        "level": 25,
+        "time": 184.0,
+        "special_used": 3,
+        "last_tomato": 13,
+        "normal_targets": 1,
+        "special_targets": 4,
+        "earliest_normal": 200.0,
+        "earliest_special": 184.5
+      },
+      {
+        "level": 25,
+        "time": 188.0,
+        "special_used": 3,
+        "last_tomato": 44,
+        "normal_targets": 1,
+        "special_targets": 3,
+        "earliest_normal": 189.5,
+        "earliest_special": 188.5
+      },
+      {
+        "level": 25,
+        "time": 186.0,
+        "special_used": 3,
+        "last_tomato": 20,
+        "normal_targets": 1,
+        "special_targets": 3,
+        "earliest_normal": 193.0,
+        "earliest_special": 186.5
+      },
+      {
+        "level": 25,
+        "time": 193.5,
+        "special_used": 3,
+        "last_tomato": 10,
+        "normal_targets": 2,
+        "special_targets": 6,
+        "earliest_normal": 196.5,
+        "earliest_special": 194.5
+      },
+      {
+        "level": 25,
+        "time": 186.5,
+        "special_used": 3,
+        "last_tomato": 22,
+        "normal_targets": 1,
+        "special_targets": 3,
+        "earliest_normal": 192.0,
+        "earliest_special": 187.5
+      },
+      {
+        "level": 25,
+        "time": 192.5,
+        "special_used": 3,
+        "last_tomato": 5,
+        "normal_targets": 0,
+        "special_targets": 3,
+        "earliest_normal": null,
+        "earliest_special": 193.5
+      },
+      {
+        "level": 25,
+        "time": 196.5,
+        "special_used": 3,
+        "last_tomato": 12,
+        "normal_targets": 1,
+        "special_targets": 6,
+        "earliest_normal": 199.5,
+        "earliest_special": 197.0
+      },
+      {
+        "level": 25,
+        "time": 132.0,
+        "special_used": 4,
+        "last_tomato": 34,
+        "normal_targets": 1,
+        "special_targets": 1,
+        "earliest_normal": 134.0,
+        "earliest_special": 133.5
+      },
+      {
+        "level": 25,
+        "time": 154.5,
+        "special_used": 4,
+        "last_tomato": 40,
+        "normal_targets": 0,
+        "special_targets": 3,
+        "earliest_normal": null,
+        "earliest_special": 155.0
+      },
+      {
+        "level": 25,
+        "time": 162.5,
+        "special_used": 4,
+        "last_tomato": 41,
+        "normal_targets": 1,
+        "special_targets": 5,
+        "earliest_normal": 170.5,
+        "earliest_special": 163.5
+      },
+      {
+        "level": 25,
+        "time": 160.5,
+        "special_used": 4,
+        "last_tomato": 46,
+        "normal_targets": 0,
+        "special_targets": 5,
+        "earliest_normal": null,
+        "earliest_special": 161.5
+      },
+      {
+        "level": 25,
+        "time": 161.5,
+        "special_used": 4,
+        "last_tomato": 37,
+        "normal_targets": 0,
+        "special_targets": 3,
+        "earliest_normal": null,
+        "earliest_special": 163.0
+      },
+      {
+        "level": 25,
+        "time": 163.5,
+        "special_used": 4,
+        "last_tomato": 41,
+        "normal_targets": 1,
+        "special_targets": 5,
+        "earliest_normal": 165.5,
+        "earliest_special": 164.0
+      },
+      {
+        "level": 25,
+        "time": 161.5,
+        "special_used": 4,
+        "last_tomato": 46,
+        "normal_targets": 1,
+        "special_targets": 5,
+        "earliest_normal": 163.5,
+        "earliest_special": 162.0
+      },
+      {
+        "level": 25,
+        "time": 176.5,
+        "special_used": 4,
+        "last_tomato": 12,
+        "normal_targets": 0,
+        "special_targets": 6,
+        "earliest_normal": null,
+        "earliest_special": 177.0
+      },
+      {
+        "level": 25,
+        "time": 177.5,
+        "special_used": 4,
+        "last_tomato": 10,
+        "normal_targets": 1,
+        "special_targets": 6,
+        "earliest_normal": 180.5,
+        "earliest_special": 178.5
+      },
+      {
+        "level": 25,
+        "time": 177.5,
+        "special_used": 4,
+        "last_tomato": 25,
+        "normal_targets": 1,
+        "special_targets": 5,
+        "earliest_normal": 185.5,
+        "earliest_special": 178.5
+      },
+      {
+        "level": 25,
+        "time": 175.5,
+        "special_used": 4,
+        "last_tomato": 44,
+        "normal_targets": 1,
+        "special_targets": 3,
+        "earliest_normal": 180.5,
+        "earliest_special": 176.0
+      },
+      {
+        "level": 25,
+        "time": 176.5,
+        "special_used": 4,
+        "last_tomato": 12,
+        "normal_targets": 1,
+        "special_targets": 6,
+        "earliest_normal": 184.5,
+        "earliest_special": 177.0
+      },
+      {
+        "level": 25,
+        "time": 181.5,
+        "special_used": 4,
+        "last_tomato": 25,
+        "normal_targets": 2,
+        "special_targets": 3,
+        "earliest_normal": 189.5,
+        "earliest_special": 182.0
+      },
+      {
+        "level": 25,
+        "time": 183.5,
+        "special_used": 4,
+        "last_tomato": 10,
+        "normal_targets": 2,
+        "special_targets": 6,
+        "earliest_normal": 186.5,
+        "earliest_special": 184.5
+      },
+      {
+        "level": 25,
+        "time": 189.5,
+        "special_used": 4,
+        "last_tomato": 18,
+        "normal_targets": 2,
+        "special_targets": 5,
+        "earliest_normal": 190.5,
+        "earliest_special": 190.0
+      },
+      {
+        "level": 25,
+        "time": 197.5,
+        "special_used": 4,
+        "last_tomato": 34,
+        "normal_targets": 2,
+        "special_targets": 4,
+        "earliest_normal": 199.5,
+        "earliest_special": 198.0
+      },
+      {
+        "level": 25,
+        "time": 124.5,
+        "special_used": 5,
+        "last_tomato": 34,
+        "normal_targets": 1,
+        "special_targets": 0,
+        "earliest_normal": 127.5,
+        "earliest_special": null
+      },
+      {
+        "level": 25,
+        "time": 143.5,
+        "special_used": 5,
+        "last_tomato": 47,
+        "normal_targets": 1,
+        "special_targets": 0,
+        "earliest_normal": 148.5,
+        "earliest_special": null
+      },
+      {
+        "level": 25,
+        "time": 125.0,
+        "special_used": 4,
+        "last_tomato": 20,
+        "normal_targets": 2,
+        "special_targets": 3,
+        "earliest_normal": 159.5,
+        "earliest_special": 127.0
+      },
+      {
+        "level": 25,
+        "time": 131.0,
+        "special_used": 4,
+        "last_tomato": 23,
+        "normal_targets": 1,
+        "special_targets": 1,
+        "earliest_normal": 133.0,
+        "earliest_special": 131.5
+      },
+      {
+        "level": 25,
+        "time": 161.0,
+        "special_used": 4,
+        "last_tomato": 40,
+        "normal_targets": 1,
+        "special_targets": 3,
+        "earliest_normal": 195.5,
+        "earliest_special": 162.0
+      },
+      {
+        "level": 25,
+        "time": 176.5,
+        "special_used": 4,
+        "last_tomato": 12,
+        "normal_targets": 1,
+        "special_targets": 6,
+        "earliest_normal": 184.5,
+        "earliest_special": 177.0
+      },
+      {
+        "level": 25,
+        "time": 182.0,
+        "special_used": 4,
+        "last_tomato": 46,
+        "normal_targets": 0,
+        "special_targets": 6,
+        "earliest_normal": null,
+        "earliest_special": 182.5
+      },
+      {
+        "level": 25,
+        "time": 124.5,
+        "special_used": 5,
+        "last_tomato": 18,
+        "normal_targets": 2,
+        "special_targets": 0,
+        "earliest_normal": 126.5,
+        "earliest_special": null
+      },
+      {
+        "level": 25,
+        "time": 190.5,
+        "special_used": 2,
+        "last_tomato": 22,
+        "normal_targets": 1,
+        "special_targets": 3,
+        "earliest_normal": 196.5,
+        "earliest_special": 191.5
+      }
+    ]
+  },
+  {
+    "level": 26,
+    "parents": 50,
+    "missing_cache": 0,
+    "routes": [
+      {
+        "level": 26,
+        "time": 190.5,
+        "special_used": 2,
+        "last_tomato": 22,
+        "normal_targets": 1,
+        "special_targets": 2,
+        "earliest_normal": 196.5,
+        "earliest_special": 191.5
+      },
+      {
+        "level": 26,
+        "time": 163.0,
+        "special_used": 3,
+        "last_tomato": 20,
+        "normal_targets": 1,
+        "special_targets": 2,
+        "earliest_normal": 197.5,
+        "earliest_special": 165.0
+      },
+      {
+        "level": 26,
+        "time": 129.5,
+        "special_used": 4,
+        "last_tomato": 40,
+        "normal_targets": 1,
+        "special_targets": 2,
+        "earliest_normal": 163.5,
+        "earliest_special": 130.5
+      },
+      {
+        "level": 26,
+        "time": 126.0,
+        "special_used": 5,
+        "last_tomato": 20,
+        "normal_targets": 1,
+        "special_targets": 0,
+        "earliest_normal": 160.0,
+        "earliest_special": null
+      },
+      {
+        "level": 26,
+        "time": 130.0,
+        "special_used": 4,
+        "last_tomato": 37,
+        "normal_targets": 0,
+        "special_targets": 2,
+        "earliest_normal": null,
+        "earliest_special": 131.0
+      },
+      {
+        "level": 26,
+        "time": 126.5,
+        "special_used": 5,
+        "last_tomato": 23,
+        "normal_targets": 1,
+        "special_targets": 0,
+        "earliest_normal": 128.0,
+        "earliest_special": null
+      },
+      {
+        "level": 26,
+        "time": 133.0,
+        "special_used": 4,
+        "last_tomato": 34,
+        "normal_targets": 0,
+        "special_targets": 0,
+        "earliest_normal": null,
+        "earliest_special": null
+      },
+      {
+        "level": 26,
+        "time": 127.5,
+        "special_used": 5,
+        "last_tomato": 23,
+        "normal_targets": 0,
+        "special_targets": 0,
+        "earliest_normal": null,
+        "earliest_special": null
+      },
+      {
+        "level": 26,
+        "time": 127.5,
+        "special_used": 5,
+        "last_tomato": 37,
+        "normal_targets": 0,
+        "special_targets": 0,
+        "earliest_normal": null,
+        "earliest_special": null
+      },
+      {
+        "level": 26,
+        "time": 127.5,
+        "special_used": 5,
+        "last_tomato": 34,
+        "normal_targets": 1,
+        "special_targets": 0,
+        "earliest_normal": 129.5,
+        "earliest_special": null
+      },
+      {
+        "level": 26,
+        "time": 155.0,
+        "special_used": 5,
+        "last_tomato": 13,
+        "normal_targets": 1,
+        "special_targets": 0,
+        "earliest_normal": 163.0,
+        "earliest_special": null
+      },
+      {
+        "level": 26,
+        "time": 155.5,
+        "special_used": 5,
+        "last_tomato": 37,
+        "normal_targets": 0,
+        "special_targets": 0,
+        "earliest_normal": null,
+        "earliest_special": null
+      },
+      {
+        "level": 26,
+        "time": 163.5,
+        "special_used": 5,
+        "last_tomato": 18,
+        "normal_targets": 2,
+        "special_targets": 0,
+        "earliest_normal": 164.5,
+        "earliest_special": null
+      },
+      {
+        "level": 26,
+        "time": 176.5,
+        "special_used": 4,
+        "last_tomato": 12,
+        "normal_targets": 1,
+        "special_targets": 5,
+        "earliest_normal": 184.5,
+        "earliest_special": 177.0
+      },
+      {
+        "level": 26,
+        "time": 177.5,
+        "special_used": 4,
+        "last_tomato": 10,
+        "normal_targets": 1,
+        "special_targets": 5,
+        "earliest_normal": 180.5,
+        "earliest_special": 178.5
+      },
+      {
+        "level": 26,
+        "time": 183.5,
+        "special_used": 3,
+        "last_tomato": 13,
+        "normal_targets": 1,
+        "special_targets": 2,
+        "earliest_normal": 191.5,
+        "earliest_special": 185.0
+      },
+      {
+        "level": 26,
+        "time": 177.5,
+        "special_used": 4,
+        "last_tomato": 25,
+        "normal_targets": 1,
+        "special_targets": 5,
+        "earliest_normal": 185.5,
+        "earliest_special": 178.5
+      },
+      {
+        "level": 26,
+        "time": 184.0,
+        "special_used": 3,
+        "last_tomato": 18,
+        "normal_targets": 1,
+        "special_targets": 2,
+        "earliest_normal": 185.0,
+        "earliest_special": 184.5
+      },
+      {
+        "level": 26,
+        "time": 182.5,
+        "special_used": 3,
+        "last_tomato": 34,
+        "normal_targets": 1,
+        "special_targets": 1,
+        "earliest_normal": 184.5,
+        "earliest_special": 184.0
+      },
+      {
+        "level": 26,
+        "time": 183.5,
+        "special_used": 3,
+        "last_tomato": 23,
+        "normal_targets": 0,
+        "special_targets": 2,
+        "earliest_normal": null,
+        "earliest_special": 185.0
+      },
+      {
+        "level": 26,
+        "time": 185.0,
+        "special_used": 4,
+        "last_tomato": 46,
+        "normal_targets": 0,
+        "special_targets": 5,
+        "earliest_normal": null,
+        "earliest_special": 185.5
+      },
+      {
+        "level": 26,
+        "time": 182.0,
+        "special_used": 4,
+        "last_tomato": 22,
+        "normal_targets": 1,
+        "special_targets": 4,
+        "earliest_normal": 195.0,
+        "earliest_special": 183.0
+      },
+      {
+        "level": 26,
+        "time": 196.5,
+        "special_used": 2,
+        "last_tomato": 13,
+        "normal_targets": 0,
+        "special_targets": 2,
+        "earliest_normal": null,
+        "earliest_special": 198.5
+      },
+      {
+        "level": 26,
+        "time": 187.5,
+        "special_used": 4,
+        "last_tomato": 5,
+        "normal_targets": 1,
+        "special_targets": 2,
+        "earliest_normal": 189.0,
+        "earliest_special": 188.0
+      },
+      {
+        "level": 26,
+        "time": 188.5,
+        "special_used": 4,
+        "last_tomato": 44,
+        "normal_targets": 1,
+        "special_targets": 2,
+        "earliest_normal": 190.5,
+        "earliest_special": 189.0
+      },
+      {
+        "level": 26,
+        "time": 191.5,
+        "special_used": 3,
+        "last_tomato": 20,
+        "normal_targets": 0,
+        "special_targets": 2,
+        "earliest_normal": null,
+        "earliest_special": 192.0
+      },
+      {
+        "level": 26,
+        "time": 182.5,
+        "special_used": 4,
+        "last_tomato": 22,
+        "normal_targets": 2,
+        "special_targets": 2,
+        "earliest_normal": 188.0,
+        "earliest_special": 183.5
+      },
+      {
+        "level": 26,
+        "time": 196.5,
+        "special_used": 3,
+        "last_tomato": 12,
+        "normal_targets": 1,
+        "special_targets": 5,
+        "earliest_normal": 199.5,
+        "earliest_special": 197.0
+      },
+      {
+        "level": 26,
+        "time": 199.5,
+        "special_used": 3,
+        "last_tomato": 46,
+        "normal_targets": 0,
+        "special_targets": 0,
+        "earliest_normal": null,
+        "earliest_special": null
+      },
+      {
+        "level": 26,
+        "time": 190.0,
+        "special_used": 4,
+        "last_tomato": 18,
+        "normal_targets": 2,
+        "special_targets": 2,
+        "earliest_normal": 190.5,
+        "earliest_special": 190.5
+      },
+      {
+        "level": 26,
+        "time": 198.5,
+        "special_used": 4,
+        "last_tomato": 25,
+        "normal_targets": 0,
+        "special_targets": 4,
+        "earliest_normal": null,
+        "earliest_special": 199.0
+      },
+      {
+        "level": 26,
+        "time": 184.0,
+        "special_used": 3,
+        "last_tomato": 23,
+        "normal_targets": 0,
+        "special_targets": 1,
+        "earliest_normal": null,
+        "earliest_special": 197.5
+      },
+      {
+        "level": 26,
+        "time": 190.0,
+        "special_used": 3,
+        "last_tomato": 13,
+        "normal_targets": 0,
+        "special_targets": 3,
+        "earliest_normal": null,
+        "earliest_special": 190.5
+      },
+      {
+        "level": 26,
+        "time": 182.0,
+        "special_used": 4,
+        "last_tomato": 20,
+        "normal_targets": 0,
+        "special_targets": 2,
+        "earliest_normal": null,
+        "earliest_special": 183.0
+      },
+      {
+        "level": 26,
+        "time": 185.5,
+        "special_used": 4,
+        "last_tomato": 22,
+        "normal_targets": 1,
+        "special_targets": 4,
+        "earliest_normal": 191.0,
+        "earliest_special": 186.5
+      },
+      {
+        "level": 26,
+        "time": 192.0,
+        "special_used": 3,
+        "last_tomato": 13,
+        "normal_targets": 0,
+        "special_targets": 3,
+        "earliest_normal": null,
+        "earliest_special": 192.5
+      },
+      {
+        "level": 26,
+        "time": 185.5,
+        "special_used": 4,
+        "last_tomato": 20,
+        "normal_targets": 0,
+        "special_targets": 2,
+        "earliest_normal": null,
+        "earliest_special": 186.5
+      },
+      {
+        "level": 26,
+        "time": 193.0,
+        "special_used": 3,
+        "last_tomato": 13,
+        "normal_targets": 0,
+        "special_targets": 2,
+        "earliest_normal": null,
+        "earliest_special": 193.5
+      },
+      {
+        "level": 26,
+        "time": 190.5,
+        "special_used": 4,
+        "last_tomato": 34,
+        "normal_targets": 1,
+        "special_targets": 4,
+        "earliest_normal": 194.5,
+        "earliest_special": 191.0
+      },
+      {
+        "level": 26,
+        "time": 191.5,
+        "special_used": 4,
+        "last_tomato": 18,
+        "normal_targets": 2,
+        "special_targets": 4,
+        "earliest_normal": 192.5,
+        "earliest_special": 192.0
+      },
+      {
+        "level": 26,
+        "time": 189.5,
+        "special_used": 4,
+        "last_tomato": 22,
+        "normal_targets": 1,
+        "special_targets": 2,
+        "earliest_normal": 196.5,
+        "earliest_special": 190.5
+      },
+      {
+        "level": 26,
+        "time": 190.0,
+        "special_used": 4,
+        "last_tomato": 23,
+        "normal_targets": 2,
+        "special_targets": 2,
+        "earliest_normal": 190.5,
+        "earliest_special": 190.5
+      },
+      {
+        "level": 26,
+        "time": 188.5,
+        "special_used": 4,
+        "last_tomato": 20,
+        "normal_targets": 0,
+        "special_targets": 2,
+        "earliest_normal": null,
+        "earliest_special": 189.5
+      },
+      {
+        "level": 26,
+        "time": 193.5,
+        "special_used": 4,
+        "last_tomato": 34,
+        "normal_targets": 2,
+        "special_targets": 3,
+        "earliest_normal": 195.5,
+        "earliest_special": 194.5
+      },
+      {
+        "level": 26,
+        "time": 190.5,
+        "special_used": 4,
+        "last_tomato": 23,
+        "normal_targets": 1,
+        "special_targets": 4,
+        "earliest_normal": 191.5,
+        "earliest_special": 191.0
+      },
+      {
+        "level": 26,
+        "time": 194.5,
+        "special_used": 4,
+        "last_tomato": 18,
+        "normal_targets": 2,
+        "special_targets": 4,
+        "earliest_normal": 195.0,
+        "earliest_special": 195.0
+      },
+      {
+        "level": 26,
+        "time": 161.5,
+        "special_used": 5,
+        "last_tomato": 40,
+        "normal_targets": 1,
+        "special_targets": 0,
+        "earliest_normal": 169.5,
+        "earliest_special": null
+      },
+      {
+        "level": 26,
+        "time": 162.5,
+        "special_used": 5,
+        "last_tomato": 40,
+        "normal_targets": 0,
+        "special_targets": 0,
+        "earliest_normal": null,
+        "earliest_special": null
+      },
+      {
+        "level": 26,
+        "time": 163.5,
+        "special_used": 5,
+        "last_tomato": 40,
+        "normal_targets": 0,
+        "special_targets": 0,
+        "earliest_normal": null,
+        "earliest_special": null
+      },
+      {
+        "level": 26,
+        "time": 164.5,
+        "special_used": 5,
+        "last_tomato": 40,
+        "normal_targets": 0,
+        "special_targets": 0,
+        "earliest_normal": null,
+        "earliest_special": null
+      }
+    ]
+  }
+]
