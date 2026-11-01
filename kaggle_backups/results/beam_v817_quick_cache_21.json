@@ -90,6 +90,56 @@
         "best_normal": null,
         "best_special": null,
         "min_dv": 2283.03961795555
+      },
+      "36": {
+        "best_normal": null,
+        "best_special": null,
+        "min_dv": 1280.5841075801225
+      },
+      "37": {
+        "best_normal": null,
+        "best_special": null,
+        "min_dv": 1086.4624157271273
+      },
+      "38": {
+        "best_normal": null,
+        "best_special": null,
+        "min_dv": 849.9530647447509
+      },
+      "40": {
+        "best_normal": null,
+        "best_special": null,
+        "min_dv": 1208.9103276149626
+      },
+      "41": {
+        "best_normal": null,
+        "best_special": null,
+        "min_dv": 1284.2364277738066
+      },
+      "43": {
+        "best_normal": null,
+        "best_special": null,
+        "min_dv": 845.0911008573755
+      },
+      "44": {
+        "best_normal": null,
+        "best_special": null,
+        "min_dv": 1607.315167410333
+      },
+      "46": {
+        "best_normal": null,
+        "best_special": null,
+        "min_dv": 1254.3196515871034
+      },
+      "47": {
+        "best_normal": null,
+        "best_special": null,
+        "min_dv": 1235.9166818742642
+      },
+      "48": {
+        "best_normal": null,
+        "best_special": null,
+        "min_dv": 1204.6386067738429
       }
     }
   }
