@@ -1,0 +1,65 @@
+{
+  "method": "V8.11 Numerical Search",
+  "results": [
+    {
+      "variant": 1,
+      "time27": 128.0,
+      "endpoint": 34,
+      "special_used": 5,
+      "normal_targets": 0,
+      "special_targets": 0,
+      "minimum_dv": 642.5745762198153,
+      "best_normal": null
+    },
+    {
+      "variant": 2,
+      "time27": 129.5,
+      "endpoint": 23,
+      "special_used": 5,
+      "normal_targets": 0,
+      "special_targets": 0,
+      "minimum_dv": 669.179186419313,
+      "best_normal": null
+    },
+    {
+      "variant": 3,
+      "time27": 130.5,
+      "endpoint": 34,
+      "special_used": 5,
+      "normal_targets": 0,
+      "special_targets": 0,
+      "minimum_dv": 647.8250586478384,
+      "best_normal": null
+    },
+    {
+      "variant": 4,
+      "time27": 133.5,
+      "endpoint": 23,
+      "special_used": 5,
+      "normal_targets": 0,
+      "special_targets": 0,
+      "minimum_dv": 685.1772336349604,
+      "best_normal": null
+    },
+    {
+      "variant": 5,
+      "time27": 130.0,
+      "endpoint": 34,
+      "special_used": 5,
+      "normal_targets": 0,
+      "special_targets": 0,
+      "minimum_dv": 670.1334613387935,
+      "best_normal": null
+    },
+    {
+      "variant": 6,
+      "time27": 131.5,
+      "endpoint": 23,
+      "special_used": 5,
+      "normal_targets": 0,
+      "special_targets": 0,
+      "minimum_dv": 657.4686464315979,
+      "best_normal": null
+    }
+  ]
+}
