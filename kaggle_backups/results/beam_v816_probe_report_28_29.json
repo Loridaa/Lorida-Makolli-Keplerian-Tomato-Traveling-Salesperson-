@@ -1,0 +1,52 @@
+{
+  "method": "V8.16 Probe Level 29",
+  "level": 28,
+  "results": [
+    {
+      "route": [
+        0,
+        39,
+        43,
+        19,
+        30,
+        29,
+        15,
+        28,
+        1,
+        45,
+        48,
+        9,
+        31,
+        36,
+        47,
+        5,
+        44,
+        12,
+        10,
+        46,
+        41,
+        2,
+        25,
+        34,
+        18,
+        23,
+        22,
+        13
+      ],
+      "time28": 137.5,
+      "special_used": 5,
+      "endpoint": 13,
+      "normal_targets": 1,
+      "special_targets": 0,
+      "minimum_dv": 77.97182254864006,
+      "best_next": {
+        "target": 20,
+        "wait": 2,
+        "tof": 34,
+        "arrival": 173.5,
+        "dv": 93.8423869450837,
+        "status": "NORMAL"
+      }
+    }
+  ]
+}
