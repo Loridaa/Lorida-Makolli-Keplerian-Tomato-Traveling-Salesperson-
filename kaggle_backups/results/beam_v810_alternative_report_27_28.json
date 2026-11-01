@@ -1,0 +1,174 @@
+{
+  "method": "V8.10 Alternative Arrival Lookahead",
+  "source_level": 26,
+  "target_level": 28,
+  "variants_tested": 15,
+  "normal_continuations": 0,
+  "results": [
+    {
+      "parent_index": 1,
+      "was_selected": true,
+      "first_target": 34,
+      "time27": 128.0,
+      "special_used": 5,
+      "is_earliest": true,
+      "normal_targets_28": 0,
+      "special_targets_28": 0,
+      "best_normal_28": null
+    },
+    {
+      "parent_index": 1,
+      "was_selected": true,
+      "first_target": 34,
+      "time27": 130.0,
+      "special_used": 5,
+      "is_earliest": false,
+      "normal_targets_28": 0,
+      "special_targets_28": 0,
+      "best_normal_28": null
+    },
+    {
+      "parent_index": 2,
+      "was_selected": true,
+      "first_target": 23,
+      "time27": 129.5,
+      "special_used": 5,
+      "is_earliest": true,
+      "normal_targets_28": 0,
+      "special_targets_28": 0,
+      "best_normal_28": null
+    },
+    {
+      "parent_index": 2,
+      "was_selected": true,
+      "first_target": 23,
+      "time27": 131.5,
+      "special_used": 5,
+      "is_earliest": false,
+      "normal_targets_28": 0,
+      "special_targets_28": 0,
+      "best_normal_28": null
+    },
+    {
+      "parent_index": 3,
+      "was_selected": false,
+      "first_target": 34,
+      "time27": 130.5,
+      "special_used": 5,
+      "is_earliest": true,
+      "normal_targets_28": 0,
+      "special_targets_28": 0,
+      "best_normal_28": null
+    },
+    {
+      "parent_index": 3,
+      "was_selected": false,
+      "first_target": 34,
+      "time27": 131.5,
+      "special_used": 5,
+      "is_earliest": false,
+      "normal_targets_28": 0,
+      "special_targets_28": 0,
+      "best_normal_28": null
+    },
+    {
+      "parent_index": 3,
+      "was_selected": false,
+      "first_target": 34,
+      "time27": 133.5,
+      "special_used": 5,
+      "is_earliest": false,
+      "normal_targets_28": 0,
+      "special_targets_28": 0,
+      "best_normal_28": null
+    },
+    {
+      "parent_index": 3,
+      "was_selected": false,
+      "first_target": 34,
+      "time27": 134.5,
+      "special_used": 5,
+      "is_earliest": false,
+      "normal_targets_28": 0,
+      "special_targets_28": 0,
+      "best_normal_28": null
+    },
+    {
+      "parent_index": 3,
+      "was_selected": false,
+      "first_target": 34,
+      "time27": 135.5,
+      "special_used": 5,
+      "is_earliest": false,
+      "normal_targets_28": 0,
+      "special_targets_28": 0,
+      "best_normal_28": null
+    },
+    {
+      "parent_index": 3,
+      "was_selected": false,
+      "first_target": 34,
+      "time27": 136.5,
+      "special_used": 5,
+      "is_earliest": false,
+      "normal_targets_28": 0,
+      "special_targets_28": 0,
+      "best_normal_28": null
+    },
+    {
+      "parent_index": 3,
+      "was_selected": false,
+      "first_target": 34,
+      "time27": 138.5,
+      "special_used": 5,
+      "is_earliest": false,
+      "normal_targets_28": 0,
+      "special_targets_28": 0,
+      "best_normal_28": null
+    },
+    {
+      "parent_index": 3,
+      "was_selected": false,
+      "first_target": 34,
+      "time27": 141.5,
+      "special_used": 5,
+      "is_earliest": false,
+      "normal_targets_28": 0,
+      "special_targets_28": 0,
+      "best_normal_28": null
+    },
+    {
+      "parent_index": 4,
+      "was_selected": false,
+      "first_target": 23,
+      "time27": 133.5,
+      "special_used": 5,
+      "is_earliest": true,
+      "normal_targets_28": 0,
+      "special_targets_28": 0,
+      "best_normal_28": null
+    },
+    {
+      "parent_index": 4,
+      "was_selected": false,
+      "first_target": 23,
+      "time27": 134.5,
+      "special_used": 5,
+      "is_earliest": false,
+      "normal_targets_28": 0,
+      "special_targets_28": 0,
+      "best_normal_28": null
+    },
+    {
+      "parent_index": 4,
+      "was_selected": false,
+      "first_target": 23,
+      "time27": 135.5,
+      "special_used": 5,
+      "is_earliest": false,
+      "normal_targets_28": 0,
+      "special_targets_28": 0,
+      "best_normal_28": null
+    }
+  ]
+}
