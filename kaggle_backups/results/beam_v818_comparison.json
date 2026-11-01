@@ -1,0 +1,180 @@
+{
+  "runs": {
+    "A": {
+      "day": 66.5,
+      "end": 32,
+      "special_used": 4,
+      "checked": 28,
+      "normal_moves": [],
+      "special_moves": [],
+      "lowest_dv": [
+        {
+          "target": 6,
+          "min_dv": 678.0255947001159
+        },
+        {
+          "target": 43,
+          "min_dv": 986.8194948228545
+        },
+        {
+          "target": 24,
+          "min_dv": 1044.7160599770825
+        },
+        {
+          "target": 38,
+          "min_dv": 1154.7052218353124
+        },
+        {
+          "target": 37,
+          "min_dv": 1187.6533552822211
+        }
+      ]
+    },
+    "B": {
+      "day": 107.0,
+      "end": 46,
+      "special_used": 3,
+      "checked": 28,
+      "normal_moves": [],
+      "special_moves": [
+        {
+          "target": 5,
+          "wait": 0,
+          "tof": 5,
+          "arrival": 112.0,
+          "dv": 592.604282834073
+        },
+        {
+          "target": 13,
+          "wait": 0,
+          "tof": 1,
+          "arrival": 108.0,
+          "dv": 368.468706772945
+        },
+        {
+          "target": 18,
+          "wait": 0,
+          "tof": 8,
+          "arrival": 115.0,
+          "dv": 570.1934792735401
+        },
+        {
+          "target": 20,
+          "wait": 0,
+          "tof": 1,
+          "arrival": 108.0,
+          "dv": 427.06004991703435
+        },
+        {
+          "target": 23,
+          "wait": 1,
+          "tof": 13,
+          "arrival": 121.0,
+          "dv": 593.69450618262
+        }
+      ],
+      "lowest_dv": [
+        {
+          "target": 13,
+          "min_dv": 342.23152382995625
+        },
+        {
+          "target": 20,
+          "min_dv": 363.40526757897726
+        },
+        {
+          "target": 5,
+          "min_dv": 525.410727300779
+        },
+        {
+          "target": 18,
+          "min_dv": 566.6171174027811
+        },
+        {
+          "target": 23,
+          "min_dv": 593.69450618262
+        }
+      ]
+    },
+    "C": {
+      "day": 107.0,
+      "end": 12,
+      "special_used": 3,
+      "checked": 28,
+      "normal_moves": [],
+      "special_moves": [
+        {
+          "target": 5,
+          "wait": 8,
+          "tof": 1,
+          "arrival": 116.0,
+          "dv": 560.1402987234237
+        },
+        {
+          "target": 13,
+          "wait": 0,
+          "tof": 2,
+          "arrival": 109.0,
+          "dv": 473.1463583222934
+        },
+        {
+          "target": 18,
+          "wait": 1,
+          "tof": 8,
+          "arrival": 116.0,
+          "dv": 560.6884899609845
+        },
+        {
+          "target": 20,
+          "wait": 0,
+          "tof": 0.5,
+          "arrival": 107.5,
+          "dv": 565.760791505204
+        },
+        {
+          "target": 23,
+          "wait": 3,
+          "tof": 0.5,
+          "arrival": 110.5,
+          "dv": 545.1250545052146
+        },
+        {
+          "target": 34,
+          "wait": 0,
+          "tof": 0.5,
+          "arrival": 107.5,
+          "dv": 558.395819737875
+        },
+        {
+          "target": 47,
+          "wait": 1,
+          "tof": 5,
+          "arrival": 113.0,
+          "dv": 544.5642768496522
+        }
+      ],
+      "lowest_dv": [
+        {
+          "target": 13,
+          "min_dv": 303.26898072345625
+        },
+        {
+          "target": 20,
+          "min_dv": 317.8083994251039
+        },
+        {
+          "target": 5,
+          "min_dv": 505.4295714353638
+        },
+        {
+          "target": 18,
+          "min_dv": 540.1113323393915
+        },
+        {
+          "target": 47,
+          "min_dv": 544.5642768496522
+        }
+      ]
+    }
+  }
+}
