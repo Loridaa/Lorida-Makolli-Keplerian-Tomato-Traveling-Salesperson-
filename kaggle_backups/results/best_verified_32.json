@@ -1,0 +1,301 @@
+{
+  "level": 32,
+  "verified": true,
+  "source": "beam_v24_lns5_level_32.json",
+  "frontier": [
+    {
+      "route": [
+        0,
+        39,
+        8,
+        43,
+        19,
+        30,
+        29,
+        15,
+        28,
+        1,
+        45,
+        48,
+        9,
+        40,
+        44,
+        5,
+        47,
+        36,
+        31,
+        37,
+        20,
+        13,
+        22,
+        25,
+        2,
+        41,
+        46,
+        10,
+        12,
+        18,
+        23,
+        34
+      ],
+      "transfers": [
+        {
+          "from": 0,
+          "to": 39,
+          "start_time": 0.0,
+          "tof": 5.0,
+          "dv": 93.85011375965821,
+          "status": "NORMAL"
+        },
+        {
+          "from": 39,
+          "to": 8,
+          "start_time": 5.0,
+          "tof": 8,
+          "dv": 96.44740104471272,
+          "status": "NORMAL"
+        },
+        {
+          "from": 8,
+          "to": 43,
+          "start_time": 13.25,
+          "tof": 1,
+          "dv": 275.40174718150143,
+          "status": "SPECIAL"
+        },
+        {
+          "from": 43,
+          "to": 19,
+          "start_time": 14.25,
+          "tof": 2,
+          "dv": 74.34142184363203,
+          "status": "NORMAL"
+        },
+        {
+          "from": 19,
+          "to": 30,
+          "start_time": 17.25,
+          "tof": 3,
+          "dv": 218.4168093757877,
+          "status": "SPECIAL"
+        },
+        {
+          "from": 30,
+          "to": 29,
+          "start_time": 20.75,
+          "tof": 2,
+          "dv": 95.09421733439812,
+          "status": "NORMAL"
+        },
+        {
+          "from": 29,
+          "to": 15,
+          "start_time": 32.5,
+          "tof": 5,
+          "dv": 78.95091332396937,
+          "status": "NORMAL"
+        },
+        {
+          "from": 15,
+          "to": 28,
+          "start_time": 37.5,
+          "tof": 2,
+          "dv": 47.40003062095872,
+          "status": "NORMAL"
+        },
+        {
+          "from": 28,
+          "to": 1,
+          "start_time": 39.5,
+          "wait": 0.0,
+          "tof": 1.0,
+          "dv": 48.62601913728855,
+          "status": "NORMAL"
+        },
+        {
+          "from": 1,
+          "to": 45,
+          "start_time": 40.5,
+          "wait": 0,
+          "tof": 8,
+          "dv": 87.19088023627957,
+          "status": "NORMAL"
+        },
+        {
+          "from": 45,
+          "to": 48,
+          "start_time": 53.5,
+          "wait": 5,
+          "tof": 2,
+          "dv": 89.31568076100251,
+          "status": "NORMAL"
+        },
+        {
+          "from": 48,
+          "to": 9,
+          "start_time": 55.5,
+          "wait": 0,
+          "tof": 13,
+          "dv": 83.30514612386341,
+          "status": "NORMAL"
+        },
+        {
+          "from": 9,
+          "to": 40,
+          "start_time": 68.5,
+          "wait": 0,
+          "tof": 1,
+          "dv": 481.7594999229838,
+          "status": "SPECIAL"
+        },
+        {
+          "from": 40,
+          "to": 44,
+          "start_time": 71.5,
+          "wait": 2,
+          "tof": 5,
+          "dv": 97.58327756220113,
+          "status": "NORMAL"
+        },
+        {
+          "from": 44,
+          "to": 5,
+          "start_time": 76.5,
+          "tof": 5,
+          "dv": 84.24898619937684,
+          "status": "NORMAL"
+        },
+        {
+          "from": 5,
+          "to": 47,
+          "start_time": 85.5,
+          "tof": 18,
+          "dv": 67.91373677586147,
+          "status": "NORMAL"
+        },
+        {
+          "from": 47,
+          "to": 36,
+          "start_time": 103.5,
+          "tof": 13,
+          "dv": 83.22233247343469,
+          "status": "NORMAL"
+        },
+        {
+          "from": 36,
+          "to": 31,
+          "start_time": 116.5,
+          "tof": 1.5,
+          "dv": 66.60413771806762,
+          "status": "NORMAL"
+        },
+        {
+          "from": 31,
+          "to": 37,
+          "start_time": 118.998095703125,
+          "tof": 12.375708007812516,
+          "dv": 67.11442135944358,
+          "status": "NORMAL"
+        },
+        {
+          "from": 37,
+          "to": 20,
+          "start_time": 131.37380371093752,
+          "tof": 1,
+          "dv": 556.640345065816,
+          "status": "SPECIAL"
+        },
+        {
+          "from": 20,
+          "to": 13,
+          "start_time": 140.40608100891114,
+          "tof": 4.8607951402664185,
+          "dv": 93.67300985933183,
+          "status": "NORMAL"
+        },
+        {
+          "from": 13,
+          "to": 22,
+          "start_time": 145.26687614917756,
+          "tof": 8,
+          "dv": 74.62043962933313,
+          "status": "NORMAL"
+        },
+        {
+          "from": 22,
+          "to": 25,
+          "start_time": 155.26687614917756,
+          "tof": 5,
+          "dv": 98.41237110631954,
+          "status": "NORMAL"
+        },
+        {
+          "from": 25,
+          "to": 2,
+          "start_time": 160.26687614917756,
+          "tof": 2,
+          "dv": 95.63402687750546,
+          "status": "NORMAL"
+        },
+        {
+          "from": 2,
+          "to": 41,
+          "start_time": 162.26687614917756,
+          "tof": 1.5,
+          "dv": 98.47657577102257,
+          "status": "NORMAL"
+        },
+        {
+          "from": 41,
+          "to": 46,
+          "start_time": 163.76687614917756,
+          "tof": 2,
+          "dv": 66.31249754547957,
+          "status": "NORMAL"
+        },
+        {
+          "from": 46,
+          "to": 10,
+          "start_time": 165.76687614917756,
+          "tof": 8,
+          "dv": 84.1138311559823,
+          "status": "NORMAL"
+        },
+        {
+          "from": 10,
+          "to": 12,
+          "start_time": 173.76687614917756,
+          "tof": 3,
+          "dv": 90.62355766744824,
+          "status": "NORMAL"
+        },
+        {
+          "from": 12,
+          "to": 18,
+          "start_time": 177.76687614917756,
+          "tof": 0.5,
+          "dv": 591.5154340922584,
+          "status": "SPECIAL"
+        },
+        {
+          "from": 18,
+          "to": 23,
+          "start_time": 178.26687614917756,
+          "tof": 1.5,
+          "dv": 74.32797090727352,
+          "status": "NORMAL"
+        },
+        {
+          "from": 23,
+          "to": 34,
+          "start_time": 180.01687614917756,
+          "tof": 1,
+          "dv": 94.3201686491532,
+          "status": "NORMAL"
+        }
+      ],
+      "current_time": 181.01687614917756,
+      "special_used": 5
+    }
+  ]
+}
