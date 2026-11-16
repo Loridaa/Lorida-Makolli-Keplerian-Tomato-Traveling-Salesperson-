@@ -1,0 +1,3468 @@
+{
+  "strategy": "special_budget_recovery",
+  "bases": [
+    {
+      "base": 0,
+      "missing": [
+        4,
+        6,
+        11,
+        16,
+        17,
+        24,
+        26,
+        27,
+        32,
+        35,
+        38
+      ],
+      "special_edges": [
+        2,
+        8,
+        18,
+        25,
+        34
+      ]
+    },
+    {
+      "base": 1,
+      "missing": [
+        4,
+        6,
+        11,
+        14,
+        16,
+        17,
+        24,
+        26,
+        27,
+        32,
+        35
+      ],
+      "special_edges": [
+        3,
+        8,
+        18,
+        25,
+        34
+      ]
+    }
+  ],
+  "windows": [
+    {
+      "base": 0,
+      "start": 21,
+      "end": 26,
+      "nodes": [
+        5,
+        47,
+        36,
+        31,
+        37,
+        20
+      ],
+      "special_budget": 1,
+      "available_days": 58.90608,
+      "priority": 12.31768
+    },
+    {
+      "base": 1,
+      "start": 21,
+      "end": 26,
+      "nodes": [
+        5,
+        47,
+        36,
+        31,
+        37,
+        20
+      ],
+      "special_budget": 1,
+      "available_days": 58.90608,
+      "priority": 12.31768
+    },
+    {
+      "base": 0,
+      "start": 21,
+      "end": 28,
+      "nodes": [
+        5,
+        47,
+        36,
+        31,
+        37,
+        20,
+        13,
+        22
+      ],
+      "special_budget": 1,
+      "available_days": 73.76688,
+      "priority": 11.72086
+    },
+    {
+      "base": 1,
+      "start": 21,
+      "end": 28,
+      "nodes": [
+        5,
+        47,
+        36,
+        31,
+        37,
+        20,
+        13,
+        22
+      ],
+      "special_budget": 1,
+      "available_days": 73.76688,
+      "priority": 11.72086
+    },
+    {
+      "base": 0,
+      "start": 20,
+      "end": 26,
+      "nodes": [
+        44,
+        5,
+        47,
+        36,
+        31,
+        37,
+        20
+      ],
+      "special_budget": 1,
+      "available_days": 63.90608,
+      "priority": 11.62944
+    },
+    {
+      "base": 1,
+      "start": 20,
+      "end": 26,
+      "nodes": [
+        44,
+        5,
+        47,
+        36,
+        31,
+        37,
+        20
+      ],
+      "special_budget": 1,
+      "available_days": 63.90608,
+      "priority": 11.62944
+    },
+    {
+      "base": 0,
+      "start": 21,
+      "end": 27,
+      "nodes": [
+        5,
+        47,
+        36,
+        31,
+        37,
+        20,
+        13
+      ],
+      "special_budget": 1,
+      "available_days": 63.76688,
+      "priority": 11.60955
+    },
+    {
+      "base": 1,
+      "start": 21,
+      "end": 27,
+      "nodes": [
+        5,
+        47,
+        36,
+        31,
+        37,
+        20,
+        13
+      ],
+      "special_budget": 1,
+      "available_days": 63.76688,
+      "priority": 11.60955
+    },
+    {
+      "base": 0,
+      "start": 19,
+      "end": 26,
+      "nodes": [
+        40,
+        44,
+        5,
+        47,
+        36,
+        31,
+        37,
+        20
+      ],
+      "special_budget": 1,
+      "available_days": 70.90608,
+      "priority": 11.36326
+    },
+    {
+      "base": 1,
+      "start": 19,
+      "end": 26,
+      "nodes": [
+        40,
+        44,
+        5,
+        47,
+        36,
+        31,
+        37,
+        20
+      ],
+      "special_budget": 1,
+      "available_days": 70.90608,
+      "priority": 11.36326
+    },
+    {
+      "base": 0,
+      "start": 17,
+      "end": 23,
+      "nodes": [
+        48,
+        9,
+        40,
+        44,
+        5,
+        47,
+        36
+      ],
+      "special_budget": 1,
+      "available_days": 61.0,
+      "priority": 11.21429
+    },
+    {
+      "base": 1,
+      "start": 17,
+      "end": 23,
+      "nodes": [
+        48,
+        9,
+        40,
+        44,
+        5,
+        47,
+        36
+      ],
+      "special_budget": 1,
+      "available_days": 61.0,
+      "priority": 11.21429
+    },
+    {
+      "base": 0,
+      "start": 20,
+      "end": 27,
+      "nodes": [
+        44,
+        5,
+        47,
+        36,
+        31,
+        37,
+        20,
+        13
+      ],
+      "special_budget": 1,
+      "available_days": 68.76688,
+      "priority": 11.09586
+    },
+    {
+      "base": 1,
+      "start": 20,
+      "end": 27,
+      "nodes": [
+        44,
+        5,
+        47,
+        36,
+        31,
+        37,
+        20,
+        13
+      ],
+      "special_budget": 1,
+      "available_days": 68.76688,
+      "priority": 11.09586
+    },
+    {
+      "base": 0,
+      "start": 16,
+      "end": 23,
+      "nodes": [
+        45,
+        48,
+        9,
+        40,
+        44,
+        5,
+        47,
+        36
+      ],
+      "special_budget": 1,
+      "available_days": 64.25,
+      "priority": 10.53125
+    },
+    {
+      "base": 1,
+      "start": 16,
+      "end": 23,
+      "nodes": [
+        45,
+        48,
+        9,
+        40,
+        44,
+        5,
+        47,
+        36
+      ],
+      "special_budget": 1,
+      "available_days": 64.25,
+      "priority": 10.53125
+    },
+    {
+      "base": 0,
+      "start": 17,
+      "end": 22,
+      "nodes": [
+        48,
+        9,
+        40,
+        44,
+        5,
+        47
+      ],
+      "special_budget": 1,
+      "available_days": 48.0,
+      "priority": 10.5
+    },
+    {
+      "base": 0,
+      "start": 18,
+      "end": 23,
+      "nodes": [
+        9,
+        40,
+        44,
+        5,
+        47,
+        36
+      ],
+      "special_budget": 1,
+      "available_days": 48.0,
+      "priority": 10.5
+    },
+    {
+      "base": 1,
+      "start": 17,
+      "end": 22,
+      "nodes": [
+        48,
+        9,
+        40,
+        44,
+        5,
+        47
+      ],
+      "special_budget": 1,
+      "available_days": 48.0,
+      "priority": 10.5
+    },
+    {
+      "base": 1,
+      "start": 18,
+      "end": 23,
+      "nodes": [
+        9,
+        40,
+        44,
+        5,
+        47,
+        36
+      ],
+      "special_budget": 1,
+      "available_days": 48.0,
+      "priority": 10.5
+    },
+    {
+      "base": 0,
+      "start": 17,
+      "end": 24,
+      "nodes": [
+        48,
+        9,
+        40,
+        44,
+        5,
+        47,
+        36,
+        31
+      ],
+      "special_budget": 1,
+      "available_days": 63.4981,
+      "priority": 10.43726
+    },
+    {
+      "base": 1,
+      "start": 17,
+      "end": 24,
+      "nodes": [
+        48,
+        9,
+        40,
+        44,
+        5,
+        47,
+        36,
+        31
+      ],
+      "special_budget": 1,
+      "available_days": 63.4981,
+      "priority": 10.43726
+    },
+    {
+      "base": 0,
+      "start": 18,
+      "end": 25,
+      "nodes": [
+        9,
+        40,
+        44,
+        5,
+        47,
+        36,
+        31,
+        37
+      ],
+      "special_budget": 1,
+      "available_days": 62.8738,
+      "priority": 10.35923
+    },
+    {
+      "base": 1,
+      "start": 18,
+      "end": 25,
+      "nodes": [
+        9,
+        40,
+        44,
+        5,
+        47,
+        36,
+        31,
+        37
+      ],
+      "special_budget": 1,
+      "available_days": 62.8738,
+      "priority": 10.35923
+    },
+    {
+      "base": 0,
+      "start": 22,
+      "end": 28,
+      "nodes": [
+        47,
+        36,
+        31,
+        37,
+        20,
+        13,
+        22
+      ],
+      "special_budget": 1,
+      "available_days": 51.76688,
+      "priority": 9.89527
+    },
+    {
+      "base": 1,
+      "start": 22,
+      "end": 28,
+      "nodes": [
+        47,
+        36,
+        31,
+        37,
+        20,
+        13,
+        22
+      ],
+      "special_budget": 1,
+      "available_days": 51.76688,
+      "priority": 9.89527
+    },
+    {
+      "base": 0,
+      "start": 16,
+      "end": 22,
+      "nodes": [
+        45,
+        48,
+        9,
+        40,
+        44,
+        5,
+        47
+      ],
+      "special_budget": 1,
+      "available_days": 51.25,
+      "priority": 9.82143
+    },
+    {
+      "base": 1,
+      "start": 16,
+      "end": 22,
+      "nodes": [
+        45,
+        48,
+        9,
+        40,
+        44,
+        5,
+        47
+      ],
+      "special_budget": 1,
+      "available_days": 51.25,
+      "priority": 9.82143
+    },
+    {
+      "base": 0,
+      "start": 15,
+      "end": 22,
+      "nodes": [
+        1,
+        45,
+        48,
+        9,
+        40,
+        44,
+        5,
+        47
+      ],
+      "special_budget": 1,
+      "available_days": 58.25,
+      "priority": 9.78125
+    },
+    {
+      "base": 1,
+      "start": 15,
+      "end": 22,
+      "nodes": [
+        1,
+        45,
+        48,
+        9,
+        40,
+        44,
+        5,
+        47
+      ],
+      "special_budget": 1,
+      "available_days": 58.25,
+      "priority": 9.78125
+    },
+    {
+      "base": 0,
+      "start": 18,
+      "end": 24,
+      "nodes": [
+        9,
+        40,
+        44,
+        5,
+        47,
+        36,
+        31
+      ],
+      "special_budget": 1,
+      "available_days": 50.4981,
+      "priority": 9.71401
+    },
+    {
+      "base": 1,
+      "start": 18,
+      "end": 24,
+      "nodes": [
+        9,
+        40,
+        44,
+        5,
+        47,
+        36,
+        31
+      ],
+      "special_budget": 1,
+      "available_days": 50.4981,
+      "priority": 9.71401
+    },
+    {
+      "base": 0,
+      "start": 22,
+      "end": 29,
+      "nodes": [
+        47,
+        36,
+        31,
+        37,
+        20,
+        13,
+        22,
+        25
+      ],
+      "special_budget": 1,
+      "available_days": 56.76688,
+      "priority": 9.59586
+    },
+    {
+      "base": 1,
+      "start": 22,
+      "end": 29,
+      "nodes": [
+        47,
+        36,
+        31,
+        37,
+        20,
+        13,
+        22,
+        25
+      ],
+      "special_budget": 1,
+      "available_days": 56.76688,
+      "priority": 9.59586
+    },
+    {
+      "base": 0,
+      "start": 24,
+      "end": 29,
+      "nodes": [
+        31,
+        37,
+        20,
+        13,
+        22,
+        25
+      ],
+      "special_budget": 1,
+      "available_days": 42.26688,
+      "priority": 9.54448
+    },
+    {
+      "base": 1,
+      "start": 24,
+      "end": 29,
+      "nodes": [
+        31,
+        37,
+        20,
+        13,
+        22,
+        25
+      ],
+      "special_budget": 1,
+      "available_days": 42.26688,
+      "priority": 9.54448
+    },
+    {
+      "base": 0,
+      "start": 22,
+      "end": 27,
+      "nodes": [
+        47,
+        36,
+        31,
+        37,
+        20,
+        13
+      ],
+      "special_budget": 1,
+      "available_days": 41.76688,
+      "priority": 9.46115
+    },
+    {
+      "base": 1,
+      "start": 22,
+      "end": 27,
+      "nodes": [
+        47,
+        36,
+        31,
+        37,
+        20,
+        13
+      ],
+      "special_budget": 1,
+      "available_days": 41.76688,
+      "priority": 9.46115
+    },
+    {
+      "base": 0,
+      "start": 24,
+      "end": 28,
+      "nodes": [
+        31,
+        37,
+        20,
+        13,
+        22
+      ],
+      "special_budget": 1,
+      "available_days": 37.26688,
+      "priority": 9.45338
+    },
+    {
+      "base": 1,
+      "start": 24,
+      "end": 28,
+      "nodes": [
+        31,
+        37,
+        20,
+        13,
+        22
+      ],
+      "special_budget": 1,
+      "available_days": 37.26688,
+      "priority": 9.45338
+    },
+    {
+      "base": 0,
+      "start": 22,
+      "end": 26,
+      "nodes": [
+        47,
+        36,
+        31,
+        37,
+        20
+      ],
+      "special_budget": 1,
+      "available_days": 36.90608,
+      "priority": 9.38122
+    },
+    {
+      "base": 1,
+      "start": 22,
+      "end": 26,
+      "nodes": [
+        47,
+        36,
+        31,
+        37,
+        20
+      ],
+      "special_budget": 1,
+      "available_days": 36.90608,
+      "priority": 9.38122
+    },
+    {
+      "base": 0,
+      "start": 18,
+      "end": 22,
+      "nodes": [
+        9,
+        40,
+        44,
+        5,
+        47
+      ],
+      "special_budget": 1,
+      "available_days": 35.0,
+      "priority": 9.0
+    },
+    {
+      "base": 1,
+      "start": 18,
+      "end": 22,
+      "nodes": [
+        9,
+        40,
+        44,
+        5,
+        47
+      ],
+      "special_budget": 1,
+      "available_days": 35.0,
+      "priority": 9.0
+    },
+    {
+      "base": 0,
+      "start": 23,
+      "end": 28,
+      "nodes": [
+        36,
+        31,
+        37,
+        20,
+        13,
+        22
+      ],
+      "special_budget": 1,
+      "available_days": 38.76688,
+      "priority": 8.96115
+    },
+    {
+      "base": 1,
+      "start": 23,
+      "end": 28,
+      "nodes": [
+        36,
+        31,
+        37,
+        20,
+        13,
+        22
+      ],
+      "special_budget": 1,
+      "available_days": 38.76688,
+      "priority": 8.96115
+    },
+    {
+      "base": 0,
+      "start": 24,
+      "end": 30,
+      "nodes": [
+        31,
+        37,
+        20,
+        13,
+        22,
+        25,
+        2
+      ],
+      "special_budget": 1,
+      "available_days": 44.26688,
+      "priority": 8.82384
+    },
+    {
+      "base": 1,
+      "start": 24,
+      "end": 30,
+      "nodes": [
+        31,
+        37,
+        20,
+        13,
+        22,
+        25,
+        2
+      ],
+      "special_budget": 1,
+      "available_days": 44.26688,
+      "priority": 8.82384
+    },
+    {
+      "base": 0,
+      "start": 24,
+      "end": 27,
+      "nodes": [
+        31,
+        37,
+        20,
+        13
+      ],
+      "special_budget": 1,
+      "available_days": 27.26688,
+      "priority": 8.81672
+    },
+    {
+      "base": 1,
+      "start": 24,
+      "end": 27,
+      "nodes": [
+        31,
+        37,
+        20,
+        13
+      ],
+      "special_budget": 1,
+      "available_days": 27.26688,
+      "priority": 8.81672
+    },
+    {
+      "base": 0,
+      "start": 23,
+      "end": 29,
+      "nodes": [
+        36,
+        31,
+        37,
+        20,
+        13,
+        22,
+        25
+      ],
+      "special_budget": 1,
+      "available_days": 43.76688,
+      "priority": 8.75241
+    },
+    {
+      "base": 1,
+      "start": 23,
+      "end": 29,
+      "nodes": [
+        36,
+        31,
+        37,
+        20,
+        13,
+        22,
+        25
+      ],
+      "special_budget": 1,
+      "available_days": 43.76688,
+      "priority": 8.75241
+    },
+    {
+      "base": 0,
+      "start": 15,
+      "end": 21,
+      "nodes": [
+        1,
+        45,
+        48,
+        9,
+        40,
+        44,
+        5
+      ],
+      "special_budget": 1,
+      "available_days": 40.25,
+      "priority": 8.25
+    },
+    {
+      "base": 1,
+      "start": 15,
+      "end": 21,
+      "nodes": [
+        1,
+        45,
+        48,
+        9,
+        40,
+        44,
+        5
+      ],
+      "special_budget": 1,
+      "available_days": 40.25,
+      "priority": 8.25
+    },
+    {
+      "base": 0,
+      "start": 23,
+      "end": 30,
+      "nodes": [
+        36,
+        31,
+        37,
+        20,
+        13,
+        22,
+        25,
+        2
+      ],
+      "special_budget": 1,
+      "available_days": 45.76688,
+      "priority": 8.22086
+    },
+    {
+      "base": 0,
+      "start": 24,
+      "end": 31,
+      "nodes": [
+        31,
+        37,
+        20,
+        13,
+        22,
+        25,
+        2,
+        41
+      ],
+      "special_budget": 1,
+      "available_days": 45.76688,
+      "priority": 8.22086
+    },
+    {
+      "base": 1,
+      "start": 23,
+      "end": 30,
+      "nodes": [
+        36,
+        31,
+        37,
+        20,
+        13,
+        22,
+        25,
+        2
+      ],
+      "special_budget": 1,
+      "available_days": 45.76688,
+      "priority": 8.22086
+    },
+    {
+      "base": 1,
+      "start": 24,
+      "end": 31,
+      "nodes": [
+        31,
+        37,
+        20,
+        13,
+        22,
+        25,
+        2,
+        41
+      ],
+      "special_budget": 1,
+      "available_days": 45.76688,
+      "priority": 8.22086
+    },
+    {
+      "base": 0,
+      "start": 32,
+      "end": 37,
+      "nodes": [
+        46,
+        10,
+        12,
+        18,
+        23,
+        34
+      ],
+      "special_budget": 1,
+      "available_days": 34.23312,
+      "priority": 8.20552
+    },
+    {
+      "base": 1,
+      "start": 32,
+      "end": 37,
+      "nodes": [
+        46,
+        10,
+        12,
+        18,
+        23,
+        34
+      ],
+      "special_budget": 1,
+      "available_days": 34.23312,
+      "priority": 8.20552
+    },
+    {
+      "base": 0,
+      "start": 16,
+      "end": 21,
+      "nodes": [
+        45,
+        48,
+        9,
+        40,
+        44,
+        5
+      ],
+      "special_budget": 1,
+      "available_days": 33.25,
+      "priority": 8.04167
+    },
+    {
+      "base": 1,
+      "start": 16,
+      "end": 21,
+      "nodes": [
+        45,
+        48,
+        9,
+        40,
+        44,
+        5
+      ],
+      "special_budget": 1,
+      "available_days": 33.25,
+      "priority": 8.04167
+    },
+    {
+      "base": 0,
+      "start": 17,
+      "end": 21,
+      "nodes": [
+        48,
+        9,
+        40,
+        44,
+        5
+      ],
+      "special_budget": 1,
+      "available_days": 30.0,
+      "priority": 8.0
+    },
+    {
+      "base": 1,
+      "start": 17,
+      "end": 21,
+      "nodes": [
+        48,
+        9,
+        40,
+        44,
+        5
+      ],
+      "special_budget": 1,
+      "available_days": 30.0,
+      "priority": 8.0
+    },
+    {
+      "base": 0,
+      "start": 23,
+      "end": 26,
+      "nodes": [
+        36,
+        31,
+        37,
+        20
+      ],
+      "special_budget": 1,
+      "available_days": 23.90608,
+      "priority": 7.97652
+    },
+    {
+      "base": 1,
+      "start": 23,
+      "end": 26,
+      "nodes": [
+        36,
+        31,
+        37,
+        20
+      ],
+      "special_budget": 1,
+      "available_days": 23.90608,
+      "priority": 7.97652
+    },
+    {
+      "base": 0,
+      "start": 25,
+      "end": 28,
+      "nodes": [
+        37,
+        20,
+        13,
+        22
+      ],
+      "special_budget": 1,
+      "available_days": 23.89307,
+      "priority": 7.97327
+    },
+    {
+      "base": 1,
+      "start": 25,
+      "end": 28,
+      "nodes": [
+        37,
+        20,
+        13,
+        22
+      ],
+      "special_budget": 1,
+      "available_days": 23.89307,
+      "priority": 7.97327
+    },
+    {
+      "base": 0,
+      "start": 34,
+      "end": 37,
+      "nodes": [
+        12,
+        18,
+        23,
+        34
+      ],
+      "special_budget": 1,
+      "available_days": 23.23312,
+      "priority": 7.80828
+    },
+    {
+      "base": 1,
+      "start": 34,
+      "end": 37,
+      "nodes": [
+        12,
+        18,
+        23,
+        34
+      ],
+      "special_budget": 1,
+      "available_days": 23.23312,
+      "priority": 7.80828
+    },
+    {
+      "base": 0,
+      "start": 25,
+      "end": 29,
+      "nodes": [
+        37,
+        20,
+        13,
+        22,
+        25
+      ],
+      "special_budget": 1,
+      "available_days": 28.89307,
+      "priority": 7.77861
+    },
+    {
+      "base": 1,
+      "start": 25,
+      "end": 29,
+      "nodes": [
+        37,
+        20,
+        13,
+        22,
+        25
+      ],
+      "special_budget": 1,
+      "available_days": 28.89307,
+      "priority": 7.77861
+    },
+    {
+      "base": 0,
+      "start": 23,
+      "end": 27,
+      "nodes": [
+        36,
+        31,
+        37,
+        20,
+        13
+      ],
+      "special_budget": 1,
+      "available_days": 28.76688,
+      "priority": 7.75338
+    },
+    {
+      "base": 1,
+      "start": 23,
+      "end": 27,
+      "nodes": [
+        36,
+        31,
+        37,
+        20,
+        13
+      ],
+      "special_budget": 1,
+      "available_days": 28.76688,
+      "priority": 7.75338
+    },
+    {
+      "base": 0,
+      "start": 14,
+      "end": 21,
+      "nodes": [
+        28,
+        1,
+        45,
+        48,
+        9,
+        40,
+        44,
+        5
+      ],
+      "special_budget": 1,
+      "available_days": 41.75,
+      "priority": 7.71875
+    },
+    {
+      "base": 1,
+      "start": 14,
+      "end": 21,
+      "nodes": [
+        28,
+        1,
+        45,
+        48,
+        9,
+        40,
+        44,
+        5
+      ],
+      "special_budget": 1,
+      "available_days": 41.75,
+      "priority": 7.71875
+    },
+    {
+      "base": 0,
+      "start": 15,
+      "end": 20,
+      "nodes": [
+        1,
+        45,
+        48,
+        9,
+        40,
+        44
+      ],
+      "special_budget": 1,
+      "available_days": 31.25,
+      "priority": 7.70833
+    },
+    {
+      "base": 1,
+      "start": 15,
+      "end": 20,
+      "nodes": [
+        1,
+        45,
+        48,
+        9,
+        40,
+        44
+      ],
+      "special_budget": 1,
+      "available_days": 31.25,
+      "priority": 7.70833
+    },
+    {
+      "base": 0,
+      "start": 31,
+      "end": 37,
+      "nodes": [
+        41,
+        46,
+        10,
+        12,
+        18,
+        23,
+        34
+      ],
+      "special_budget": 1,
+      "available_days": 36.23312,
+      "priority": 7.67616
+    },
+    {
+      "base": 1,
+      "start": 31,
+      "end": 37,
+      "nodes": [
+        41,
+        46,
+        10,
+        12,
+        18,
+        23,
+        34
+      ],
+      "special_budget": 1,
+      "available_days": 36.23312,
+      "priority": 7.67616
+    },
+    {
+      "base": 0,
+      "start": 25,
+      "end": 30,
+      "nodes": [
+        37,
+        20,
+        13,
+        22,
+        25,
+        2
+      ],
+      "special_budget": 1,
+      "available_days": 30.89307,
+      "priority": 7.64885
+    },
+    {
+      "base": 1,
+      "start": 25,
+      "end": 30,
+      "nodes": [
+        37,
+        20,
+        13,
+        22,
+        25,
+        2
+      ],
+      "special_budget": 1,
+      "available_days": 30.89307,
+      "priority": 7.64885
+    },
+    {
+      "base": 0,
+      "start": 17,
+      "end": 20,
+      "nodes": [
+        48,
+        9,
+        40,
+        44
+      ],
+      "special_budget": 1,
+      "available_days": 21.0,
+      "priority": 7.25
+    },
+    {
+      "base": 0,
+      "start": 15,
+      "end": 19,
+      "nodes": [
+        1,
+        45,
+        48,
+        9,
+        40
+      ],
+      "special_budget": 1,
+      "available_days": 26.25,
+      "priority": 7.25
+    },
+    {
+      "base": 1,
+      "start": 17,
+      "end": 20,
+      "nodes": [
+        48,
+        9,
+        40,
+        44
+      ],
+      "special_budget": 1,
+      "available_days": 21.0,
+      "priority": 7.25
+    },
+    {
+      "base": 1,
+      "start": 15,
+      "end": 19,
+      "nodes": [
+        1,
+        45,
+        48,
+        9,
+        40
+      ],
+      "special_budget": 1,
+      "available_days": 26.25,
+      "priority": 7.25
+    },
+    {
+      "base": 0,
+      "start": 33,
+      "end": 37,
+      "nodes": [
+        10,
+        12,
+        18,
+        23,
+        34
+      ],
+      "special_budget": 1,
+      "available_days": 26.23312,
+      "priority": 7.24662
+    },
+    {
+      "base": 1,
+      "start": 33,
+      "end": 37,
+      "nodes": [
+        10,
+        12,
+        18,
+        23,
+        34
+      ],
+      "special_budget": 1,
+      "available_days": 26.23312,
+      "priority": 7.24662
+    },
+    {
+      "base": 0,
+      "start": 30,
+      "end": 37,
+      "nodes": [
+        2,
+        41,
+        46,
+        10,
+        12,
+        18,
+        23,
+        34
+      ],
+      "special_budget": 1,
+      "available_days": 37.73312,
+      "priority": 7.21664
+    },
+    {
+      "base": 1,
+      "start": 30,
+      "end": 37,
+      "nodes": [
+        2,
+        41,
+        46,
+        10,
+        12,
+        18,
+        23,
+        34
+      ],
+      "special_budget": 1,
+      "available_days": 37.73312,
+      "priority": 7.21664
+    },
+    {
+      "base": 0,
+      "start": 14,
+      "end": 20,
+      "nodes": [
+        28,
+        1,
+        45,
+        48,
+        9,
+        40,
+        44
+      ],
+      "special_budget": 1,
+      "available_days": 32.75,
+      "priority": 7.17857
+    },
+    {
+      "base": 1,
+      "start": 14,
+      "end": 20,
+      "nodes": [
+        28,
+        1,
+        45,
+        48,
+        9,
+        40,
+        44
+      ],
+      "special_budget": 1,
+      "available_days": 32.75,
+      "priority": 7.17857
+    },
+    {
+      "base": 0,
+      "start": 25,
+      "end": 31,
+      "nodes": [
+        37,
+        20,
+        13,
+        22,
+        25,
+        2,
+        41
+      ],
+      "special_budget": 1,
+      "available_days": 32.39307,
+      "priority": 7.12758
+    },
+    {
+      "base": 1,
+      "start": 25,
+      "end": 31,
+      "nodes": [
+        37,
+        20,
+        13,
+        22,
+        25,
+        2,
+        41
+      ],
+      "special_budget": 1,
+      "available_days": 32.39307,
+      "priority": 7.12758
+    },
+    {
+      "base": 0,
+      "start": 14,
+      "end": 19,
+      "nodes": [
+        28,
+        1,
+        45,
+        48,
+        9,
+        40
+      ],
+      "special_budget": 1,
+      "available_days": 27.75,
+      "priority": 7.125
+    },
+    {
+      "base": 1,
+      "start": 14,
+      "end": 19,
+      "nodes": [
+        28,
+        1,
+        45,
+        48,
+        9,
+        40
+      ],
+      "special_budget": 1,
+      "available_days": 27.75,
+      "priority": 7.125
+    },
+    {
+      "base": 0,
+      "start": 12,
+      "end": 19,
+      "nodes": [
+        29,
+        15,
+        28,
+        1,
+        45,
+        48,
+        9,
+        40
+      ],
+      "special_budget": 1,
+      "available_days": 36.25,
+      "priority": 7.03125
+    },
+    {
+      "base": 1,
+      "start": 12,
+      "end": 19,
+      "nodes": [
+        29,
+        15,
+        28,
+        1,
+        45,
+        48,
+        9,
+        40
+      ],
+      "special_budget": 1,
+      "available_days": 36.25,
+      "priority": 7.03125
+    },
+    {
+      "base": 0,
+      "start": 16,
+      "end": 20,
+      "nodes": [
+        45,
+        48,
+        9,
+        40,
+        44
+      ],
+      "special_budget": 1,
+      "available_days": 24.25,
+      "priority": 6.85
+    },
+    {
+      "base": 1,
+      "start": 16,
+      "end": 20,
+      "nodes": [
+        45,
+        48,
+        9,
+        40,
+        44
+      ],
+      "special_budget": 1,
+      "available_days": 24.25,
+      "priority": 6.85
+    },
+    {
+      "base": 0,
+      "start": 16,
+      "end": 19,
+      "nodes": [
+        45,
+        48,
+        9,
+        40
+      ],
+      "special_budget": 1,
+      "available_days": 19.25,
+      "priority": 6.8125
+    },
+    {
+      "base": 1,
+      "start": 16,
+      "end": 19,
+      "nodes": [
+        45,
+        48,
+        9,
+        40
+      ],
+      "special_budget": 1,
+      "available_days": 19.25,
+      "priority": 6.8125
+    },
+    {
+      "base": 0,
+      "start": 25,
+      "end": 32,
+      "nodes": [
+        37,
+        20,
+        13,
+        22,
+        25,
+        2,
+        41,
+        46
+      ],
+      "special_budget": 1,
+      "available_days": 34.39307,
+      "priority": 6.79913
+    },
+    {
+      "base": 1,
+      "start": 25,
+      "end": 32,
+      "nodes": [
+        37,
+        20,
+        13,
+        22,
+        25,
+        2,
+        41,
+        46
+      ],
+      "special_budget": 1,
+      "available_days": 34.39307,
+      "priority": 6.79913
+    },
+    {
+      "base": 0,
+      "start": 13,
+      "end": 20,
+      "nodes": [
+        15,
+        28,
+        1,
+        45,
+        48,
+        9,
+        40,
+        44
+      ],
+      "special_budget": 1,
+      "available_days": 34.25,
+      "priority": 6.78125
+    },
+    {
+      "base": 1,
+      "start": 13,
+      "end": 20,
+      "nodes": [
+        15,
+        28,
+        1,
+        45,
+        48,
+        9,
+        40,
+        44
+      ],
+      "special_budget": 1,
+      "available_days": 34.25,
+      "priority": 6.78125
+    },
+    {
+      "base": 0,
+      "start": 13,
+      "end": 19,
+      "nodes": [
+        15,
+        28,
+        1,
+        45,
+        48,
+        9,
+        40
+      ],
+      "special_budget": 1,
+      "available_days": 29.25,
+      "priority": 6.67857
+    },
+    {
+      "base": 1,
+      "start": 13,
+      "end": 19,
+      "nodes": [
+        15,
+        28,
+        1,
+        45,
+        48,
+        9,
+        40
+      ],
+      "special_budget": 1,
+      "available_days": 29.25,
+      "priority": 6.67857
+    },
+    {
+      "base": 0,
+      "start": 2,
+      "end": 9,
+      "nodes": [
+        8,
+        14,
+        42,
+        33,
+        3,
+        7,
+        21,
+        43
+      ],
+      "special_budget": 2,
+      "available_days": 17.0,
+      "priority": 6.625
+    },
+    {
+      "base": 1,
+      "start": 2,
+      "end": 9,
+      "nodes": [
+        8,
+        38,
+        42,
+        33,
+        3,
+        7,
+        21,
+        43
+      ],
+      "special_budget": 2,
+      "available_days": 17.0,
+      "priority": 6.625
+    },
+    {
+      "base": 0,
+      "start": 7,
+      "end": 13,
+      "nodes": [
+        7,
+        21,
+        43,
+        19,
+        30,
+        29,
+        15
+      ],
+      "special_budget": 1,
+      "available_days": 28.0,
+      "priority": 6.5
+    },
+    {
+      "base": 1,
+      "start": 7,
+      "end": 13,
+      "nodes": [
+        7,
+        21,
+        43,
+        19,
+        30,
+        29,
+        15
+      ],
+      "special_budget": 1,
+      "available_days": 28.0,
+      "priority": 6.5
+    },
+    {
+      "base": 0,
+      "start": 7,
+      "end": 12,
+      "nodes": [
+        7,
+        21,
+        43,
+        19,
+        30,
+        29
+      ],
+      "special_budget": 1,
+      "available_days": 23.0,
+      "priority": 6.33333
+    },
+    {
+      "base": 1,
+      "start": 7,
+      "end": 12,
+      "nodes": [
+        7,
+        21,
+        43,
+        19,
+        30,
+        29
+      ],
+      "special_budget": 1,
+      "available_days": 23.0,
+      "priority": 6.33333
+    },
+    {
+      "base": 1,
+      "start": 3,
+      "end": 9,
+      "nodes": [
+        38,
+        42,
+        33,
+        3,
+        7,
+        21,
+        43
+      ],
+      "special_budget": 2,
+      "available_days": 12.75,
+      "priority": 6.32143
+    },
+    {
+      "base": 1,
+      "start": 3,
+      "end": 10,
+      "nodes": [
+        38,
+        42,
+        33,
+        3,
+        7,
+        21,
+        43,
+        19
+      ],
+      "special_budget": 2,
+      "available_days": 14.5,
+      "priority": 6.3125
+    },
+    {
+      "base": 0,
+      "start": 8,
+      "end": 13,
+      "nodes": [
+        21,
+        43,
+        19,
+        30,
+        29,
+        15
+      ],
+      "special_budget": 1,
+      "available_days": 22.75,
+      "priority": 6.29167
+    },
+    {
+      "base": 1,
+      "start": 8,
+      "end": 13,
+      "nodes": [
+        21,
+        43,
+        19,
+        30,
+        29,
+        15
+      ],
+      "special_budget": 1,
+      "available_days": 22.75,
+      "priority": 6.29167
+    },
+    {
+      "base": 0,
+      "start": 18,
+      "end": 21,
+      "nodes": [
+        9,
+        40,
+        44,
+        5
+      ],
+      "special_budget": 1,
+      "available_days": 17.0,
+      "priority": 6.25
+    },
+    {
+      "base": 1,
+      "start": 18,
+      "end": 21,
+      "nodes": [
+        9,
+        40,
+        44,
+        5
+      ],
+      "special_budget": 1,
+      "available_days": 17.0,
+      "priority": 6.25
+    },
+    {
+      "base": 0,
+      "start": 6,
+      "end": 13,
+      "nodes": [
+        3,
+        7,
+        21,
+        43,
+        19,
+        30,
+        29,
+        15
+      ],
+      "special_budget": 1,
+      "available_days": 29.75,
+      "priority": 6.21875
+    },
+    {
+      "base": 1,
+      "start": 6,
+      "end": 13,
+      "nodes": [
+        3,
+        7,
+        21,
+        43,
+        19,
+        30,
+        29,
+        15
+      ],
+      "special_budget": 1,
+      "available_days": 29.75,
+      "priority": 6.21875
+    },
+    {
+      "base": 0,
+      "start": 7,
+      "end": 14,
+      "nodes": [
+        7,
+        21,
+        43,
+        19,
+        30,
+        29,
+        15,
+        28
+      ],
+      "special_budget": 1,
+      "available_days": 29.5,
+      "priority": 6.1875
+    },
+    {
+      "base": 1,
+      "start": 7,
+      "end": 14,
+      "nodes": [
+        7,
+        21,
+        43,
+        19,
+        30,
+        29,
+        15,
+        28
+      ],
+      "special_budget": 1,
+      "available_days": 29.5,
+      "priority": 6.1875
+    },
+    {
+      "base": 0,
+      "start": 6,
+      "end": 12,
+      "nodes": [
+        3,
+        7,
+        21,
+        43,
+        19,
+        30,
+        29
+      ],
+      "special_budget": 1,
+      "available_days": 24.75,
+      "priority": 6.03571
+    },
+    {
+      "base": 1,
+      "start": 6,
+      "end": 12,
+      "nodes": [
+        3,
+        7,
+        21,
+        43,
+        19,
+        30,
+        29
+      ],
+      "special_budget": 1,
+      "available_days": 24.75,
+      "priority": 6.03571
+    },
+    {
+      "base": 0,
+      "start": 8,
+      "end": 14,
+      "nodes": [
+        21,
+        43,
+        19,
+        30,
+        29,
+        15,
+        28
+      ],
+      "special_budget": 1,
+      "available_days": 24.25,
+      "priority": 5.96429
+    },
+    {
+      "base": 1,
+      "start": 8,
+      "end": 14,
+      "nodes": [
+        21,
+        43,
+        19,
+        30,
+        29,
+        15,
+        28
+      ],
+      "special_budget": 1,
+      "available_days": 24.25,
+      "priority": 5.96429
+    },
+    {
+      "base": 0,
+      "start": 6,
+      "end": 11,
+      "nodes": [
+        3,
+        7,
+        21,
+        43,
+        19,
+        30
+      ],
+      "special_budget": 1,
+      "available_days": 20.75,
+      "priority": 5.95833
+    },
+    {
+      "base": 1,
+      "start": 6,
+      "end": 11,
+      "nodes": [
+        3,
+        7,
+        21,
+        43,
+        19,
+        30
+      ],
+      "special_budget": 1,
+      "available_days": 20.75,
+      "priority": 5.95833
+    },
+    {
+      "base": 0,
+      "start": 5,
+      "end": 12,
+      "nodes": [
+        33,
+        3,
+        7,
+        21,
+        43,
+        19,
+        30,
+        29
+      ],
+      "special_budget": 1,
+      "available_days": 26.75,
+      "priority": 5.84375
+    },
+    {
+      "base": 1,
+      "start": 5,
+      "end": 12,
+      "nodes": [
+        33,
+        3,
+        7,
+        21,
+        43,
+        19,
+        30,
+        29
+      ],
+      "special_budget": 1,
+      "available_days": 26.75,
+      "priority": 5.84375
+    },
+    {
+      "base": 0,
+      "start": 7,
+      "end": 11,
+      "nodes": [
+        7,
+        21,
+        43,
+        19,
+        30
+      ],
+      "special_budget": 1,
+      "available_days": 19.0,
+      "priority": 5.8
+    },
+    {
+      "base": 1,
+      "start": 7,
+      "end": 11,
+      "nodes": [
+        7,
+        21,
+        43,
+        19,
+        30
+      ],
+      "special_budget": 1,
+      "available_days": 19.0,
+      "priority": 5.8
+    },
+    {
+      "base": 0,
+      "start": 5,
+      "end": 11,
+      "nodes": [
+        33,
+        3,
+        7,
+        21,
+        43,
+        19,
+        30
+      ],
+      "special_budget": 1,
+      "available_days": 22.75,
+      "priority": 5.75
+    },
+    {
+      "base": 1,
+      "start": 5,
+      "end": 11,
+      "nodes": [
+        33,
+        3,
+        7,
+        21,
+        43,
+        19,
+        30
+      ],
+      "special_budget": 1,
+      "available_days": 22.75,
+      "priority": 5.75
+    },
+    {
+      "base": 0,
+      "start": 8,
+      "end": 15,
+      "nodes": [
+        21,
+        43,
+        19,
+        30,
+        29,
+        15,
+        28,
+        1
+      ],
+      "special_budget": 1,
+      "available_days": 25.75,
+      "priority": 5.71875
+    },
+    {
+      "base": 1,
+      "start": 8,
+      "end": 15,
+      "nodes": [
+        21,
+        43,
+        19,
+        30,
+        29,
+        15,
+        28,
+        1
+      ],
+      "special_budget": 1,
+      "available_days": 25.75,
+      "priority": 5.71875
+    },
+    {
+      "base": 0,
+      "start": 28,
+      "end": 35,
+      "nodes": [
+        22,
+        25,
+        2,
+        41,
+        46,
+        10,
+        12,
+        18
+      ],
+      "special_budget": 1,
+      "available_days": 25.0,
+      "priority": 5.625
+    },
+    {
+      "base": 1,
+      "start": 28,
+      "end": 35,
+      "nodes": [
+        22,
+        25,
+        2,
+        41,
+        46,
+        10,
+        12,
+        18
+      ],
+      "special_budget": 1,
+      "available_days": 25.0,
+      "priority": 5.625
+    },
+    {
+      "base": 0,
+      "start": 4,
+      "end": 11,
+      "nodes": [
+        42,
+        33,
+        3,
+        7,
+        21,
+        43,
+        19,
+        30
+      ],
+      "special_budget": 1,
+      "available_days": 24.75,
+      "priority": 5.59375
+    },
+    {
+      "base": 1,
+      "start": 4,
+      "end": 11,
+      "nodes": [
+        42,
+        33,
+        3,
+        7,
+        21,
+        43,
+        19,
+        30
+      ],
+      "special_budget": 1,
+      "available_days": 24.75,
+      "priority": 5.59375
+    },
+    {
+      "base": 0,
+      "start": 8,
+      "end": 12,
+      "nodes": [
+        21,
+        43,
+        19,
+        30,
+        29
+      ],
+      "special_budget": 1,
+      "available_days": 17.75,
+      "priority": 5.55
+    },
+    {
+      "base": 1,
+      "start": 8,
+      "end": 12,
+      "nodes": [
+        21,
+        43,
+        19,
+        30,
+        29
+      ],
+      "special_budget": 1,
+      "available_days": 17.75,
+      "priority": 5.55
+    },
+    {
+      "base": 0,
+      "start": 8,
+      "end": 11,
+      "nodes": [
+        21,
+        43,
+        19,
+        30
+      ],
+      "special_budget": 1,
+      "available_days": 13.75,
+      "priority": 5.4375
+    },
+    {
+      "base": 1,
+      "start": 8,
+      "end": 11,
+      "nodes": [
+        21,
+        43,
+        19,
+        30
+      ],
+      "special_budget": 1,
+      "available_days": 13.75,
+      "priority": 5.4375
+    },
+    {
+      "base": 0,
+      "start": 31,
+      "end": 36,
+      "nodes": [
+        41,
+        46,
+        10,
+        12,
+        18,
+        23
+      ],
+      "special_budget": 1,
+      "available_days": 16.25,
+      "priority": 5.20833
+    },
+    {
+      "base": 1,
+      "start": 31,
+      "end": 36,
+      "nodes": [
+        41,
+        46,
+        10,
+        12,
+        18,
+        23
+      ],
+      "special_budget": 1,
+      "available_days": 16.25,
+      "priority": 5.20833
+    },
+    {
+      "base": 0,
+      "start": 30,
+      "end": 35,
+      "nodes": [
+        2,
+        41,
+        46,
+        10,
+        12,
+        18
+      ],
+      "special_budget": 1,
+      "available_days": 16.0,
+      "priority": 5.16667
+    },
+    {
+      "base": 1,
+      "start": 30,
+      "end": 35,
+      "nodes": [
+        2,
+        41,
+        46,
+        10,
+        12,
+        18
+      ],
+      "special_budget": 1,
+      "available_days": 16.0,
+      "priority": 5.16667
+    },
+    {
+      "base": 0,
+      "start": 32,
+      "end": 35,
+      "nodes": [
+        46,
+        10,
+        12,
+        18
+      ],
+      "special_budget": 1,
+      "available_days": 12.5,
+      "priority": 5.125
+    },
+    {
+      "base": 1,
+      "start": 32,
+      "end": 35,
+      "nodes": [
+        46,
+        10,
+        12,
+        18
+      ],
+      "special_budget": 1,
+      "available_days": 12.5,
+      "priority": 5.125
+    },
+    {
+      "base": 0,
+      "start": 29,
+      "end": 35,
+      "nodes": [
+        25,
+        2,
+        41,
+        46,
+        10,
+        12,
+        18
+      ],
+      "special_budget": 1,
+      "available_days": 18.0,
+      "priority": 5.07143
+    },
+    {
+      "base": 1,
+      "start": 29,
+      "end": 35,
+      "nodes": [
+        25,
+        2,
+        41,
+        46,
+        10,
+        12,
+        18
+      ],
+      "special_budget": 1,
+      "available_days": 18.0,
+      "priority": 5.07143
+    },
+    {
+      "base": 0,
+      "start": 30,
+      "end": 36,
+      "nodes": [
+        2,
+        41,
+        46,
+        10,
+        12,
+        18,
+        23
+      ],
+      "special_budget": 1,
+      "available_days": 17.75,
+      "priority": 5.03571
+    },
+    {
+      "base": 1,
+      "start": 30,
+      "end": 36,
+      "nodes": [
+        2,
+        41,
+        46,
+        10,
+        12,
+        18,
+        23
+      ],
+      "special_budget": 1,
+      "available_days": 17.75,
+      "priority": 5.03571
+    },
+    {
+      "base": 0,
+      "start": 29,
+      "end": 36,
+      "nodes": [
+        25,
+        2,
+        41,
+        46,
+        10,
+        12,
+        18,
+        23
+      ],
+      "special_budget": 1,
+      "available_days": 19.75,
+      "priority": 4.96875
+    },
+    {
+      "base": 1,
+      "start": 29,
+      "end": 36,
+      "nodes": [
+        25,
+        2,
+        41,
+        46,
+        10,
+        12,
+        18,
+        23
+      ],
+      "special_budget": 1,
+      "available_days": 19.75,
+      "priority": 4.96875
+    },
+    {
+      "base": 0,
+      "start": 31,
+      "end": 35,
+      "nodes": [
+        41,
+        46,
+        10,
+        12,
+        18
+      ],
+      "special_budget": 1,
+      "available_days": 14.5,
+      "priority": 4.9
+    },
+    {
+      "base": 1,
+      "start": 31,
+      "end": 35,
+      "nodes": [
+        41,
+        46,
+        10,
+        12,
+        18
+      ],
+      "special_budget": 1,
+      "available_days": 14.5,
+      "priority": 4.9
+    },
+    {
+      "base": 0,
+      "start": 3,
+      "end": 9,
+      "nodes": [
+        14,
+        42,
+        33,
+        3,
+        7,
+        21,
+        43
+      ],
+      "special_budget": 1,
+      "available_days": 16.5,
+      "priority": 4.85714
+    },
+    {
+      "base": 0,
+      "start": 32,
+      "end": 36,
+      "nodes": [
+        46,
+        10,
+        12,
+        18,
+        23
+      ],
+      "special_budget": 1,
+      "available_days": 14.25,
+      "priority": 4.85
+    },
+    {
+      "base": 1,
+      "start": 32,
+      "end": 36,
+      "nodes": [
+        46,
+        10,
+        12,
+        18,
+        23
+      ],
+      "special_budget": 1,
+      "available_days": 14.25,
+      "priority": 4.85
+    },
+    {
+      "base": 0,
+      "start": 3,
+      "end": 10,
+      "nodes": [
+        14,
+        42,
+        33,
+        3,
+        7,
+        21,
+        43,
+        19
+      ],
+      "special_budget": 1,
+      "available_days": 18.25,
+      "priority": 4.78125
+    },
+    {
+      "base": 0,
+      "start": 2,
+      "end": 8,
+      "nodes": [
+        8,
+        14,
+        42,
+        33,
+        3,
+        7,
+        21
+      ],
+      "special_budget": 1,
+      "available_days": 15.5,
+      "priority": 4.71429
+    },
+    {
+      "base": 1,
+      "start": 2,
+      "end": 8,
+      "nodes": [
+        8,
+        38,
+        42,
+        33,
+        3,
+        7,
+        21
+      ],
+      "special_budget": 1,
+      "available_days": 15.5,
+      "priority": 4.71429
+    },
+    {
+      "base": 0,
+      "start": 1,
+      "end": 8,
+      "nodes": [
+        39,
+        8,
+        14,
+        42,
+        33,
+        3,
+        7,
+        21
+      ],
+      "special_budget": 1,
+      "available_days": 17.5,
+      "priority": 4.6875
+    },
+    {
+      "base": 1,
+      "start": 1,
+      "end": 8,
+      "nodes": [
+        39,
+        8,
+        38,
+        42,
+        33,
+        3,
+        7,
+        21
+      ],
+      "special_budget": 1,
+      "available_days": 17.5,
+      "priority": 4.6875
+    },
+    {
+      "base": 0,
+      "start": 4,
+      "end": 9,
+      "nodes": [
+        42,
+        33,
+        3,
+        7,
+        21,
+        43
+      ],
+      "special_budget": 1,
+      "available_days": 12.5,
+      "priority": 4.58333
+    },
+    {
+      "base": 1,
+      "start": 4,
+      "end": 9,
+      "nodes": [
+        42,
+        33,
+        3,
+        7,
+        21,
+        43
+      ],
+      "special_budget": 1,
+      "available_days": 12.5,
+      "priority": 4.58333
+    },
+    {
+      "base": 0,
+      "start": 5,
+      "end": 10,
+      "nodes": [
+        33,
+        3,
+        7,
+        21,
+        43,
+        19
+      ],
+      "special_budget": 1,
+      "available_days": 12.25,
+      "priority": 4.54167
+    },
+    {
+      "base": 1,
+      "start": 5,
+      "end": 10,
+      "nodes": [
+        33,
+        3,
+        7,
+        21,
+        43,
+        19
+      ],
+      "special_budget": 1,
+      "available_days": 12.25,
+      "priority": 4.54167
+    },
+    {
+      "base": 0,
+      "start": 4,
+      "end": 10,
+      "nodes": [
+        42,
+        33,
+        3,
+        7,
+        21,
+        43,
+        19
+      ],
+      "special_budget": 1,
+      "available_days": 14.25,
+      "priority": 4.53571
+    },
+    {
+      "base": 1,
+      "start": 4,
+      "end": 10,
+      "nodes": [
+        42,
+        33,
+        3,
+        7,
+        21,
+        43,
+        19
+      ],
+      "special_budget": 1,
+      "available_days": 14.25,
+      "priority": 4.53571
+    },
+    {
+      "base": 1,
+      "start": 3,
+      "end": 8,
+      "nodes": [
+        38,
+        42,
+        33,
+        3,
+        7,
+        21
+      ],
+      "special_budget": 1,
+      "available_days": 11.25,
+      "priority": 4.375
+    },
+    {
+      "base": 0,
+      "start": 0,
+      "end": 6,
+      "nodes": [
+        0,
+        39,
+        8,
+        14,
+        42,
+        33,
+        3
+      ],
+      "special_budget": 1,
+      "available_days": 12.75,
+      "priority": 4.32143
+    },
+    {
+      "base": 1,
+      "start": 0,
+      "end": 6,
+      "nodes": [
+        0,
+        39,
+        8,
+        38,
+        42,
+        33,
+        3
+      ],
+      "special_budget": 1,
+      "available_days": 12.75,
+      "priority": 4.32143
+    },
+    {
+      "base": 0,
+      "start": 0,
+      "end": 7,
+      "nodes": [
+        0,
+        39,
+        8,
+        14,
+        42,
+        33,
+        3,
+        7
+      ],
+      "special_budget": 1,
+      "available_days": 14.5,
+      "priority": 4.3125
+    },
+    {
+      "base": 1,
+      "start": 0,
+      "end": 7,
+      "nodes": [
+        0,
+        39,
+        8,
+        38,
+        42,
+        33,
+        3,
+        7
+      ],
+      "special_budget": 1,
+      "available_days": 14.5,
+      "priority": 4.3125
+    },
+    {
+      "base": 0,
+      "start": 1,
+      "end": 6,
+      "nodes": [
+        39,
+        8,
+        14,
+        42,
+        33,
+        3
+      ],
+      "special_budget": 1,
+      "available_days": 10.75,
+      "priority": 4.29167
+    },
+    {
+      "base": 1,
+      "start": 1,
+      "end": 6,
+      "nodes": [
+        39,
+        8,
+        38,
+        42,
+        33,
+        3
+      ],
+      "special_budget": 1,
+      "available_days": 10.75,
+      "priority": 4.29167
+    },
+    {
+      "base": 0,
+      "start": 1,
+      "end": 7,
+      "nodes": [
+        39,
+        8,
+        14,
+        42,
+        33,
+        3,
+        7
+      ],
+      "special_budget": 1,
+      "available_days": 12.5,
+      "priority": 4.28571
+    },
+    {
+      "base": 1,
+      "start": 1,
+      "end": 7,
+      "nodes": [
+        39,
+        8,
+        38,
+        42,
+        33,
+        3,
+        7
+      ],
+      "special_budget": 1,
+      "available_days": 12.5,
+      "priority": 4.28571
+    },
+    {
+      "base": 0,
+      "start": 0,
+      "end": 5,
+      "nodes": [
+        0,
+        39,
+        8,
+        14,
+        42,
+        33
+      ],
+      "special_budget": 1,
+      "available_days": 10.5,
+      "priority": 4.25
+    },
+    {
+      "base": 0,
+      "start": 2,
+      "end": 7,
+      "nodes": [
+        8,
+        14,
+        42,
+        33,
+        3,
+        7
+      ],
+      "special_budget": 1,
+      "available_days": 10.5,
+      "priority": 4.25
+    },
+    {
+      "base": 1,
+      "start": 0,
+      "end": 5,
+      "nodes": [
+        0,
+        39,
+        8,
+        38,
+        42,
+        33
+      ],
+      "special_budget": 1,
+      "available_days": 10.5,
+      "priority": 4.25
+    },
+    {
+      "base": 1,
+      "start": 2,
+      "end": 7,
+      "nodes": [
+        8,
+        38,
+        42,
+        33,
+        3,
+        7
+      ],
+      "special_budget": 1,
+      "available_days": 10.5,
+      "priority": 4.25
+    },
+    {
+      "base": 0,
+      "start": 6,
+      "end": 9,
+      "nodes": [
+        3,
+        7,
+        21,
+        43
+      ],
+      "special_budget": 1,
+      "available_days": 8.5,
+      "priority": 4.125
+    },
+    {
+      "base": 0,
+      "start": 7,
+      "end": 10,
+      "nodes": [
+        7,
+        21,
+        43,
+        19
+      ],
+      "special_budget": 1,
+      "available_days": 8.5,
+      "priority": 4.125
+    },
+    {
+      "base": 1,
+      "start": 6,
+      "end": 9,
+      "nodes": [
+        3,
+        7,
+        21,
+        43
+      ],
+      "special_budget": 1,
+      "available_days": 8.5,
+      "priority": 4.125
+    },
+    {
+      "base": 1,
+      "start": 7,
+      "end": 10,
+      "nodes": [
+        7,
+        21,
+        43,
+        19
+      ],
+      "special_budget": 1,
+      "available_days": 8.5,
+      "priority": 4.125
+    },
+    {
+      "base": 0,
+      "start": 5,
+      "end": 9,
+      "nodes": [
+        33,
+        3,
+        7,
+        21,
+        43
+      ],
+      "special_budget": 1,
+      "available_days": 10.5,
+      "priority": 4.1
+    },
+    {
+      "base": 1,
+      "start": 5,
+      "end": 9,
+      "nodes": [
+        33,
+        3,
+        7,
+        21,
+        43
+      ],
+      "special_budget": 1,
+      "available_days": 10.5,
+      "priority": 4.1
+    },
+    {
+      "base": 0,
+      "start": 6,
+      "end": 10,
+      "nodes": [
+        3,
+        7,
+        21,
+        43,
+        19
+      ],
+      "special_budget": 1,
+      "available_days": 10.25,
+      "priority": 4.05
+    },
+    {
+      "base": 1,
+      "start": 6,
+      "end": 10,
+      "nodes": [
+        3,
+        7,
+        21,
+        43,
+        19
+      ],
+      "special_budget": 1,
+      "available_days": 10.25,
+      "priority": 4.05
+    },
+    {
+      "base": 0,
+      "start": 2,
+      "end": 6,
+      "nodes": [
+        8,
+        14,
+        42,
+        33,
+        3
+      ],
+      "special_budget": 1,
+      "available_days": 8.75,
+      "priority": 3.75
+    },
+    {
+      "base": 1,
+      "start": 2,
+      "end": 6,
+      "nodes": [
+        8,
+        38,
+        42,
+        33,
+        3
+      ],
+      "special_budget": 1,
+      "available_days": 8.75,
+      "priority": 3.75
+    },
+    {
+      "base": 0,
+      "start": 0,
+      "end": 4,
+      "nodes": [
+        0,
+        39,
+        8,
+        14,
+        42
+      ],
+      "special_budget": 1,
+      "available_days": 8.5,
+      "priority": 3.7
+    },
+    {
+      "base": 0,
+      "start": 1,
+      "end": 5,
+      "nodes": [
+        39,
+        8,
+        14,
+        42,
+        33
+      ],
+      "special_budget": 1,
+      "available_days": 8.5,
+      "priority": 3.7
+    },
+    {
+      "base": 1,
+      "start": 0,
+      "end": 4,
+      "nodes": [
+        0,
+        39,
+        8,
+        38,
+        42
+      ],
+      "special_budget": 1,
+      "available_days": 8.5,
+      "priority": 3.7
+    },
+    {
+      "base": 1,
+      "start": 1,
+      "end": 5,
+      "nodes": [
+        39,
+        8,
+        38,
+        42,
+        33
+      ],
+      "special_budget": 1,
+      "available_days": 8.5,
+      "priority": 3.7
+    },
+    {
+      "base": 0,
+      "start": 1,
+      "end": 4,
+      "nodes": [
+        39,
+        8,
+        14,
+        42
+      ],
+      "special_budget": 1,
+      "available_days": 6.5,
+      "priority": 3.625
+    },
+    {
+      "base": 0,
+      "start": 2,
+      "end": 5,
+      "nodes": [
+        8,
+        14,
+        42,
+        33
+      ],
+      "special_budget": 1,
+      "available_days": 6.5,
+      "priority": 3.625
+    },
+    {
+      "base": 1,
+      "start": 1,
+      "end": 4,
+      "nodes": [
+        39,
+        8,
+        38,
+        42
+      ],
+      "special_budget": 1,
+      "available_days": 6.5,
+      "priority": 3.625
+    },
+    {
+      "base": 1,
+      "start": 2,
+      "end": 5,
+      "nodes": [
+        8,
+        38,
+        42,
+        33
+      ],
+      "special_budget": 1,
+      "available_days": 6.5,
+      "priority": 3.625
+    },
+    {
+      "base": 0,
+      "start": 33,
+      "end": 36,
+      "nodes": [
+        10,
+        12,
+        18,
+        23
+      ],
+      "special_budget": 1,
+      "available_days": 6.25,
+      "priority": 3.5625
+    },
+    {
+      "base": 1,
+      "start": 33,
+      "end": 36,
+      "nodes": [
+        10,
+        12,
+        18,
+        23
+      ],
+      "special_budget": 1,
+      "available_days": 6.25,
+      "priority": 3.5625
+    },
+    {
+      "base": 1,
+      "start": 3,
+      "end": 7,
+      "nodes": [
+        38,
+        42,
+        33,
+        3,
+        7
+      ],
+      "special_budget": 1,
+      "available_days": 6.25,
+      "priority": 3.25
+    },
+    {
+      "base": 0,
+      "start": 0,
+      "end": 3,
+      "nodes": [
+        0,
+        39,
+        8,
+        14
+      ],
+      "special_budget": 1,
+      "available_days": 4.5,
+      "priority": 3.125
+    },
+    {
+      "base": 1,
+      "start": 3,
+      "end": 6,
+      "nodes": [
+        38,
+        42,
+        33,
+        3
+      ],
+      "special_budget": 1,
+      "available_days": 4.5,
+      "priority": 3.125
+    }
+  ]
+}
