@@ -1,0 +1,13 @@
+{
+  "version": 179,
+  "last_depth": 48,
+  "best_level": 38,
+  "best_day": 173.516876,
+  "specials": 5,
+  "elapsed_sec": 18.6,
+  "candidate_expansions": 1554,
+  "cached_dv": 132335,
+  "finished_49": false,
+  "baseline_38_untouched": true,
+  "checkpoint": "/kaggle/working/esa-spoc4/results/hapi179_checkpoint_28.json"
+}

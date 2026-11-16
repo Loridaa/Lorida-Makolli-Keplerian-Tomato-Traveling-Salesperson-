@@ -1,0 +1,12 @@
+{
+  "version": 178,
+  "last_depth": 33,
+  "best_level": 38,
+  "best_day": 181.01687614917756,
+  "specials": 5,
+  "elapsed_sec": 150.01,
+  "candidate_expansions": 14970,
+  "cached_dv": 400000,
+  "finished_49": false,
+  "baseline_38_untouched": true
+}
