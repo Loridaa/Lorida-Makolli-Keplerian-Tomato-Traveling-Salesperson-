@@ -322,3 +322,16 @@ modifications for this educational project.
 - Vleresime: 44951.
 - Kandidat 40 i verifikuar: False.
 - Rekordet 38 dhe 39 nuk u mbishkruan.
+
+
+## Hapi 176 - ALNS V7 Neutral Walk
+- Algoritmi: ALNS V7 + Dynamic Programming.
+- Strategjia: variante te vlefshme me 39 domate, pastaj kerkim per 40.
+- Baseline: 39/49 domate.
+- Rezultati: 39/49.
+- Prova 39: 19.
+- Variante 39: 12.
+- Prova 40: 260.
+- Vleresime: 24404.
+- Kandidat 40 i verifikuar: False.
+- Rekordet 38 dhe 39 mbeten te pandryshuara.

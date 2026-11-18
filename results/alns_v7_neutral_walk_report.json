@@ -1,0 +1,51 @@
+{
+  "algorithm": "ALNS V7 plateau walk, neutral 39 -> 40 insertion",
+  "base_level": 39,
+  "best_level": 39,
+  "candidate_verified": false,
+  "alternative_39_verified": true,
+  "neutral_variants": 12,
+  "neutral_attempts": 19,
+  "neutral_repairs": 19,
+  "neutral_failure_reasons": {
+    "identical_solution": 7
+  },
+  "nearest_neutral": {
+    "attempt": 6,
+    "cut": 21,
+    "end": 38,
+    "operator": "keep",
+    "legs_repaired": 18,
+    "legs_needed": 18,
+    "failed_edge": null
+  },
+  "insertion_attempts": 260,
+  "full_insertion_repairs": 0,
+  "insertion_failure_reasons": {
+    "no_transfer_under_threshold": 258,
+    "special_budget": 1,
+    "no_time_options": 1
+  },
+  "nearest_insertion": {
+    "variant": 1,
+    "attempt": 10,
+    "cut": 18,
+    "end": 29,
+    "missing_tomato": 27,
+    "legs_repaired": 11,
+    "legs_needed": 13,
+    "failed_edge": {
+      "from": 13,
+      "to": 27,
+      "repair_leg_index": 12
+    }
+  },
+  "transfer_evaluations": 24404,
+  "evaluation_limit": 175000,
+  "evaluation_limit_reached": false,
+  "candidate_context": null,
+  "protected_38_sha256": "5f26b213e308be62ed6e9852abfbd23226325928ec200ecb802f41a9cea13cc0",
+  "protected_39_sha256": "f0df74ec09d32c3b3211df96daacb11303ea71ecdf62df5e7bf287b5a04be930",
+  "seed": 17640,
+  "elapsed_seconds": 4.26
+}
