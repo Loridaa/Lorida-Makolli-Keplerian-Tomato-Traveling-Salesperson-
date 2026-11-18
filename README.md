@@ -382,3 +382,14 @@ modifications for this educational project.
 - Rezultati: 39/49.
 - Kandidat 40: False.
 - Rekordet origjinale te paprekura.
+
+
+## Hapi 181 - ALNS V12 Direct 1-for-2
+- Metoda: zevendesim direkt 1-for-2 me Dynamic Programming.
+- Baza: 39/49 domate.
+- Nuk kerkohet nje zgjidhje e ndermjetme 39/49.
+- Rezultati: 39/49.
+- Prova: 320.
+- Vleresime orbitale: 21032.
+- Kandidat 40: False.
+- Rekordet 38 dhe 39 nuk mbishkruhen.

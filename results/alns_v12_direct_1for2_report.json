@@ -1,0 +1,112 @@
+{
+  "algorithm": "ALNS V12 direct 1-for-2 exchange + temporal DP",
+  "base_level": 39,
+  "best_level": 39,
+  "candidate_verified": false,
+  "attempts": 320,
+  "full_temporal_repairs": 0,
+  "transfer_evaluations": 21032,
+  "closest_repair": {
+    "attempt": 68,
+    "source": "record39",
+    "removed": 40,
+    "added": [
+      4,
+      17
+    ],
+    "cut": 20,
+    "end": 27,
+    "operator": "adjacent_back",
+    "legs_repaired": 8,
+    "legs_needed": 9,
+    "failed_edge": {
+      "from": 17,
+      "to": 20,
+      "repair_leg_index": 9
+    }
+  },
+  "failure_reasons": {
+    "no_transfer_under_threshold": 297,
+    "special_budget": 23
+  },
+  "most_failed_edges": [
+    [
+      "5->32",
+      22
+    ],
+    [
+      "5->17",
+      15
+    ],
+    [
+      "37->4",
+      15
+    ],
+    [
+      "5->38",
+      15
+    ],
+    [
+      "5->24",
+      14
+    ],
+    [
+      "5->6",
+      13
+    ],
+    [
+      "37->27",
+      12
+    ],
+    [
+      "5->4",
+      11
+    ],
+    [
+      "37->24",
+      11
+    ],
+    [
+      "5->35",
+      11
+    ],
+    [
+      "5->27",
+      11
+    ],
+    [
+      "37->11",
+      10
+    ],
+    [
+      "5->16",
+      10
+    ],
+    [
+      "37->16",
+      9
+    ],
+    [
+      "37->32",
+      9
+    ]
+  ],
+  "evaluation_limit_reached": false,
+  "runtime_limit_reached": false,
+  "elapsed_seconds": 3.52,
+  "candidate_context": null,
+  "source_seed_names": [
+    "record39",
+    "v7_alternative",
+    "v9_archive_1",
+    "v9_archive_2",
+    "v9_archive_3"
+  ],
+  "protected_38_sha256": "5f26b213e308be62ed6e9852abfbd23226325928ec200ecb802f41a9cea13cc0",
+  "protected_39_sha256": "f0df74ec09d32c3b3211df96daacb11303ea71ecdf62df5e7bf287b5a04be930",
+  "protected_v11_report_sha256": "c52c6d906cb6dbca6fb1774c42e8272569d353a7da5cfad65a35e7399e058129",
+  "protected_v9_archive_sha256": "015470fe3059a852fcdb138dffd37a4251d037f546851242d29cf242e29f016f",
+  "protected_alt39_sha256": "0d761a9fa435474dca70f89447992ab8c64c61b663d8e7e86bd86eceb2a2c073",
+  "script_sha256": "a068b59501f9ba74869788a0dd9949e401dbd2cea47dc5928b647de17176fe63",
+  "seed": 18012
+}
