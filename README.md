@@ -440,3 +440,13 @@ modifications for this educational project.
 - Riparime te plota: 0.
 - Kandidat 40: False.
 - Rekordet 38 dhe 39 nuk u mbishkruan.
+
+
+## Hapi 186 - V16 Orbital Feasibility Atlas
+- Metoda: skanim diagnostikues orbital me PyKEP.
+- Baza: 39/49 domate.
+- Analizohen 10 domatet e pambuluara.
+- Vleresime: 73080.
+- Rezultatet jane lidhje individuale, jo rruge te plota te verifikuara.
+- Nuk vertetohet pamundesia globale.
+- Rekordet 38 dhe 39 jane te paprekura.

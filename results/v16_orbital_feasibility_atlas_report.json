@@ -1,0 +1,3723 @@
+{
+  "algorithm": "V16 diagnostic pairwise orbital feasibility atlas",
+  "diagnostic_only": true,
+  "base_level": 39,
+  "target_level": 40,
+  "instance": "easy.kttsp",
+  "normal_limit": 100.0,
+  "special_limit": 600.0,
+  "departure_grid": [
+    0.5,
+    2.5,
+    5.0,
+    10.0,
+    20.0,
+    35.0,
+    50.0,
+    65.0,
+    80.0,
+    100.0,
+    120.0,
+    145.0,
+    170.0,
+    190.0
+  ],
+  "tof_grid": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "not_a_route_proof": "Pairwise samples do not enforce full route timing or the global SPECIAL budget; lack of samples under threshold is not proof of impossibility.",
+  "missing_tomatoes": [
+    4,
+    6,
+    11,
+    16,
+    17,
+    24,
+    27,
+    32,
+    35,
+    38
+  ],
+  "comparative_ranking": [
+    {
+      "tomato": 38,
+      "conservative_pair_score": 19,
+      "incoming_covered": 19,
+      "outgoing_covered": 20
+    },
+    {
+      "tomato": 24,
+      "conservative_pair_score": 19,
+      "incoming_covered": 19,
+      "outgoing_covered": 19
+    },
+    {
+      "tomato": 6,
+      "conservative_pair_score": 18,
+      "incoming_covered": 18,
+      "outgoing_covered": 18
+    },
+    {
+      "tomato": 35,
+      "conservative_pair_score": 14,
+      "incoming_covered": 14,
+      "outgoing_covered": 14
+    },
+    {
+      "tomato": 32,
+      "conservative_pair_score": 6,
+      "incoming_covered": 7,
+      "outgoing_covered": 6
+    },
+    {
+      "tomato": 11,
+      "conservative_pair_score": 5,
+      "incoming_covered": 6,
+      "outgoing_covered": 5
+    },
+    {
+      "tomato": 27,
+      "conservative_pair_score": 5,
+      "incoming_covered": 5,
+      "outgoing_covered": 5
+    },
+    {
+      "tomato": 4,
+      "conservative_pair_score": 4,
+      "incoming_covered": 8,
+      "outgoing_covered": 4
+    },
+    {
+      "tomato": 16,
+      "conservative_pair_score": 4,
+      "incoming_covered": 6,
+      "outgoing_covered": 4
+    },
+    {
+      "tomato": 17,
+      "conservative_pair_score": 4,
+      "incoming_covered": 4,
+      "outgoing_covered": 5
+    }
+  ],
+  "by_missing_tomato": [
+    {
+      "tomato": 4,
+      "incoming_from_covered": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 8,
+        "feasible_neighbor_count": 8,
+        "normal_sample_count": 0,
+        "special_sample_count": 22,
+        "top_feasible_edges": [
+          {
+            "from": 15,
+            "to": 4,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 516.1678501259507,
+            "best_sample": {
+              "departure": 170.0,
+              "tof": 0.5,
+              "dv": 516.1678501259507
+            },
+            "normal_samples": 0,
+            "special_samples": 6,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 170.0,
+              "tof": 0.5,
+              "dv": 516.1678501259507
+            }
+          },
+          {
+            "from": 28,
+            "to": 4,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 528.1503118179334,
+            "best_sample": {
+              "departure": 35.0,
+              "tof": 8.0,
+              "dv": 528.1503118179334
+            },
+            "normal_samples": 0,
+            "special_samples": 4,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 35.0,
+              "tof": 8.0,
+              "dv": 528.1503118179334
+            }
+          },
+          {
+            "from": 45,
+            "to": 4,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 547.7606433964319,
+            "best_sample": {
+              "departure": 35.0,
+              "tof": 0.5,
+              "dv": 547.7606433964319
+            },
+            "normal_samples": 0,
+            "special_samples": 5,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 35.0,
+              "tof": 0.5,
+              "dv": 547.7606433964319
+            }
+          },
+          {
+            "from": 48,
+            "to": 4,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 550.1435069030784,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 1.5,
+              "dv": 550.1435069030784
+            },
+            "normal_samples": 0,
+            "special_samples": 1,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 1.5,
+              "dv": 550.1435069030784
+            }
+          },
+          {
+            "from": 1,
+            "to": 4,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 550.9820194603841,
+            "best_sample": {
+              "departure": 2.5,
+              "tof": 0.5,
+              "dv": 550.9820194603841
+            },
+            "normal_samples": 0,
+            "special_samples": 3,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 2.5,
+              "tof": 0.5,
+              "dv": 550.9820194603841
+            }
+          }
+        ]
+      },
+      "outgoing_to_covered": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 4,
+        "feasible_neighbor_count": 4,
+        "normal_sample_count": 0,
+        "special_sample_count": 19,
+        "top_feasible_edges": [
+          {
+            "from": 4,
+            "to": 28,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 530.9159743053581,
+            "best_sample": {
+              "departure": 5.0,
+              "tof": 8.0,
+              "dv": 530.9159743053581
+            },
+            "normal_samples": 0,
+            "special_samples": 6,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 5.0,
+              "tof": 8.0,
+              "dv": 530.9159743053581
+            }
+          },
+          {
+            "from": 4,
+            "to": 45,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 534.9326341247622,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 0.5,
+              "dv": 534.9326341247622
+            },
+            "normal_samples": 0,
+            "special_samples": 7,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 0.5,
+              "dv": 534.9326341247622
+            }
+          },
+          {
+            "from": 4,
+            "to": 1,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 554.3762781506465,
+            "best_sample": {
+              "departure": 20.0,
+              "tof": 8.0,
+              "dv": 554.3762781506465
+            },
+            "normal_samples": 0,
+            "special_samples": 5,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 20.0,
+              "tof": 8.0,
+              "dv": 554.3762781506465
+            }
+          },
+          {
+            "from": 4,
+            "to": 15,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 558.971163700327,
+            "best_sample": {
+              "departure": 65.0,
+              "tof": 1.5,
+              "dv": 558.971163700327
+            },
+            "normal_samples": 0,
+            "special_samples": 1,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 65.0,
+              "tof": 1.5,
+              "dv": 558.971163700327
+            }
+          }
+        ]
+      },
+      "incoming_from_other_missing": {
+        "normal_neighbor_count": 2,
+        "special_neighbor_count": 2,
+        "feasible_neighbor_count": 2,
+        "normal_sample_count": 80,
+        "special_sample_count": 54,
+        "top_feasible_edges": [
+          {
+            "from": 17,
+            "to": 4,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 32.65733766442037,
+            "best_sample": {
+              "departure": 10.0,
+              "tof": 1.5,
+              "dv": 32.65733766442037
+            },
+            "normal_samples": 45,
+            "special_samples": 23,
+            "best_normal_sample": {
+              "departure": 10.0,
+              "tof": 1.5,
+              "dv": 32.65733766442037
+            },
+            "best_special_sample": {
+              "departure": 20.0,
+              "tof": 2.0,
+              "dv": 105.02249471730919
+            }
+          },
+          {
+            "from": 11,
+            "to": 4,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 43.54479183297681,
+            "best_sample": {
+              "departure": 2.5,
+              "tof": 4.0,
+              "dv": 43.54479183297681
+            },
+            "normal_samples": 35,
+            "special_samples": 31,
+            "best_normal_sample": {
+              "departure": 2.5,
+              "tof": 4.0,
+              "dv": 43.54479183297681
+            },
+            "best_special_sample": {
+              "departure": 35.0,
+              "tof": 0.5,
+              "dv": 101.11890184404655
+            }
+          }
+        ]
+      },
+      "outgoing_to_other_missing": {
+        "normal_neighbor_count": 2,
+        "special_neighbor_count": 2,
+        "feasible_neighbor_count": 2,
+        "normal_sample_count": 75,
+        "special_sample_count": 58,
+        "top_feasible_edges": [
+          {
+            "from": 4,
+            "to": 17,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 36.155399481944166,
+            "best_sample": {
+              "departure": 5.0,
+              "tof": 1.5,
+              "dv": 36.155399481944166
+            },
+            "normal_samples": 51,
+            "special_samples": 18,
+            "best_normal_sample": {
+              "departure": 5.0,
+              "tof": 1.5,
+              "dv": 36.155399481944166
+            },
+            "best_special_sample": {
+              "departure": 100.0,
+              "tof": 1.0,
+              "dv": 101.23380429183935
+            }
+          },
+          {
+            "from": 4,
+            "to": 11,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 45.00912363951365,
+            "best_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 45.00912363951365
+            },
+            "normal_samples": 24,
+            "special_samples": 40,
+            "best_normal_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 45.00912363951365
+            },
+            "best_special_sample": {
+              "departure": 0.5,
+              "tof": 1.0,
+              "dv": 104.3776477650538
+            }
+          }
+        ]
+      },
+      "conservative_pair_score": 4
+    },
+    {
+      "tomato": 6,
+      "incoming_from_covered": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 18,
+        "feasible_neighbor_count": 18,
+        "normal_sample_count": 0,
+        "special_sample_count": 486,
+        "top_feasible_edges": [
+          {
+            "from": 26,
+            "to": 6,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 173.0293746567059,
+            "best_sample": {
+              "departure": 5.0,
+              "tof": 8.0,
+              "dv": 173.0293746567059
+            },
+            "normal_samples": 0,
+            "special_samples": 33,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 5.0,
+              "tof": 8.0,
+              "dv": 173.0293746567059
+            }
+          },
+          {
+            "from": 21,
+            "to": 6,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 180.29302798773344,
+            "best_sample": {
+              "departure": 0.5,
+              "tof": 1.0,
+              "dv": 180.29302798773344
+            },
+            "normal_samples": 0,
+            "special_samples": 59,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 0.5,
+              "tof": 1.0,
+              "dv": 180.29302798773344
+            }
+          },
+          {
+            "from": 8,
+            "to": 6,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 187.2414279886829,
+            "best_sample": {
+              "departure": 80.0,
+              "tof": 8.0,
+              "dv": 187.2414279886829
+            },
+            "normal_samples": 0,
+            "special_samples": 49,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 80.0,
+              "tof": 8.0,
+              "dv": 187.2414279886829
+            }
+          },
+          {
+            "from": 39,
+            "to": 6,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 251.23982774118105,
+            "best_sample": {
+              "departure": 65.0,
+              "tof": 4.0,
+              "dv": 251.23982774118105
+            },
+            "normal_samples": 0,
+            "special_samples": 41,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 65.0,
+              "tof": 4.0,
+              "dv": 251.23982774118105
+            }
+          },
+          {
+            "from": 7,
+            "to": 6,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 285.65810705464514,
+            "best_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 285.65810705464514
+            },
+            "normal_samples": 0,
+            "special_samples": 24,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 285.65810705464514
+            }
+          }
+        ]
+      },
+      "outgoing_to_covered": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 18,
+        "feasible_neighbor_count": 18,
+        "normal_sample_count": 0,
+        "special_sample_count": 532,
+        "top_feasible_edges": [
+          {
+            "from": 6,
+            "to": 26,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 140.90673914873463,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 8.0,
+              "dv": 140.90673914873463
+            },
+            "normal_samples": 0,
+            "special_samples": 43,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 8.0,
+              "dv": 140.90673914873463
+            }
+          },
+          {
+            "from": 6,
+            "to": 21,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 184.47296294058017,
+            "best_sample": {
+              "departure": 0.5,
+              "tof": 1.0,
+              "dv": 184.47296294058017
+            },
+            "normal_samples": 0,
+            "special_samples": 53,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 0.5,
+              "tof": 1.0,
+              "dv": 184.47296294058017
+            }
+          },
+          {
+            "from": 6,
+            "to": 8,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 201.62861719983164,
+            "best_sample": {
+              "departure": 2.5,
+              "tof": 1.5,
+              "dv": 201.62861719983164
+            },
+            "normal_samples": 0,
+            "special_samples": 38,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 2.5,
+              "tof": 1.5,
+              "dv": 201.62861719983164
+            }
+          },
+          {
+            "from": 6,
+            "to": 7,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 250.0721444893709,
+            "best_sample": {
+              "departure": 2.5,
+              "tof": 8.0,
+              "dv": 250.0721444893709
+            },
+            "normal_samples": 0,
+            "special_samples": 39,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 2.5,
+              "tof": 8.0,
+              "dv": 250.0721444893709
+            }
+          },
+          {
+            "from": 6,
+            "to": 39,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 253.995120530622,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 1.5,
+              "dv": 253.995120530622
+            },
+            "normal_samples": 0,
+            "special_samples": 53,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 1.5,
+              "dv": 253.995120530622
+            }
+          }
+        ]
+      },
+      "incoming_from_other_missing": {
+        "normal_neighbor_count": 1,
+        "special_neighbor_count": 3,
+        "feasible_neighbor_count": 3,
+        "normal_sample_count": 6,
+        "special_sample_count": 178,
+        "top_feasible_edges": [
+          {
+            "from": 35,
+            "to": 6,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 70.53297939085859,
+            "best_sample": {
+              "departure": 5.0,
+              "tof": 8.0,
+              "dv": 70.53297939085859
+            },
+            "normal_samples": 6,
+            "special_samples": 54,
+            "best_normal_sample": {
+              "departure": 5.0,
+              "tof": 8.0,
+              "dv": 70.53297939085859
+            },
+            "best_special_sample": {
+              "departure": 120.0,
+              "tof": 4.0,
+              "dv": 102.26781153296794
+            }
+          },
+          {
+            "from": 38,
+            "to": 6,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 131.07536516891298,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 4.0,
+              "dv": 131.07536516891298
+            },
+            "normal_samples": 0,
+            "special_samples": 84,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 4.0,
+              "dv": 131.07536516891298
+            }
+          },
+          {
+            "from": 24,
+            "to": 6,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 137.1072060807458,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 8.0,
+              "dv": 137.1072060807458
+            },
+            "normal_samples": 0,
+            "special_samples": 40,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 8.0,
+              "dv": 137.1072060807458
+            }
+          }
+        ]
+      },
+      "outgoing_to_other_missing": {
+        "normal_neighbor_count": 1,
+        "special_neighbor_count": 3,
+        "feasible_neighbor_count": 3,
+        "normal_sample_count": 6,
+        "special_sample_count": 165,
+        "top_feasible_edges": [
+          {
+            "from": 6,
+            "to": 35,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 82.14076678609686,
+            "best_sample": {
+              "departure": 2.5,
+              "tof": 8.0,
+              "dv": 82.14076678609686
+            },
+            "normal_samples": 6,
+            "special_samples": 53,
+            "best_normal_sample": {
+              "departure": 2.5,
+              "tof": 8.0,
+              "dv": 82.14076678609686
+            },
+            "best_special_sample": {
+              "departure": 10.0,
+              "tof": 4.0,
+              "dv": 103.1884554307979
+            }
+          },
+          {
+            "from": 6,
+            "to": 24,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 116.1532713447065,
+            "best_sample": {
+              "departure": 5.0,
+              "tof": 8.0,
+              "dv": 116.1532713447065
+            },
+            "normal_samples": 0,
+            "special_samples": 44,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 5.0,
+              "tof": 8.0,
+              "dv": 116.1532713447065
+            }
+          },
+          {
+            "from": 6,
+            "to": 38,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 127.07823462086648,
+            "best_sample": {
+              "departure": 0.5,
+              "tof": 8.0,
+              "dv": 127.07823462086648
+            },
+            "normal_samples": 0,
+            "special_samples": 68,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 0.5,
+              "tof": 8.0,
+              "dv": 127.07823462086648
+            }
+          }
+        ]
+      },
+      "conservative_pair_score": 18
+    },
+    {
+      "tomato": 11,
+      "incoming_from_covered": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 6,
+        "feasible_neighbor_count": 6,
+        "normal_sample_count": 0,
+        "special_sample_count": 14,
+        "top_feasible_edges": [
+          {
+            "from": 28,
+            "to": 11,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 538.8340817780853,
+            "best_sample": {
+              "departure": 65.0,
+              "tof": 8.0,
+              "dv": 538.8340817780853
+            },
+            "normal_samples": 0,
+            "special_samples": 3,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 65.0,
+              "tof": 8.0,
+              "dv": 538.8340817780853
+            }
+          },
+          {
+            "from": 48,
+            "to": 11,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 539.8527107684067,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 1.5,
+              "dv": 539.8527107684067
+            },
+            "normal_samples": 0,
+            "special_samples": 1,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 1.5,
+              "dv": 539.8527107684067
+            }
+          },
+          {
+            "from": 29,
+            "to": 11,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 540.4648042245637,
+            "best_sample": {
+              "departure": 65.0,
+              "tof": 0.5,
+              "dv": 540.4648042245637
+            },
+            "normal_samples": 0,
+            "special_samples": 2,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 65.0,
+              "tof": 0.5,
+              "dv": 540.4648042245637
+            }
+          },
+          {
+            "from": 45,
+            "to": 11,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 552.9783702581789,
+            "best_sample": {
+              "departure": 5.0,
+              "tof": 1.5,
+              "dv": 552.9783702581789
+            },
+            "normal_samples": 0,
+            "special_samples": 3,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 5.0,
+              "tof": 1.5,
+              "dv": 552.9783702581789
+            }
+          },
+          {
+            "from": 1,
+            "to": 11,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 557.7957883286681,
+            "best_sample": {
+              "departure": 80.0,
+              "tof": 8.0,
+              "dv": 557.7957883286681
+            },
+            "normal_samples": 0,
+            "special_samples": 3,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 80.0,
+              "tof": 8.0,
+              "dv": 557.7957883286681
+            }
+          }
+        ]
+      },
+      "outgoing_to_covered": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 5,
+        "feasible_neighbor_count": 5,
+        "normal_sample_count": 0,
+        "special_sample_count": 17,
+        "top_feasible_edges": [
+          {
+            "from": 11,
+            "to": 15,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 517.9489247729329,
+            "best_sample": {
+              "departure": 145.0,
+              "tof": 0.5,
+              "dv": 517.9489247729329
+            },
+            "normal_samples": 0,
+            "special_samples": 4,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 145.0,
+              "tof": 0.5,
+              "dv": 517.9489247729329
+            }
+          },
+          {
+            "from": 11,
+            "to": 45,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 518.7251733183234,
+            "best_sample": {
+              "departure": 145.0,
+              "tof": 0.5,
+              "dv": 518.7251733183234
+            },
+            "normal_samples": 0,
+            "special_samples": 6,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 145.0,
+              "tof": 0.5,
+              "dv": 518.7251733183234
+            }
+          },
+          {
+            "from": 11,
+            "to": 28,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 553.0489342528031,
+            "best_sample": {
+              "departure": 0.5,
+              "tof": 1.5,
+              "dv": 553.0489342528031
+            },
+            "normal_samples": 0,
+            "special_samples": 3,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 0.5,
+              "tof": 1.5,
+              "dv": 553.0489342528031
+            }
+          },
+          {
+            "from": 11,
+            "to": 1,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 574.5246261832058,
+            "best_sample": {
+              "departure": 0.5,
+              "tof": 1.5,
+              "dv": 574.5246261832058
+            },
+            "normal_samples": 0,
+            "special_samples": 3,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 0.5,
+              "tof": 1.5,
+              "dv": 574.5246261832058
+            }
+          },
+          {
+            "from": 11,
+            "to": 30,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 583.6326507896301,
+            "best_sample": {
+              "departure": 145.0,
+              "tof": 8.0,
+              "dv": 583.6326507896301
+            },
+            "normal_samples": 0,
+            "special_samples": 1,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 145.0,
+              "tof": 8.0,
+              "dv": 583.6326507896301
+            }
+          }
+        ]
+      },
+      "incoming_from_other_missing": {
+        "normal_neighbor_count": 2,
+        "special_neighbor_count": 2,
+        "feasible_neighbor_count": 2,
+        "normal_sample_count": 64,
+        "special_sample_count": 68,
+        "top_feasible_edges": [
+          {
+            "from": 17,
+            "to": 11,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 17.41523101672445,
+            "best_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 17.41523101672445
+            },
+            "normal_samples": 40,
+            "special_samples": 28,
+            "best_normal_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 17.41523101672445
+            },
+            "best_special_sample": {
+              "departure": 100.0,
+              "tof": 1.0,
+              "dv": 105.39523722619552
+            }
+          },
+          {
+            "from": 4,
+            "to": 11,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 45.00912363951365,
+            "best_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 45.00912363951365
+            },
+            "normal_samples": 24,
+            "special_samples": 40,
+            "best_normal_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 45.00912363951365
+            },
+            "best_special_sample": {
+              "departure": 0.5,
+              "tof": 1.0,
+              "dv": 104.3776477650538
+            }
+          }
+        ]
+      },
+      "outgoing_to_other_missing": {
+        "normal_neighbor_count": 2,
+        "special_neighbor_count": 2,
+        "feasible_neighbor_count": 2,
+        "normal_sample_count": 76,
+        "special_sample_count": 60,
+        "top_feasible_edges": [
+          {
+            "from": 11,
+            "to": 17,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 15.293171785685367,
+            "best_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 15.293171785685367
+            },
+            "normal_samples": 41,
+            "special_samples": 29,
+            "best_normal_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 15.293171785685367
+            },
+            "best_special_sample": {
+              "departure": 50.0,
+              "tof": 1.0,
+              "dv": 109.50426721751508
+            }
+          },
+          {
+            "from": 11,
+            "to": 4,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 43.54479183297681,
+            "best_sample": {
+              "departure": 2.5,
+              "tof": 4.0,
+              "dv": 43.54479183297681
+            },
+            "normal_samples": 35,
+            "special_samples": 31,
+            "best_normal_sample": {
+              "departure": 2.5,
+              "tof": 4.0,
+              "dv": 43.54479183297681
+            },
+            "best_special_sample": {
+              "departure": 35.0,
+              "tof": 0.5,
+              "dv": 101.11890184404655
+            }
+          }
+        ]
+      },
+      "conservative_pair_score": 5
+    },
+    {
+      "tomato": 16,
+      "incoming_from_covered": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 6,
+        "feasible_neighbor_count": 6,
+        "normal_sample_count": 0,
+        "special_sample_count": 17,
+        "top_feasible_edges": [
+          {
+            "from": 14,
+            "to": 16,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 530.2237457974683,
+            "best_sample": {
+              "departure": 120.0,
+              "tof": 8.0,
+              "dv": 530.2237457974683
+            },
+            "normal_samples": 0,
+            "special_samples": 4,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 120.0,
+              "tof": 8.0,
+              "dv": 530.2237457974683
+            }
+          },
+          {
+            "from": 33,
+            "to": 16,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 537.2771138390947,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 0.5,
+              "dv": 537.2771138390947
+            },
+            "normal_samples": 0,
+            "special_samples": 4,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 0.5,
+              "dv": 537.2771138390947
+            }
+          },
+          {
+            "from": 3,
+            "to": 16,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 539.3333521283624,
+            "best_sample": {
+              "departure": 145.0,
+              "tof": 8.0,
+              "dv": 539.3333521283624
+            },
+            "normal_samples": 0,
+            "special_samples": 3,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 145.0,
+              "tof": 8.0,
+              "dv": 539.3333521283624
+            }
+          },
+          {
+            "from": 7,
+            "to": 16,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 544.12814575209,
+            "best_sample": {
+              "departure": 65.0,
+              "tof": 8.0,
+              "dv": 544.12814575209
+            },
+            "normal_samples": 0,
+            "special_samples": 1,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 65.0,
+              "tof": 8.0,
+              "dv": 544.12814575209
+            }
+          },
+          {
+            "from": 42,
+            "to": 16,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 545.7420528378182,
+            "best_sample": {
+              "departure": 20.0,
+              "tof": 8.0,
+              "dv": 545.7420528378182
+            },
+            "normal_samples": 0,
+            "special_samples": 3,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 20.0,
+              "tof": 8.0,
+              "dv": 545.7420528378182
+            }
+          }
+        ]
+      },
+      "outgoing_to_covered": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 4,
+        "feasible_neighbor_count": 4,
+        "normal_sample_count": 0,
+        "special_sample_count": 16,
+        "top_feasible_edges": [
+          {
+            "from": 16,
+            "to": 14,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 528.852981859756,
+            "best_sample": {
+              "departure": 100.0,
+              "tof": 8.0,
+              "dv": 528.852981859756
+            },
+            "normal_samples": 0,
+            "special_samples": 8,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 100.0,
+              "tof": 8.0,
+              "dv": 528.852981859756
+            }
+          },
+          {
+            "from": 16,
+            "to": 33,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 545.1164156767397,
+            "best_sample": {
+              "departure": 80.0,
+              "tof": 0.5,
+              "dv": 545.1164156767397
+            },
+            "normal_samples": 0,
+            "special_samples": 4,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 80.0,
+              "tof": 0.5,
+              "dv": 545.1164156767397
+            }
+          },
+          {
+            "from": 16,
+            "to": 42,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 552.8064681741645,
+            "best_sample": {
+              "departure": 65.0,
+              "tof": 0.5,
+              "dv": 552.8064681741645
+            },
+            "normal_samples": 0,
+            "special_samples": 2,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 65.0,
+              "tof": 0.5,
+              "dv": 552.8064681741645
+            }
+          },
+          {
+            "from": 16,
+            "to": 3,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 560.3293017294653,
+            "best_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 560.3293017294653
+            },
+            "normal_samples": 0,
+            "special_samples": 2,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 560.3293017294653
+            }
+          }
+        ]
+      },
+      "incoming_from_other_missing": {
+        "normal_neighbor_count": 2,
+        "special_neighbor_count": 2,
+        "feasible_neighbor_count": 2,
+        "normal_sample_count": 55,
+        "special_sample_count": 83,
+        "top_feasible_edges": [
+          {
+            "from": 27,
+            "to": 16,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 34.122147658715704,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 4.0,
+              "dv": 34.122147658715704
+            },
+            "normal_samples": 30,
+            "special_samples": 40,
+            "best_normal_sample": {
+              "departure": 190.0,
+              "tof": 4.0,
+              "dv": 34.122147658715704
+            },
+            "best_special_sample": {
+              "departure": 80.0,
+              "tof": 1.0,
+              "dv": 100.6212258112526
+            }
+          },
+          {
+            "from": 32,
+            "to": 16,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 44.18328320721018,
+            "best_sample": {
+              "departure": 100.0,
+              "tof": 2.0,
+              "dv": 44.18328320721018
+            },
+            "normal_samples": 25,
+            "special_samples": 43,
+            "best_normal_sample": {
+              "departure": 100.0,
+              "tof": 2.0,
+              "dv": 44.18328320721018
+            },
+            "best_special_sample": {
+              "departure": 0.5,
+              "tof": 2.0,
+              "dv": 101.35900119405645
+            }
+          }
+        ]
+      },
+      "outgoing_to_other_missing": {
+        "normal_neighbor_count": 2,
+        "special_neighbor_count": 2,
+        "feasible_neighbor_count": 2,
+        "normal_sample_count": 51,
+        "special_sample_count": 84,
+        "top_feasible_edges": [
+          {
+            "from": 16,
+            "to": 27,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 37.94372484630256,
+            "best_sample": {
+              "departure": 65.0,
+              "tof": 4.0,
+              "dv": 37.94372484630256
+            },
+            "normal_samples": 26,
+            "special_samples": 39,
+            "best_normal_sample": {
+              "departure": 65.0,
+              "tof": 4.0,
+              "dv": 37.94372484630256
+            },
+            "best_special_sample": {
+              "departure": 2.5,
+              "tof": 4.0,
+              "dv": 103.52225283001081
+            }
+          },
+          {
+            "from": 16,
+            "to": 32,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 41.348170098116086,
+            "best_sample": {
+              "departure": 100.0,
+              "tof": 2.0,
+              "dv": 41.348170098116086
+            },
+            "normal_samples": 25,
+            "special_samples": 45,
+            "best_normal_sample": {
+              "departure": 100.0,
+              "tof": 2.0,
+              "dv": 41.348170098116086
+            },
+            "best_special_sample": {
+              "departure": 80.0,
+              "tof": 2.0,
+              "dv": 102.42447638497919
+            }
+          }
+        ]
+      },
+      "conservative_pair_score": 4
+    },
+    {
+      "tomato": 17,
+      "incoming_from_covered": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 4,
+        "feasible_neighbor_count": 4,
+        "normal_sample_count": 0,
+        "special_sample_count": 15,
+        "top_feasible_edges": [
+          {
+            "from": 15,
+            "to": 17,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 547.1593126110656,
+            "best_sample": {
+              "departure": 65.0,
+              "tof": 1.5,
+              "dv": 547.1593126110656
+            },
+            "normal_samples": 0,
+            "special_samples": 5,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 65.0,
+              "tof": 1.5,
+              "dv": 547.1593126110656
+            }
+          },
+          {
+            "from": 45,
+            "to": 17,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 553.290451060826,
+            "best_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 553.290451060826
+            },
+            "normal_samples": 0,
+            "special_samples": 3,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 553.290451060826
+            }
+          },
+          {
+            "from": 28,
+            "to": 17,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 572.9155526078664,
+            "best_sample": {
+              "departure": 170.0,
+              "tof": 8.0,
+              "dv": 572.9155526078664
+            },
+            "normal_samples": 0,
+            "special_samples": 4,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 170.0,
+              "tof": 8.0,
+              "dv": 572.9155526078664
+            }
+          },
+          {
+            "from": 1,
+            "to": 17,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 584.2716428829879,
+            "best_sample": {
+              "departure": 35.0,
+              "tof": 8.0,
+              "dv": 584.2716428829879
+            },
+            "normal_samples": 0,
+            "special_samples": 3,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 35.0,
+              "tof": 8.0,
+              "dv": 584.2716428829879
+            }
+          }
+        ]
+      },
+      "outgoing_to_covered": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 5,
+        "feasible_neighbor_count": 5,
+        "normal_sample_count": 0,
+        "special_sample_count": 14,
+        "top_feasible_edges": [
+          {
+            "from": 17,
+            "to": 15,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 537.0461840986364,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 0.5,
+              "dv": 537.0461840986364
+            },
+            "normal_samples": 0,
+            "special_samples": 5,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 0.5,
+              "dv": 537.0461840986364
+            }
+          },
+          {
+            "from": 17,
+            "to": 28,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 549.9532214045746,
+            "best_sample": {
+              "departure": 20.0,
+              "tof": 8.0,
+              "dv": 549.9532214045746
+            },
+            "normal_samples": 0,
+            "special_samples": 3,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 20.0,
+              "tof": 8.0,
+              "dv": 549.9532214045746
+            }
+          },
+          {
+            "from": 17,
+            "to": 45,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 563.5586300268524,
+            "best_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 563.5586300268524
+            },
+            "normal_samples": 0,
+            "special_samples": 1,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 563.5586300268524
+            }
+          },
+          {
+            "from": 17,
+            "to": 29,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 568.6589358063893,
+            "best_sample": {
+              "departure": 80.0,
+              "tof": 8.0,
+              "dv": 568.6589358063893
+            },
+            "normal_samples": 0,
+            "special_samples": 3,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 80.0,
+              "tof": 8.0,
+              "dv": 568.6589358063893
+            }
+          },
+          {
+            "from": 17,
+            "to": 1,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 576.3326842195663,
+            "best_sample": {
+              "departure": 100.0,
+              "tof": 8.0,
+              "dv": 576.3326842195663
+            },
+            "normal_samples": 0,
+            "special_samples": 2,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 100.0,
+              "tof": 8.0,
+              "dv": 576.3326842195663
+            }
+          }
+        ]
+      },
+      "incoming_from_other_missing": {
+        "normal_neighbor_count": 2,
+        "special_neighbor_count": 2,
+        "feasible_neighbor_count": 2,
+        "normal_sample_count": 92,
+        "special_sample_count": 47,
+        "top_feasible_edges": [
+          {
+            "from": 11,
+            "to": 17,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 15.293171785685367,
+            "best_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 15.293171785685367
+            },
+            "normal_samples": 41,
+            "special_samples": 29,
+            "best_normal_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 15.293171785685367
+            },
+            "best_special_sample": {
+              "departure": 50.0,
+              "tof": 1.0,
+              "dv": 109.50426721751508
+            }
+          },
+          {
+            "from": 4,
+            "to": 17,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 36.155399481944166,
+            "best_sample": {
+              "departure": 5.0,
+              "tof": 1.5,
+              "dv": 36.155399481944166
+            },
+            "normal_samples": 51,
+            "special_samples": 18,
+            "best_normal_sample": {
+              "departure": 5.0,
+              "tof": 1.5,
+              "dv": 36.155399481944166
+            },
+            "best_special_sample": {
+              "departure": 100.0,
+              "tof": 1.0,
+              "dv": 101.23380429183935
+            }
+          }
+        ]
+      },
+      "outgoing_to_other_missing": {
+        "normal_neighbor_count": 2,
+        "special_neighbor_count": 2,
+        "feasible_neighbor_count": 2,
+        "normal_sample_count": 85,
+        "special_sample_count": 51,
+        "top_feasible_edges": [
+          {
+            "from": 17,
+            "to": 11,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 17.41523101672445,
+            "best_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 17.41523101672445
+            },
+            "normal_samples": 40,
+            "special_samples": 28,
+            "best_normal_sample": {
+              "departure": 20.0,
+              "tof": 1.5,
+              "dv": 17.41523101672445
+            },
+            "best_special_sample": {
+              "departure": 100.0,
+              "tof": 1.0,
+              "dv": 105.39523722619552
+            }
+          },
+          {
+            "from": 17,
+            "to": 4,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 32.65733766442037,
+            "best_sample": {
+              "departure": 10.0,
+              "tof": 1.5,
+              "dv": 32.65733766442037
+            },
+            "normal_samples": 45,
+            "special_samples": 23,
+            "best_normal_sample": {
+              "departure": 10.0,
+              "tof": 1.5,
+              "dv": 32.65733766442037
+            },
+            "best_special_sample": {
+              "departure": 20.0,
+              "tof": 2.0,
+              "dv": 105.02249471730919
+            }
+          }
+        ]
+      },
+      "conservative_pair_score": 4
+    },
+    {
+      "tomato": 24,
+      "incoming_from_covered": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 19,
+        "feasible_neighbor_count": 19,
+        "normal_sample_count": 0,
+        "special_sample_count": 464,
+        "top_feasible_edges": [
+          {
+            "from": 8,
+            "to": 24,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 153.3214214527141,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 4.0,
+              "dv": 153.3214214527141
+            },
+            "normal_samples": 0,
+            "special_samples": 43,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 4.0,
+              "dv": 153.3214214527141
+            }
+          },
+          {
+            "from": 26,
+            "to": 24,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 179.9525913569169,
+            "best_sample": {
+              "departure": 50.0,
+              "tof": 4.0,
+              "dv": 179.9525913569169
+            },
+            "normal_samples": 0,
+            "special_samples": 67,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 50.0,
+              "tof": 4.0,
+              "dv": 179.9525913569169
+            }
+          },
+          {
+            "from": 21,
+            "to": 24,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 245.82426106291302,
+            "best_sample": {
+              "departure": 100.0,
+              "tof": 8.0,
+              "dv": 245.82426106291302
+            },
+            "normal_samples": 0,
+            "special_samples": 44,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 100.0,
+              "tof": 8.0,
+              "dv": 245.82426106291302
+            }
+          },
+          {
+            "from": 7,
+            "to": 24,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 301.6163487227309,
+            "best_sample": {
+              "departure": 65.0,
+              "tof": 4.0,
+              "dv": 301.6163487227309
+            },
+            "normal_samples": 0,
+            "special_samples": 41,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 65.0,
+              "tof": 4.0,
+              "dv": 301.6163487227309
+            }
+          },
+          {
+            "from": 0,
+            "to": 24,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 308.70564862046245,
+            "best_sample": {
+              "departure": 65.0,
+              "tof": 8.0,
+              "dv": 308.70564862046245
+            },
+            "normal_samples": 0,
+            "special_samples": 18,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 65.0,
+              "tof": 8.0,
+              "dv": 308.70564862046245
+            }
+          }
+        ]
+      },
+      "outgoing_to_covered": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 19,
+        "feasible_neighbor_count": 19,
+        "normal_sample_count": 0,
+        "special_sample_count": 543,
+        "top_feasible_edges": [
+          {
+            "from": 24,
+            "to": 8,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 128.9754049770115,
+            "best_sample": {
+              "departure": 50.0,
+              "tof": 8.0,
+              "dv": 128.9754049770115
+            },
+            "normal_samples": 0,
+            "special_samples": 51,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 50.0,
+              "tof": 8.0,
+              "dv": 128.9754049770115
+            }
+          },
+          {
+            "from": 24,
+            "to": 26,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 180.8926005833878,
+            "best_sample": {
+              "departure": 80.0,
+              "tof": 8.0,
+              "dv": 180.8926005833878
+            },
+            "normal_samples": 0,
+            "special_samples": 70,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 80.0,
+              "tof": 8.0,
+              "dv": 180.8926005833878
+            }
+          },
+          {
+            "from": 24,
+            "to": 39,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 194.94985374469036,
+            "best_sample": {
+              "departure": 0.5,
+              "tof": 8.0,
+              "dv": 194.94985374469036
+            },
+            "normal_samples": 0,
+            "special_samples": 45,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 0.5,
+              "tof": 8.0,
+              "dv": 194.94985374469036
+            }
+          },
+          {
+            "from": 24,
+            "to": 21,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 257.32369394881255,
+            "best_sample": {
+              "departure": 170.0,
+              "tof": 1.5,
+              "dv": 257.32369394881255
+            },
+            "normal_samples": 0,
+            "special_samples": 33,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 170.0,
+              "tof": 1.5,
+              "dv": 257.32369394881255
+            }
+          },
+          {
+            "from": 24,
+            "to": 0,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 281.7978073995119,
+            "best_sample": {
+              "departure": 170.0,
+              "tof": 8.0,
+              "dv": 281.7978073995119
+            },
+            "normal_samples": 0,
+            "special_samples": 38,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 170.0,
+              "tof": 8.0,
+              "dv": 281.7978073995119
+            }
+          }
+        ]
+      },
+      "incoming_from_other_missing": {
+        "normal_neighbor_count": 1,
+        "special_neighbor_count": 3,
+        "feasible_neighbor_count": 3,
+        "normal_sample_count": 6,
+        "special_sample_count": 133,
+        "top_feasible_edges": [
+          {
+            "from": 38,
+            "to": 24,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 86.44086099505657,
+            "best_sample": {
+              "departure": 20.0,
+              "tof": 8.0,
+              "dv": 86.44086099505657
+            },
+            "normal_samples": 6,
+            "special_samples": 49,
+            "best_normal_sample": {
+              "departure": 20.0,
+              "tof": 8.0,
+              "dv": 86.44086099505657
+            },
+            "best_special_sample": {
+              "departure": 170.0,
+              "tof": 8.0,
+              "dv": 103.11944639633552
+            }
+          },
+          {
+            "from": 6,
+            "to": 24,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 116.1532713447065,
+            "best_sample": {
+              "departure": 5.0,
+              "tof": 8.0,
+              "dv": 116.1532713447065
+            },
+            "normal_samples": 0,
+            "special_samples": 44,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 5.0,
+              "tof": 8.0,
+              "dv": 116.1532713447065
+            }
+          },
+          {
+            "from": 35,
+            "to": 24,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 158.35813950622048,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 4.0,
+              "dv": 158.35813950622048
+            },
+            "normal_samples": 0,
+            "special_samples": 40,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 4.0,
+              "dv": 158.35813950622048
+            }
+          }
+        ]
+      },
+      "outgoing_to_other_missing": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 3,
+        "feasible_neighbor_count": 3,
+        "normal_sample_count": 0,
+        "special_sample_count": 126,
+        "top_feasible_edges": [
+          {
+            "from": 24,
+            "to": 35,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 134.0834090612061,
+            "best_sample": {
+              "departure": 50.0,
+              "tof": 8.0,
+              "dv": 134.0834090612061
+            },
+            "normal_samples": 0,
+            "special_samples": 52,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 50.0,
+              "tof": 8.0,
+              "dv": 134.0834090612061
+            }
+          },
+          {
+            "from": 24,
+            "to": 6,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 137.1072060807458,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 8.0,
+              "dv": 137.1072060807458
+            },
+            "normal_samples": 0,
+            "special_samples": 40,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 8.0,
+              "dv": 137.1072060807458
+            }
+          },
+          {
+            "from": 24,
+            "to": 38,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 196.0799450616791,
+            "best_sample": {
+              "departure": 145.0,
+              "tof": 8.0,
+              "dv": 196.0799450616791
+            },
+            "normal_samples": 0,
+            "special_samples": 34,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 145.0,
+              "tof": 8.0,
+              "dv": 196.0799450616791
+            }
+          }
+        ]
+      },
+      "conservative_pair_score": 19
+    },
+    {
+      "tomato": 27,
+      "incoming_from_covered": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 5,
+        "feasible_neighbor_count": 5,
+        "normal_sample_count": 0,
+        "special_sample_count": 26,
+        "top_feasible_edges": [
+          {
+            "from": 42,
+            "to": 27,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 524.3710270559417,
+            "best_sample": {
+              "departure": 10.0,
+              "tof": 8.0,
+              "dv": 524.3710270559417
+            },
+            "normal_samples": 0,
+            "special_samples": 8,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 10.0,
+              "tof": 8.0,
+              "dv": 524.3710270559417
+            }
+          },
+          {
+            "from": 33,
+            "to": 27,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 530.1152456401112,
+            "best_sample": {
+              "departure": 20.0,
+              "tof": 8.0,
+              "dv": 530.1152456401112
+            },
+            "normal_samples": 0,
+            "special_samples": 7,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 20.0,
+              "tof": 8.0,
+              "dv": 530.1152456401112
+            }
+          },
+          {
+            "from": 7,
+            "to": 27,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 540.6873502335436,
+            "best_sample": {
+              "departure": 170.0,
+              "tof": 1.5,
+              "dv": 540.6873502335436
+            },
+            "normal_samples": 0,
+            "special_samples": 1,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 170.0,
+              "tof": 1.5,
+              "dv": 540.6873502335436
+            }
+          },
+          {
+            "from": 3,
+            "to": 27,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 541.983902981835,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 8.0,
+              "dv": 541.983902981835
+            },
+            "normal_samples": 0,
+            "special_samples": 3,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 8.0,
+              "dv": 541.983902981835
+            }
+          },
+          {
+            "from": 14,
+            "to": 27,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 558.4725645126871,
+            "best_sample": {
+              "departure": 65.0,
+              "tof": 0.5,
+              "dv": 558.4725645126871
+            },
+            "normal_samples": 0,
+            "special_samples": 7,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 65.0,
+              "tof": 0.5,
+              "dv": 558.4725645126871
+            }
+          }
+        ]
+      },
+      "outgoing_to_covered": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 5,
+        "feasible_neighbor_count": 5,
+        "normal_sample_count": 0,
+        "special_sample_count": 20,
+        "top_feasible_edges": [
+          {
+            "from": 27,
+            "to": 42,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 518.9449789740047,
+            "best_sample": {
+              "departure": 0.5,
+              "tof": 0.5,
+              "dv": 518.9449789740047
+            },
+            "normal_samples": 0,
+            "special_samples": 7,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 0.5,
+              "tof": 0.5,
+              "dv": 518.9449789740047
+            }
+          },
+          {
+            "from": 27,
+            "to": 14,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 533.1118324950789,
+            "best_sample": {
+              "departure": 35.0,
+              "tof": 0.5,
+              "dv": 533.1118324950789
+            },
+            "normal_samples": 0,
+            "special_samples": 5,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 35.0,
+              "tof": 0.5,
+              "dv": 533.1118324950789
+            }
+          },
+          {
+            "from": 27,
+            "to": 3,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 539.3745871528398,
+            "best_sample": {
+              "departure": 35.0,
+              "tof": 1.5,
+              "dv": 539.3745871528398
+            },
+            "normal_samples": 0,
+            "special_samples": 2,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 35.0,
+              "tof": 1.5,
+              "dv": 539.3745871528398
+            }
+          },
+          {
+            "from": 27,
+            "to": 7,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 549.2277099731928,
+            "best_sample": {
+              "departure": 120.0,
+              "tof": 8.0,
+              "dv": 549.2277099731928
+            },
+            "normal_samples": 0,
+            "special_samples": 1,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 120.0,
+              "tof": 8.0,
+              "dv": 549.2277099731928
+            }
+          },
+          {
+            "from": 27,
+            "to": 33,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 553.389628024507,
+            "best_sample": {
+              "departure": 2.5,
+              "tof": 1.5,
+              "dv": 553.389628024507
+            },
+            "normal_samples": 0,
+            "special_samples": 5,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 2.5,
+              "tof": 1.5,
+              "dv": 553.389628024507
+            }
+          }
+        ]
+      },
+      "incoming_from_other_missing": {
+        "normal_neighbor_count": 2,
+        "special_neighbor_count": 2,
+        "feasible_neighbor_count": 2,
+        "normal_sample_count": 69,
+        "special_sample_count": 63,
+        "top_feasible_edges": [
+          {
+            "from": 32,
+            "to": 27,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 14.24770173303867,
+            "best_sample": {
+              "departure": 120.0,
+              "tof": 4.0,
+              "dv": 14.24770173303867
+            },
+            "normal_samples": 43,
+            "special_samples": 24,
+            "best_normal_sample": {
+              "departure": 120.0,
+              "tof": 4.0,
+              "dv": 14.24770173303867
+            },
+            "best_special_sample": {
+              "departure": 145.0,
+              "tof": 2.0,
+              "dv": 101.68136708602819
+            }
+          },
+          {
+            "from": 16,
+            "to": 27,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 37.94372484630256,
+            "best_sample": {
+              "departure": 65.0,
+              "tof": 4.0,
+              "dv": 37.94372484630256
+            },
+            "normal_samples": 26,
+            "special_samples": 39,
+            "best_normal_sample": {
+              "departure": 65.0,
+              "tof": 4.0,
+              "dv": 37.94372484630256
+            },
+            "best_special_sample": {
+              "departure": 2.5,
+              "tof": 4.0,
+              "dv": 103.52225283001081
+            }
+          }
+        ]
+      },
+      "outgoing_to_other_missing": {
+        "normal_neighbor_count": 2,
+        "special_neighbor_count": 2,
+        "feasible_neighbor_count": 2,
+        "normal_sample_count": 64,
+        "special_sample_count": 73,
+        "top_feasible_edges": [
+          {
+            "from": 27,
+            "to": 32,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 13.490524093557324,
+            "best_sample": {
+              "departure": 120.0,
+              "tof": 4.0,
+              "dv": 13.490524093557324
+            },
+            "normal_samples": 34,
+            "special_samples": 33,
+            "best_normal_sample": {
+              "departure": 120.0,
+              "tof": 4.0,
+              "dv": 13.490524093557324
+            },
+            "best_special_sample": {
+              "departure": 100.0,
+              "tof": 2.0,
+              "dv": 101.63853561935466
+            }
+          },
+          {
+            "from": 27,
+            "to": 16,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 34.122147658715704,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 4.0,
+              "dv": 34.122147658715704
+            },
+            "normal_samples": 30,
+            "special_samples": 40,
+            "best_normal_sample": {
+              "departure": 190.0,
+              "tof": 4.0,
+              "dv": 34.122147658715704
+            },
+            "best_special_sample": {
+              "departure": 80.0,
+              "tof": 1.0,
+              "dv": 100.6212258112526
+            }
+          }
+        ]
+      },
+      "conservative_pair_score": 5
+    },
+    {
+      "tomato": 32,
+      "incoming_from_covered": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 7,
+        "feasible_neighbor_count": 7,
+        "normal_sample_count": 0,
+        "special_sample_count": 21,
+        "top_feasible_edges": [
+          {
+            "from": 42,
+            "to": 32,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 514.9527189556716,
+            "best_sample": {
+              "departure": 35.0,
+              "tof": 8.0,
+              "dv": 514.9527189556716
+            },
+            "normal_samples": 0,
+            "special_samples": 6,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 35.0,
+              "tof": 8.0,
+              "dv": 514.9527189556716
+            }
+          },
+          {
+            "from": 33,
+            "to": 32,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 519.7037952160055,
+            "best_sample": {
+              "departure": 20.0,
+              "tof": 8.0,
+              "dv": 519.7037952160055
+            },
+            "normal_samples": 0,
+            "special_samples": 5,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 20.0,
+              "tof": 8.0,
+              "dv": 519.7037952160055
+            }
+          },
+          {
+            "from": 3,
+            "to": 32,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 519.776523503888,
+            "best_sample": {
+              "departure": 5.0,
+              "tof": 8.0,
+              "dv": 519.776523503888
+            },
+            "normal_samples": 0,
+            "special_samples": 4,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 5.0,
+              "tof": 8.0,
+              "dv": 519.776523503888
+            }
+          },
+          {
+            "from": 7,
+            "to": 32,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 550.7356000250845,
+            "best_sample": {
+              "departure": 65.0,
+              "tof": 0.5,
+              "dv": 550.7356000250845
+            },
+            "normal_samples": 0,
+            "special_samples": 1,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 65.0,
+              "tof": 0.5,
+              "dv": 550.7356000250845
+            }
+          },
+          {
+            "from": 14,
+            "to": 32,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 555.0939917485263,
+            "best_sample": {
+              "departure": 145.0,
+              "tof": 1.5,
+              "dv": 555.0939917485263
+            },
+            "normal_samples": 0,
+            "special_samples": 2,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 145.0,
+              "tof": 1.5,
+              "dv": 555.0939917485263
+            }
+          }
+        ]
+      },
+      "outgoing_to_covered": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 6,
+        "feasible_neighbor_count": 6,
+        "normal_sample_count": 0,
+        "special_sample_count": 24,
+        "top_feasible_edges": [
+          {
+            "from": 32,
+            "to": 42,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 522.4204570705268,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 0.5,
+              "dv": 522.4204570705268
+            },
+            "normal_samples": 0,
+            "special_samples": 6,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 0.5,
+              "dv": 522.4204570705268
+            }
+          },
+          {
+            "from": 32,
+            "to": 3,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 522.6900317594243,
+            "best_sample": {
+              "departure": 120.0,
+              "tof": 0.5,
+              "dv": 522.6900317594243
+            },
+            "normal_samples": 0,
+            "special_samples": 9,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 120.0,
+              "tof": 0.5,
+              "dv": 522.6900317594243
+            }
+          },
+          {
+            "from": 32,
+            "to": 14,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 539.1956019678585,
+            "best_sample": {
+              "departure": 100.0,
+              "tof": 8.0,
+              "dv": 539.1956019678585
+            },
+            "normal_samples": 0,
+            "special_samples": 5,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 100.0,
+              "tof": 8.0,
+              "dv": 539.1956019678585
+            }
+          },
+          {
+            "from": 32,
+            "to": 21,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 552.0077014961496,
+            "best_sample": {
+              "departure": 65.0,
+              "tof": 1.5,
+              "dv": 552.0077014961496
+            },
+            "normal_samples": 0,
+            "special_samples": 1,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 65.0,
+              "tof": 1.5,
+              "dv": 552.0077014961496
+            }
+          },
+          {
+            "from": 32,
+            "to": 33,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 580.6029695259908,
+            "best_sample": {
+              "departure": 5.0,
+              "tof": 0.5,
+              "dv": 580.6029695259908
+            },
+            "normal_samples": 0,
+            "special_samples": 2,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 5.0,
+              "tof": 0.5,
+              "dv": 580.6029695259908
+            }
+          }
+        ]
+      },
+      "incoming_from_other_missing": {
+        "normal_neighbor_count": 2,
+        "special_neighbor_count": 2,
+        "feasible_neighbor_count": 2,
+        "normal_sample_count": 59,
+        "special_sample_count": 78,
+        "top_feasible_edges": [
+          {
+            "from": 27,
+            "to": 32,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 13.490524093557324,
+            "best_sample": {
+              "departure": 120.0,
+              "tof": 4.0,
+              "dv": 13.490524093557324
+            },
+            "normal_samples": 34,
+            "special_samples": 33,
+            "best_normal_sample": {
+              "departure": 120.0,
+              "tof": 4.0,
+              "dv": 13.490524093557324
+            },
+            "best_special_sample": {
+              "departure": 100.0,
+              "tof": 2.0,
+              "dv": 101.63853561935466
+            }
+          },
+          {
+            "from": 16,
+            "to": 32,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 41.348170098116086,
+            "best_sample": {
+              "departure": 100.0,
+              "tof": 2.0,
+              "dv": 41.348170098116086
+            },
+            "normal_samples": 25,
+            "special_samples": 45,
+            "best_normal_sample": {
+              "departure": 100.0,
+              "tof": 2.0,
+              "dv": 41.348170098116086
+            },
+            "best_special_sample": {
+              "departure": 80.0,
+              "tof": 2.0,
+              "dv": 102.42447638497919
+            }
+          }
+        ]
+      },
+      "outgoing_to_other_missing": {
+        "normal_neighbor_count": 2,
+        "special_neighbor_count": 2,
+        "feasible_neighbor_count": 2,
+        "normal_sample_count": 68,
+        "special_sample_count": 67,
+        "top_feasible_edges": [
+          {
+            "from": 32,
+            "to": 27,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 14.24770173303867,
+            "best_sample": {
+              "departure": 120.0,
+              "tof": 4.0,
+              "dv": 14.24770173303867
+            },
+            "normal_samples": 43,
+            "special_samples": 24,
+            "best_normal_sample": {
+              "departure": 120.0,
+              "tof": 4.0,
+              "dv": 14.24770173303867
+            },
+            "best_special_sample": {
+              "departure": 145.0,
+              "tof": 2.0,
+              "dv": 101.68136708602819
+            }
+          },
+          {
+            "from": 32,
+            "to": 16,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 44.18328320721018,
+            "best_sample": {
+              "departure": 100.0,
+              "tof": 2.0,
+              "dv": 44.18328320721018
+            },
+            "normal_samples": 25,
+            "special_samples": 43,
+            "best_normal_sample": {
+              "departure": 100.0,
+              "tof": 2.0,
+              "dv": 44.18328320721018
+            },
+            "best_special_sample": {
+              "departure": 0.5,
+              "tof": 2.0,
+              "dv": 101.35900119405645
+            }
+          }
+        ]
+      },
+      "conservative_pair_score": 6
+    },
+    {
+      "tomato": 35,
+      "incoming_from_covered": {
+        "normal_neighbor_count": 1,
+        "special_neighbor_count": 14,
+        "feasible_neighbor_count": 14,
+        "normal_sample_count": 5,
+        "special_sample_count": 441,
+        "top_feasible_edges": [
+          {
+            "from": 26,
+            "to": 35,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 69.26189233125167,
+            "best_sample": {
+              "departure": 145.0,
+              "tof": 8.0,
+              "dv": 69.26189233125167
+            },
+            "normal_samples": 5,
+            "special_samples": 45,
+            "best_normal_sample": {
+              "departure": 145.0,
+              "tof": 8.0,
+              "dv": 69.26189233125167
+            },
+            "best_special_sample": {
+              "departure": 170.0,
+              "tof": 4.0,
+              "dv": 101.18375942735614
+            }
+          },
+          {
+            "from": 21,
+            "to": 35,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 134.0748701013086,
+            "best_sample": {
+              "departure": 145.0,
+              "tof": 8.0,
+              "dv": 134.0748701013086
+            },
+            "normal_samples": 0,
+            "special_samples": 53,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 145.0,
+              "tof": 8.0,
+              "dv": 134.0748701013086
+            }
+          },
+          {
+            "from": 7,
+            "to": 35,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 182.9744288776609,
+            "best_sample": {
+              "departure": 170.0,
+              "tof": 4.0,
+              "dv": 182.9744288776609
+            },
+            "normal_samples": 0,
+            "special_samples": 38,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 170.0,
+              "tof": 4.0,
+              "dv": 182.9744288776609
+            }
+          },
+          {
+            "from": 8,
+            "to": 35,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 242.18057966865777,
+            "best_sample": {
+              "departure": 170.0,
+              "tof": 4.0,
+              "dv": 242.18057966865777
+            },
+            "normal_samples": 0,
+            "special_samples": 52,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 170.0,
+              "tof": 4.0,
+              "dv": 242.18057966865777
+            }
+          },
+          {
+            "from": 14,
+            "to": 35,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 261.3815275623207,
+            "best_sample": {
+              "departure": 5.0,
+              "tof": 1.0,
+              "dv": 261.3815275623207
+            },
+            "normal_samples": 0,
+            "special_samples": 45,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 5.0,
+              "tof": 1.0,
+              "dv": 261.3815275623207
+            }
+          }
+        ]
+      },
+      "outgoing_to_covered": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 14,
+        "feasible_neighbor_count": 14,
+        "normal_sample_count": 0,
+        "special_sample_count": 512,
+        "top_feasible_edges": [
+          {
+            "from": 35,
+            "to": 21,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 122.42528402623745,
+            "best_sample": {
+              "departure": 5.0,
+              "tof": 8.0,
+              "dv": 122.42528402623745
+            },
+            "normal_samples": 0,
+            "special_samples": 51,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 5.0,
+              "tof": 8.0,
+              "dv": 122.42528402623745
+            }
+          },
+          {
+            "from": 35,
+            "to": 26,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 175.39774870706677,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 1.5,
+              "dv": 175.39774870706677
+            },
+            "normal_samples": 0,
+            "special_samples": 48,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 1.5,
+              "dv": 175.39774870706677
+            }
+          },
+          {
+            "from": 35,
+            "to": 7,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 188.07854291561245,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 4.0,
+              "dv": 188.07854291561245
+            },
+            "normal_samples": 0,
+            "special_samples": 46,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 4.0,
+              "dv": 188.07854291561245
+            }
+          },
+          {
+            "from": 35,
+            "to": 8,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 237.82068195887177,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 2.0,
+              "dv": 237.82068195887177
+            },
+            "normal_samples": 0,
+            "special_samples": 70,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 2.0,
+              "dv": 237.82068195887177
+            }
+          },
+          {
+            "from": 35,
+            "to": 42,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 251.82244619138916,
+            "best_sample": {
+              "departure": 65.0,
+              "tof": 8.0,
+              "dv": 251.82244619138916
+            },
+            "normal_samples": 0,
+            "special_samples": 41,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 65.0,
+              "tof": 8.0,
+              "dv": 251.82244619138916
+            }
+          }
+        ]
+      },
+      "incoming_from_other_missing": {
+        "normal_neighbor_count": 1,
+        "special_neighbor_count": 3,
+        "feasible_neighbor_count": 3,
+        "normal_sample_count": 6,
+        "special_sample_count": 134,
+        "top_feasible_edges": [
+          {
+            "from": 6,
+            "to": 35,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 82.14076678609686,
+            "best_sample": {
+              "departure": 2.5,
+              "tof": 8.0,
+              "dv": 82.14076678609686
+            },
+            "normal_samples": 6,
+            "special_samples": 53,
+            "best_normal_sample": {
+              "departure": 2.5,
+              "tof": 8.0,
+              "dv": 82.14076678609686
+            },
+            "best_special_sample": {
+              "departure": 10.0,
+              "tof": 4.0,
+              "dv": 103.1884554307979
+            }
+          },
+          {
+            "from": 24,
+            "to": 35,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 134.0834090612061,
+            "best_sample": {
+              "departure": 50.0,
+              "tof": 8.0,
+              "dv": 134.0834090612061
+            },
+            "normal_samples": 0,
+            "special_samples": 52,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 50.0,
+              "tof": 8.0,
+              "dv": 134.0834090612061
+            }
+          },
+          {
+            "from": 38,
+            "to": 35,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 243.1299647952613,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 8.0,
+              "dv": 243.1299647952613
+            },
+            "normal_samples": 0,
+            "special_samples": 29,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 8.0,
+              "dv": 243.1299647952613
+            }
+          }
+        ]
+      },
+      "outgoing_to_other_missing": {
+        "normal_neighbor_count": 1,
+        "special_neighbor_count": 3,
+        "feasible_neighbor_count": 3,
+        "normal_sample_count": 6,
+        "special_sample_count": 137,
+        "top_feasible_edges": [
+          {
+            "from": 35,
+            "to": 6,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 70.53297939085859,
+            "best_sample": {
+              "departure": 5.0,
+              "tof": 8.0,
+              "dv": 70.53297939085859
+            },
+            "normal_samples": 6,
+            "special_samples": 54,
+            "best_normal_sample": {
+              "departure": 5.0,
+              "tof": 8.0,
+              "dv": 70.53297939085859
+            },
+            "best_special_sample": {
+              "departure": 120.0,
+              "tof": 4.0,
+              "dv": 102.26781153296794
+            }
+          },
+          {
+            "from": 35,
+            "to": 24,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 158.35813950622048,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 4.0,
+              "dv": 158.35813950622048
+            },
+            "normal_samples": 0,
+            "special_samples": 40,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 4.0,
+              "dv": 158.35813950622048
+            }
+          },
+          {
+            "from": 35,
+            "to": 38,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 192.24319710286358,
+            "best_sample": {
+              "departure": 65.0,
+              "tof": 8.0,
+              "dv": 192.24319710286358
+            },
+            "normal_samples": 0,
+            "special_samples": 43,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 65.0,
+              "tof": 8.0,
+              "dv": 192.24319710286358
+            }
+          }
+        ]
+      },
+      "conservative_pair_score": 14
+    },
+    {
+      "tomato": 38,
+      "incoming_from_covered": {
+        "normal_neighbor_count": 1,
+        "special_neighbor_count": 19,
+        "feasible_neighbor_count": 19,
+        "normal_sample_count": 6,
+        "special_sample_count": 581,
+        "top_feasible_edges": [
+          {
+            "from": 8,
+            "to": 38,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 73.75558661446718,
+            "best_sample": {
+              "departure": 5.0,
+              "tof": 8.0,
+              "dv": 73.75558661446718
+            },
+            "normal_samples": 6,
+            "special_samples": 41,
+            "best_normal_sample": {
+              "departure": 5.0,
+              "tof": 8.0,
+              "dv": 73.75558661446718
+            },
+            "best_special_sample": {
+              "departure": 10.0,
+              "tof": 4.0,
+              "dv": 102.84774153602058
+            }
+          },
+          {
+            "from": 39,
+            "to": 38,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 126.3626034679103,
+            "best_sample": {
+              "departure": 65.0,
+              "tof": 8.0,
+              "dv": 126.3626034679103
+            },
+            "normal_samples": 0,
+            "special_samples": 49,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 65.0,
+              "tof": 8.0,
+              "dv": 126.3626034679103
+            }
+          },
+          {
+            "from": 0,
+            "to": 38,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 186.6976846473546,
+            "best_sample": {
+              "departure": 0.5,
+              "tof": 4.0,
+              "dv": 186.6976846473546
+            },
+            "normal_samples": 0,
+            "special_samples": 57,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 0.5,
+              "tof": 4.0,
+              "dv": 186.6976846473546
+            }
+          },
+          {
+            "from": 43,
+            "to": 38,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 257.5043955073087,
+            "best_sample": {
+              "departure": 65.0,
+              "tof": 8.0,
+              "dv": 257.5043955073087
+            },
+            "normal_samples": 0,
+            "special_samples": 41,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 65.0,
+              "tof": 8.0,
+              "dv": 257.5043955073087
+            }
+          },
+          {
+            "from": 21,
+            "to": 38,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 304.39700961277003,
+            "best_sample": {
+              "departure": 100.0,
+              "tof": 1.5,
+              "dv": 304.39700961277003
+            },
+            "normal_samples": 0,
+            "special_samples": 49,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 100.0,
+              "tof": 1.5,
+              "dv": 304.39700961277003
+            }
+          }
+        ]
+      },
+      "outgoing_to_covered": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 20,
+        "feasible_neighbor_count": 20,
+        "normal_sample_count": 0,
+        "special_sample_count": 517,
+        "top_feasible_edges": [
+          {
+            "from": 38,
+            "to": 8,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 136.84931106303762,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 8.0,
+              "dv": 136.84931106303762
+            },
+            "normal_samples": 0,
+            "special_samples": 40,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 8.0,
+              "dv": 136.84931106303762
+            }
+          },
+          {
+            "from": 38,
+            "to": 39,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 198.281301296539,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 4.0,
+              "dv": 198.281301296539
+            },
+            "normal_samples": 0,
+            "special_samples": 40,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 4.0,
+              "dv": 198.281301296539
+            }
+          },
+          {
+            "from": 38,
+            "to": 0,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 202.63695211715833,
+            "best_sample": {
+              "departure": 35.0,
+              "tof": 1.5,
+              "dv": 202.63695211715833
+            },
+            "normal_samples": 0,
+            "special_samples": 51,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 35.0,
+              "tof": 1.5,
+              "dv": 202.63695211715833
+            }
+          },
+          {
+            "from": 38,
+            "to": 26,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 270.0875188401974,
+            "best_sample": {
+              "departure": 35.0,
+              "tof": 8.0,
+              "dv": 270.0875188401974
+            },
+            "normal_samples": 0,
+            "special_samples": 40,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 35.0,
+              "tof": 8.0,
+              "dv": 270.0875188401974
+            }
+          },
+          {
+            "from": 38,
+            "to": 21,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 306.0793704422049,
+            "best_sample": {
+              "departure": 35.0,
+              "tof": 1.5,
+              "dv": 306.0793704422049
+            },
+            "normal_samples": 0,
+            "special_samples": 43,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 35.0,
+              "tof": 1.5,
+              "dv": 306.0793704422049
+            }
+          }
+        ]
+      },
+      "incoming_from_other_missing": {
+        "normal_neighbor_count": 0,
+        "special_neighbor_count": 3,
+        "feasible_neighbor_count": 3,
+        "normal_sample_count": 0,
+        "special_sample_count": 145,
+        "top_feasible_edges": [
+          {
+            "from": 6,
+            "to": 38,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 127.07823462086648,
+            "best_sample": {
+              "departure": 0.5,
+              "tof": 8.0,
+              "dv": 127.07823462086648
+            },
+            "normal_samples": 0,
+            "special_samples": 68,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 0.5,
+              "tof": 8.0,
+              "dv": 127.07823462086648
+            }
+          },
+          {
+            "from": 35,
+            "to": 38,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 192.24319710286358,
+            "best_sample": {
+              "departure": 65.0,
+              "tof": 8.0,
+              "dv": 192.24319710286358
+            },
+            "normal_samples": 0,
+            "special_samples": 43,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 65.0,
+              "tof": 8.0,
+              "dv": 192.24319710286358
+            }
+          },
+          {
+            "from": 24,
+            "to": 38,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 196.0799450616791,
+            "best_sample": {
+              "departure": 145.0,
+              "tof": 8.0,
+              "dv": 196.0799450616791
+            },
+            "normal_samples": 0,
+            "special_samples": 34,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 145.0,
+              "tof": 8.0,
+              "dv": 196.0799450616791
+            }
+          }
+        ]
+      },
+      "outgoing_to_other_missing": {
+        "normal_neighbor_count": 1,
+        "special_neighbor_count": 3,
+        "feasible_neighbor_count": 3,
+        "normal_sample_count": 6,
+        "special_sample_count": 162,
+        "top_feasible_edges": [
+          {
+            "from": 38,
+            "to": 24,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 86.44086099505657,
+            "best_sample": {
+              "departure": 20.0,
+              "tof": 8.0,
+              "dv": 86.44086099505657
+            },
+            "normal_samples": 6,
+            "special_samples": 49,
+            "best_normal_sample": {
+              "departure": 20.0,
+              "tof": 8.0,
+              "dv": 86.44086099505657
+            },
+            "best_special_sample": {
+              "departure": 170.0,
+              "tof": 8.0,
+              "dv": 103.11944639633552
+            }
+          },
+          {
+            "from": 38,
+            "to": 6,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 131.07536516891298,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 4.0,
+              "dv": 131.07536516891298
+            },
+            "normal_samples": 0,
+            "special_samples": 84,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 4.0,
+              "dv": 131.07536516891298
+            }
+          },
+          {
+            "from": 38,
+            "to": 35,
+            "samples": 84,
+            "exceptions": 0,
+            "min_dv": 243.1299647952613,
+            "best_sample": {
+              "departure": 190.0,
+              "tof": 8.0,
+              "dv": 243.1299647952613
+            },
+            "normal_samples": 0,
+            "special_samples": 29,
+            "best_normal_sample": null,
+            "best_special_sample": {
+              "departure": 190.0,
+              "tof": 8.0,
+              "dv": 243.1299647952613
+            }
+          }
+        ]
+      },
+      "conservative_pair_score": 19
+    }
+  ],
+  "focused_edges": [
+    {
+      "from": 12,
+      "to": 4,
+      "samples": 84,
+      "exceptions": 0,
+      "min_dv": 1132.390951680869,
+      "best_sample": {
+        "departure": 170.0,
+        "tof": 2.0,
+        "dv": 1132.390951680869
+      },
+      "normal_samples": 0,
+      "special_samples": 0,
+      "best_normal_sample": null,
+      "best_special_sample": null
+    },
+    {
+      "from": 23,
+      "to": 4,
+      "samples": 84,
+      "exceptions": 0,
+      "min_dv": 1627.3014371252082,
+      "best_sample": {
+        "departure": 100.0,
+        "tof": 4.0,
+        "dv": 1627.3014371252082
+      },
+      "normal_samples": 0,
+      "special_samples": 0,
+      "best_normal_sample": null,
+      "best_special_sample": null
+    },
+    {
+      "from": 41,
+      "to": 4,
+      "samples": 84,
+      "exceptions": 0,
+      "min_dv": 1163.8740192426365,
+      "best_sample": {
+        "departure": 2.5,
+        "tof": 2.0,
+        "dv": 1163.8740192426365
+      },
+      "normal_samples": 0,
+      "special_samples": 0,
+      "best_normal_sample": null,
+      "best_special_sample": null
+    },
+    {
+      "from": 46,
+      "to": 4,
+      "samples": 84,
+      "exceptions": 0,
+      "min_dv": 1159.56843125652,
+      "best_sample": {
+        "departure": 65.0,
+        "tof": 2.0,
+        "dv": 1159.56843125652
+      },
+      "normal_samples": 0,
+      "special_samples": 0,
+      "best_normal_sample": null,
+      "best_special_sample": null
+    },
+    {
+      "from": 2,
+      "to": 4,
+      "samples": 84,
+      "exceptions": 0,
+      "min_dv": 1092.1742393320267,
+      "best_sample": {
+        "departure": 190.0,
+        "tof": 2.0,
+        "dv": 1092.1742393320267
+      },
+      "normal_samples": 0,
+      "special_samples": 0,
+      "best_normal_sample": null,
+      "best_special_sample": null
+    },
+    {
+      "from": 25,
+      "to": 4,
+      "samples": 84,
+      "exceptions": 0,
+      "min_dv": 936.1194169354279,
+      "best_sample": {
+        "departure": 0.5,
+        "tof": 1.5,
+        "dv": 936.1194169354279
+      },
+      "normal_samples": 0,
+      "special_samples": 0,
+      "best_normal_sample": null,
+      "best_special_sample": null
+    },
+    {
+      "from": 17,
+      "to": 4,
+      "samples": 84,
+      "exceptions": 0,
+      "min_dv": 32.65733766442037,
+      "best_sample": {
+        "departure": 10.0,
+        "tof": 1.5,
+        "dv": 32.65733766442037
+      },
+      "normal_samples": 45,
+      "special_samples": 23,
+      "best_normal_sample": {
+        "departure": 10.0,
+        "tof": 1.5,
+        "dv": 32.65733766442037
+      },
+      "best_special_sample": {
+        "departure": 20.0,
+        "tof": 2.0,
+        "dv": 105.02249471730919
+      }
+    },
+    {
+      "from": 4,
+      "to": 17,
+      "samples": 84,
+      "exceptions": 0,
+      "min_dv": 36.155399481944166,
+      "best_sample": {
+        "departure": 5.0,
+        "tof": 1.5,
+        "dv": 36.155399481944166
+      },
+      "normal_samples": 51,
+      "special_samples": 18,
+      "best_normal_sample": {
+        "departure": 5.0,
+        "tof": 1.5,
+        "dv": 36.155399481944166
+      },
+      "best_special_sample": {
+        "departure": 100.0,
+        "tof": 1.0,
+        "dv": 101.23380429183935
+      }
+    },
+    {
+      "from": 18,
+      "to": 17,
+      "samples": 84,
+      "exceptions": 0,
+      "min_dv": 1647.0889722540876,
+      "best_sample": {
+        "departure": 100.0,
+        "tof": 2.0,
+        "dv": 1647.0889722540876
+      },
+      "normal_samples": 0,
+      "special_samples": 0,
+      "best_normal_sample": null,
+      "best_special_sample": null
+    },
+    {
+      "from": 20,
+      "to": 4,
+      "samples": 84,
+      "exceptions": 0,
+      "min_dv": 1010.2583844819998,
+      "best_sample": {
+        "departure": 170.0,
+        "tof": 2.0,
+        "dv": 1010.2583844819998
+      },
+      "normal_samples": 0,
+      "special_samples": 0,
+      "best_normal_sample": null,
+      "best_special_sample": null
+    }
+  ],
+  "pair_count": 870,
+  "orbital_evaluations": 73080,
+  "exceptions": 0,
+  "elapsed_seconds": 7.342,
+  "protected_38_sha256": "5f26b213e308be62ed6e9852abfbd23226325928ec200ecb802f41a9cea13cc0",
+  "protected_39_sha256": "f0df74ec09d32c3b3211df96daacb11303ea71ecdf62df5e7bf287b5a04be930",
+  "source_sha256": "e80a4c44cfd3d37a802ae906cf8bf7125f32cdc9842bc4815b4d652ccd387f65"
+}
