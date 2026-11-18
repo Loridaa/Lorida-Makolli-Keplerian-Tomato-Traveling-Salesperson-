@@ -405,3 +405,13 @@ modifications for this educational project.
 - Riparime te plota: 0.
 - Kandidat 40: False.
 - Rekordet 38 dhe 39 te pandryshuara.
+
+
+## Hapi 183 - Diagnostika e V13
+- Metoda: riprodhim i proves me te afert dhe skanim orbital me PyKEP.
+- Baseline: 39/49.
+- Lidhja e analizuar: {'from': 23, 'to': 4}.
+- DV minimale e testuar: 1626.610952.
+- Vleresime shtese: 445.
+- Skanimi nuk provon pamundesi globale.
+- Rekordet 38/49 dhe 39/49 jane te pandryshuara.

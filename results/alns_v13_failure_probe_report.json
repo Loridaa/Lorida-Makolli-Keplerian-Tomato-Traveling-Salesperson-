@@ -1,0 +1,37 @@
+{
+  "diagnostic_only": true,
+  "base_level": 39,
+  "v13_source_sha256": "75d45fedb5008498064062f6301178ae3cc88e1a2586b787c1a97ccad217c796",
+  "target_edge": {
+    "from": 23,
+    "to": 4
+  },
+  "attempt": 27,
+  "replayed_plan_position": 27,
+  "replayed_legs_repaired": 17,
+  "legs_needed": 20,
+  "replayed_failure_reason": "no_transfer_under_threshold",
+  "window_start": 70.25,
+  "window_deadline": 200.0,
+  "max_special_in_window": 3,
+  "arrival_labels": [
+    {
+      "arrival": 167.595394,
+      "used_in_window": 3,
+      "delta_v": 2904.6978599693466
+    }
+  ],
+  "original_solver_edge_evaluations": 176,
+  "original_solver_min_dv": 1602.102710173577,
+  "original_solver_threshold_pass_counts": {},
+  "extra_grid_evaluations": 445,
+  "extra_grid_result_counts": {
+    "above_exception_threshold": 445
+  },
+  "extra_grid_min_dv": 1626.610952,
+  "feasible_examples": [],
+  "dv_normal_limit": 100.0,
+  "dv_special_limit": 600.0,
+  "protected_38_sha256": "5f26b213e308be62ed6e9852abfbd23226325928ec200ecb802f41a9cea13cc0",
+  "protected_39_sha256": "f0df74ec09d32c3b3211df96daacb11303ea71ecdf62df5e7bf287b5a04be930"
+}
