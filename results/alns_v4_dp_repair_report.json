@@ -1,0 +1,39 @@
+{
+  "algorithm": "ALNS V4 targeted insertion + resource-constrained earliest-arrival DP",
+  "base_level": 38,
+  "best_level": 39,
+  "candidate_verified": true,
+  "instance": "easy.kttsp (49 tomatoes)",
+  "seed": 172,
+  "attempts": 32,
+  "max_attempts": 110,
+  "full_temporal_repairs": 1,
+  "transfer_evaluations": 11953,
+  "evaluation_limit": 120000,
+  "evaluation_limit_reached": false,
+  "best_partial_repair": {
+    "attempt": 32,
+    "cut": 8,
+    "end_index": 19,
+    "missing_tomato": 26,
+    "insertion_offset": 1,
+    "legs_repaired": 13,
+    "legs_needed": 13,
+    "failed_edge": null,
+    "specials_in_window": 2
+  },
+  "failure_reasons": {
+    "no_transfer_under_threshold": 28,
+    "special_budget": 3
+  },
+  "candidate_context": {
+    "attempt": 32,
+    "cut": 8,
+    "end_index": 19,
+    "tomato": 26,
+    "offset": 1,
+    "special_used": 5
+  },
+  "elapsed_seconds": 1.49,
+  "protected_baseline_sha256": "5f26b213e308be62ed6e9852abfbd23226325928ec200ecb802f41a9cea13cc0"
+}

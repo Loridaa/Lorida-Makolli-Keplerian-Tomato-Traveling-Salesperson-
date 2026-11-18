@@ -274,3 +274,15 @@ modifications for this educational project.
 - Nuk u gjet kandidat i ri i verifikuar.
 - Rekordi 38/49 mbeti i paprekur.
 - Hapi tjeter: analiza e pikes ku deshton riparimi i rruges.
+
+
+## Hapi 172 - ALNS V4 DP Repair
+- Algoritmi: ALNS V4 me dynamic programming.
+- Instanca: easy.kttsp (49 domate).
+- Baseline: 38/49 domate.
+- Rezultati: 39/49.
+- Prova: 32.
+- Vleresime: 11953.
+- Riparime te plota: 1.
+- Kandidat i verifikuar: True.
+- Rekordi baze mbetet i pandryshuar.
