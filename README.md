@@ -415,3 +415,15 @@ modifications for this educational project.
 - Vleresime shtese: 445.
 - Skanimi nuk provon pamundesi globale.
 - Rekordet 38/49 dhe 39/49 jane te pandryshuara.
+
+
+## Hapi 184 - ALNS V14 Edge Bypass
+- Algoritmi: ALNS V14 + Dynamic Programming.
+- Strategjia: shmangia e lidhjes 23 -> 4 ne dritaren problematike.
+- Baza: 39/49 domate.
+- Rezultati: 39/49.
+- Prova: 220.
+- Vleresime orbitale: 65552.
+- Riparime te plota: 0.
+- Kandidat 40: False.
+- Rekordet 38 dhe 39 mbeten te pandryshuara.

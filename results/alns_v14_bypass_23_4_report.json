@@ -1,0 +1,96 @@
+{
+  "algorithm": "ALNS V14 bypass diagnostic edge using alternate route orders",
+  "base_level": 39,
+  "best_level": 39,
+  "candidate_verified": false,
+  "attempts": 220,
+  "full_temporal_repairs": 0,
+  "transfer_evaluations": 65552,
+  "closest_repair": {
+    "attempt": 4,
+    "source": "v9_archive_3",
+    "cut": 13,
+    "end": 38,
+    "removed": 40,
+    "added": [
+      17,
+      4
+    ],
+    "legs_repaired": 25,
+    "legs_needed": 27,
+    "failed_edge": {
+      "from": 18,
+      "to": 17,
+      "repair_leg_index": 26
+    }
+  },
+  "failure_reasons": {
+    "no_transfer_under_threshold": 199,
+    "special_budget": 21
+  },
+  "most_failed_edges": [
+    [
+      "9->17",
+      21
+    ],
+    [
+      "34->17",
+      14
+    ],
+    [
+      "17->44",
+      13
+    ],
+    [
+      "4->44",
+      13
+    ],
+    [
+      "34->4",
+      13
+    ],
+    [
+      "9->4",
+      7
+    ],
+    [
+      "9->6",
+      7
+    ],
+    [
+      "47->4",
+      7
+    ],
+    [
+      "18->17",
+      6
+    ],
+    [
+      "23->17",
+      6
+    ],
+    [
+      "18->4",
+      6
+    ],
+    [
+      "9->16",
+      6
+    ]
+  ],
+  "diagnostic_banned_edge": [
+    23,
+    4
+  ],
+  "diagnostic_tested_min_dv": 1626.610952,
+  "protected_38_sha256": "5f26b213e308be62ed6e9852abfbd23226325928ec200ecb802f41a9cea13cc0",
+  "protected_39_sha256": "f0df74ec09d32c3b3211df96daacb11303ea71ecdf62df5e7bf287b5a04be930",
+  "protected_v13_report_sha256": "75d45fedb5008498064062f6301178ae3cc88e1a2586b787c1a97ccad217c796",
+  "protected_probe_sha256": "81343762e5988712bad8392fda881ca99acc1cb5c1f880e854af7270eac5a14b",
+  "script_sha256": "e5bac85db9f38cd8f720c8f4a0a04906ecfa3830fc1ea299d18cffd21214ff6c",
+  "candidate_context": null,
+  "time_limit_reached": false,
+  "evaluation_limit_reached": false,
+  "elapsed_seconds": 18.41,
+  "seed": 18414
+}
