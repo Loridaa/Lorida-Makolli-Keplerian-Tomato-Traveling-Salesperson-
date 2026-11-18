@@ -1,0 +1,13 @@
+{
+  "algorithm": "ALNS destroy-repair + SA V1",
+  "seed": 169,
+  "trials": 18,
+  "feasible_proposals": 2,
+  "accepted": 2,
+  "transfer_evaluations": 2124,
+  "base_level": 38,
+  "best_level": 38,
+  "best_time": 181.01687614917756,
+  "best_verified": true,
+  "elapsed_seconds": 0.22
+}

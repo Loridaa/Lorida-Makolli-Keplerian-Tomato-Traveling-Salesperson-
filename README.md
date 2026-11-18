@@ -217,3 +217,15 @@ https://github.com/esa/SpOC4
 The orbital datasets and utils_users.py originate
 from ESA's SpOC4 repository and are used with
 modifications for this educational project.
+
+
+## ALNS V1.1 - Hapi 169G
+- Metoda: Adaptive Large Neighborhood Search me Simulated Annealing.
+- Instanca: easy.kttsp (49 domate).
+- Baseline i verifikuar: 38/49.
+- Niveli me i mire i raportuar: 38/49.
+- Prova: 18.
+- Kandidate te vlefshem: 2.
+- Vleresime orbitale: 2124.
+- Verifikimi: True.
+- Rekordi origjinal 38/49 nuk eshte mbishkruar.
