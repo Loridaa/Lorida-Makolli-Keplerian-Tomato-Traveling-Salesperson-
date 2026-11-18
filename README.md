@@ -393,3 +393,15 @@ modifications for this educational project.
 - Vleresime orbitale: 21032.
 - Kandidat 40: False.
 - Rekordet 38 dhe 39 nuk mbishkruhen.
+
+
+## Hapi 182 - ALNS V13 Edge Rescue
+- Metoda: edge rescue, zgjerim dritaresh dhe dy metoda Dynamic Programming.
+- Baza: 39/49 domate.
+- Fokus: lidhjet problematike te V12.
+- Rezultati: 39/49.
+- Prova: 260.
+- Vleresime: 50595.
+- Riparime te plota: 0.
+- Kandidat 40: False.
+- Rekordet 38 dhe 39 te pandryshuara.

@@ -1,0 +1,108 @@
+{
+  "algorithm": "ALNS V13 edge rescue + extended-window dual DP",
+  "base_level": 39,
+  "best_level": 39,
+  "candidate_verified": false,
+  "attempts": 260,
+  "full_temporal_repairs": 0,
+  "transfer_evaluations": 50595,
+  "closest_repair": {
+    "attempt": 27,
+    "origin": "v12_rescue",
+    "source": "record39",
+    "removed": 40,
+    "added": [
+      4,
+      17
+    ],
+    "cut": 20,
+    "end": 38,
+    "operator": "back",
+    "solver": "early_arrival",
+    "legs_repaired": 17,
+    "legs_needed": 20,
+    "failed_edge": {
+      "from": 23,
+      "to": 4,
+      "repair_leg_index": 18
+    }
+  },
+  "failure_reasons": {
+    "no_transfer_under_threshold": 260
+  },
+  "most_failed_edges": [
+    [
+      "9->17",
+      12
+    ],
+    [
+      "17->44",
+      10
+    ],
+    [
+      "13->4",
+      10
+    ],
+    [
+      "13->17",
+      10
+    ],
+    [
+      "4->44",
+      8
+    ],
+    [
+      "9->27",
+      8
+    ],
+    [
+      "17->20",
+      7
+    ],
+    [
+      "36->4",
+      7
+    ],
+    [
+      "9->6",
+      7
+    ],
+    [
+      "20->4",
+      6
+    ],
+    [
+      "20->17",
+      6
+    ],
+    [
+      "9->4",
+      6
+    ],
+    [
+      "36->17",
+      6
+    ],
+    [
+      "36->38",
+      6
+    ],
+    [
+      "13->38",
+      6
+    ]
+  ],
+  "solvers": {
+    "multi_label": 174,
+    "early_arrival": 86
+  },
+  "time_limit_reached": false,
+  "evaluation_limit_reached": false,
+  "elapsed_seconds": 8.692,
+  "seed": 18113,
+  "candidate_context": null,
+  "protected_38_sha256": "5f26b213e308be62ed6e9852abfbd23226325928ec200ecb802f41a9cea13cc0",
+  "protected_39_sha256": "f0df74ec09d32c3b3211df96daacb11303ea71ecdf62df5e7bf287b5a04be930",
+  "protected_v12_report_sha256": "b91ec5934fad7bdc1151f5e8cd647aa69fd0dd6bc9e19aeb8273fadeb064b11f",
+  "script_sha256": "af6c7f6f235669aa2d2c6b3d45bb0bf605b097b74a8c08f833e730765fdb71ec"
+}
