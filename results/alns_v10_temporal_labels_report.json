@@ -1,0 +1,94 @@
+{
+  "algorithm": "ALNS V10 - multistart temporal diversity DP with local refinement",
+  "base_level": 39,
+  "best_level": 39,
+  "candidate_verified": false,
+  "seed": 17910,
+  "attempts": 180,
+  "full_temporal_repairs": 0,
+  "transfer_evaluations": 20286,
+  "evaluation_limit": 165000,
+  "evaluation_limit_reached": false,
+  "runtime_limit_reached": false,
+  "maximum_labels_per_special": 3,
+  "failure_reasons": {
+    "no_transfer_under_threshold": 175,
+    "special_budget": 5
+  },
+  "most_failed_edges": [
+    [
+      "20->4",
+      13
+    ],
+    [
+      "37->38",
+      10
+    ],
+    [
+      "37->17",
+      10
+    ],
+    [
+      "20->16",
+      6
+    ],
+    [
+      "20->11",
+      5
+    ],
+    [
+      "23->27",
+      4
+    ],
+    [
+      "37->32",
+      4
+    ],
+    [
+      "37->35",
+      4
+    ],
+    [
+      "47->11",
+      4
+    ],
+    [
+      "34->35",
+      4
+    ],
+    [
+      "23->38",
+      4
+    ],
+    [
+      "34->27",
+      4
+    ]
+  ],
+  "closest_repair": {
+    "source": "v9_archive_1",
+    "tomato": 4,
+    "cut": 23,
+    "end": 27,
+    "operator": "direct",
+    "legs_repaired": 5,
+    "legs_needed": 6,
+    "failed_edge": {
+      "from": 20,
+      "to": 4,
+      "repair_leg_index": 6
+    }
+  },
+  "candidate_context": null,
+  "seed_sources": [
+    "record39",
+    "v7_alternative",
+    "v9_archive_1",
+    "v9_archive_2",
+    "v9_archive_3"
+  ],
+  "protected_38_sha256": "5f26b213e308be62ed6e9852abfbd23226325928ec200ecb802f41a9cea13cc0",
+  "protected_39_sha256": "f0df74ec09d32c3b3211df96daacb11303ea71ecdf62df5e7bf287b5a04be930",
+  "protected_v9_archive_sha256": "015470fe3059a852fcdb138dffd37a4251d037f546851242d29cf242e29f016f",
+  "elapsed_seconds": 5.366
+}

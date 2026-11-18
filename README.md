@@ -359,3 +359,14 @@ modifications for this educational project.
 - Vleresime orbitale: 43143.
 - Kandidati 40 i verifikuar: False.
 - Rekordet 38/49 dhe 39/49 nuk u mbishkruan.
+
+
+## Hapi 179 - ALNS V10 Temporal Labels
+- Algoritmi: ALNS V10 me multi-label Dynamic Programming.
+- Baza: 39/49 domate.
+- Burimet: rekordi 39 dhe arkivi V9.
+- Rezultati: 39/49.
+- Prova: 180.
+- Vleresime: 20286.
+- Kandidat 40: False.
+- Rekordet 38/39 mbeten te pandryshuara.
