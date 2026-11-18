@@ -286,3 +286,15 @@ modifications for this educational project.
 - Riparime te plota: 1.
 - Kandidat i verifikuar: True.
 - Rekordi baze mbetet i pandryshuar.
+
+
+## Hapi 173 - Rekordi 39/49
+- Algoritmi: ALNS V4 + Dynamic Programming.
+- Instanca: easy.kttsp.
+- Rekordi i ri: 39/49 domate.
+- Domatja e shtuar: 26.
+- Dita perfundimtare: 181.016876.
+- Transferime SPECIAL: 5/5.
+- Verifikuar me PyKEP.
+- Rekordi 38/49 mbetet i ruajtur.
+- Objektivi i ardhshem: 40/49.
