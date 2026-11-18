@@ -238,3 +238,13 @@ modifications for this educational project.
 - Vleresime: 2354.
 - Hapi pasues: futje brenda rruges.
 - Rekordi origjinal mbetet i pandryshuar.
+
+
+## Hapi 170C - Internal Insertion Search
+- Metoda: futje e nje domateje brenda rruges.
+- Baseline: 38/49 domate.
+- Rezultati: 38/49.
+- Kombinime: 396.
+- Vleresime: 14354.
+- Kandidat i verifikuar: False.
+- Rekordi 38/49 nuk u mbishkrua.

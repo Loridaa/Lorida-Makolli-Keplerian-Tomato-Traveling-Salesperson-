@@ -1,0 +1,36 @@
+{
+  "method": "ALNS V2 - deterministic one-tomato internal insertion (fixed suffix)",
+  "base_level": 38,
+  "best_level": 38,
+  "candidate_verified": false,
+  "instance": "easy.kttsp (49 tomatoes)",
+  "special_limit": 5,
+  "missing_tomatoes": [
+    4,
+    6,
+    11,
+    16,
+    17,
+    24,
+    26,
+    27,
+    32,
+    35,
+    38
+  ],
+  "possible_positions": 36,
+  "pairs_checked": 396,
+  "first_leg_feasible_options": 16,
+  "second_leg_feasible_options": 0,
+  "transfer_evaluations": 14354,
+  "evaluation_limit": 60000,
+  "stopped_at_limit": false,
+  "minimum_second_leg_dv_found": 429.209,
+  "min_second_leg_context": [
+    8,
+    38,
+    21,
+    43
+  ],
+  "candidate_details": null
+}
