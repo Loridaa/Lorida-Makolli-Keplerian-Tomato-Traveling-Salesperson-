@@ -1,0 +1,15 @@
+{
+  "method": "ALNS V2 targeted multi-node destroy-repair with temporal search",
+  "base_level": 38,
+  "best_level": 38,
+  "candidate_verified": false,
+  "instance": "easy.kttsp (49 tomatoes)",
+  "seed": 170,
+  "selected_windows": 28,
+  "attempts": 90,
+  "transfer_evaluations": 24536,
+  "evaluation_limit": 80000,
+  "stopped_at_limit": false,
+  "elapsed_seconds": 2.16,
+  "candidate_details": null
+}

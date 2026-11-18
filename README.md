@@ -248,3 +248,15 @@ modifications for this educational project.
 - Vleresime: 14354.
 - Kandidat i verifikuar: False.
 - Rekordi 38/49 nuk u mbishkrua.
+
+
+## Hapi 170E - ALNS V2 Segment Repair
+- Metoda: ALNS targeted destroy-repair.
+- Riorganizim i segmenteve me 2-5 domate.
+- Instanca: easy.kttsp.
+- Baseline: 38/49 domate.
+- Rezultati: 38/49.
+- Prova: 90.
+- Vleresime orbitale: 24536.
+- Kandidat i verifikuar: False.
+- Rekordi origjinal mbetet i paprekur.
