@@ -1,0 +1,103 @@
+{
+  "algorithm": "ALNS V9 multi-start 39-neutral reconstruction + guided 40 insertion",
+  "base_level": 39,
+  "best_level": 39,
+  "candidate_verified": false,
+  "neutral_attempts": 80,
+  "neutral_full_repairs": 8,
+  "new_neutral_variants": 3,
+  "total_start_states": 5,
+  "insertion_attempts": 420,
+  "insertion_full_repairs": 0,
+  "transfer_evaluations": 43143,
+  "evaluation_limit": 165000,
+  "evaluation_limit_reached": false,
+  "runtime_limit_seconds": 900,
+  "runtime_limit_reached": false,
+  "neutral_failures": {
+    "special_budget": 72,
+    "failed_full_verification": 5
+  },
+  "insertion_failures": {
+    "no_transfer_under_threshold": 385,
+    "special_budget": 35
+  },
+  "most_failed_edges": [
+    [
+      "20->35",
+      29
+    ],
+    [
+      "20->32",
+      26
+    ],
+    [
+      "37->6",
+      24
+    ],
+    [
+      "20->17",
+      23
+    ],
+    [
+      "20->38",
+      19
+    ],
+    [
+      "20->27",
+      16
+    ],
+    [
+      "20->37",
+      16
+    ],
+    [
+      "37->27",
+      15
+    ],
+    [
+      "23->38",
+      10
+    ],
+    [
+      "37->38",
+      9
+    ],
+    [
+      "37->17",
+      8
+    ],
+    [
+      "20->4",
+      8
+    ]
+  ],
+  "closest_repair": {
+    "attempt": 101,
+    "source": "record39",
+    "tomato": 17,
+    "cut": 23,
+    "end": 27,
+    "operator": "direct",
+    "legs_repaired": 5,
+    "legs_needed": 6,
+    "failed_edge": {
+      "from": 20,
+      "to": 17,
+      "repair_leg_index": 6
+    }
+  },
+  "operator_attempts": {
+    "reverse3": 106,
+    "direct": 116,
+    "relocate": 70,
+    "swap_right": 114,
+    "rotate4": 14
+  },
+  "candidate_context": null,
+  "elapsed_seconds": 8.51,
+  "protected_38_sha256": "5f26b213e308be62ed6e9852abfbd23226325928ec200ecb802f41a9cea13cc0",
+  "protected_39_sha256": "f0df74ec09d32c3b3211df96daacb11303ea71ecdf62df5e7bf287b5a04be930",
+  "protected_alt39_sha256": "0d761a9fa435474dca70f89447992ab8c64c61b663d8e7e86bd86eceb2a2c073",
+  "seed": 17809
+}

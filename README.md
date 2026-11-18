@@ -348,3 +348,14 @@ modifications for this educational project.
 - Riparime te plota: 0.
 - Kandidat 40 i verifikuar: False.
 - Rekordet 38/39 mbeten te pandryshuara.
+
+
+## Hapi 178 - ALNS V9 Multi-Start
+- Instanca: easy.kttsp (49 domate).
+- Metoda: neutral 39/49 multi-start + DP targeted insertion.
+- Rekordi baze: 39/49; rezultati: 39/49.
+- Alternativa te reja 39: 3.
+- Prova per 40: 420.
+- Vleresime orbitale: 43143.
+- Kandidati 40 i verifikuar: False.
+- Rekordet 38/49 dhe 39/49 nuk u mbishkruan.
