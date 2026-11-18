@@ -427,3 +427,16 @@ modifications for this educational project.
 - Riparime te plota: 0.
 - Kandidat 40: False.
 - Rekordet 38 dhe 39 mbeten te pandryshuara.
+
+
+## Hapi 185 - ALNS V15 Adaptive Edge Repair
+- Metoda: Adaptive Edge Repair + Dynamic Programming.
+- Baza: rekordi 39/49.
+- Fokus: prova 25/27 nga ALNS V14.
+- Ndryshime adaptive rreth transferimeve qe deshtojne.
+- Rezultati: 39/49.
+- Prova: 210.
+- Vleresime: 66431.
+- Riparime te plota: 0.
+- Kandidat 40: False.
+- Rekordet 38 dhe 39 nuk u mbishkruan.

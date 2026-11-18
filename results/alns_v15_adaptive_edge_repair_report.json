@@ -1,0 +1,101 @@
+{
+  "algorithm": "ALNS V15 failure-guided edge relocation and temporal repair",
+  "base_level": 39,
+  "best_level": 39,
+  "candidate_verified": false,
+  "attempts": 210,
+  "transfer_evaluations": 66431,
+  "full_temporal_repairs": 0,
+  "initial_plans": 510,
+  "unique_plans_queued": 4210,
+  "solver_usage": {
+    "multi_label": 140,
+    "early_arrival": 70
+  },
+  "failure_reasons": {
+    "no_transfer_under_threshold": 159,
+    "no_time_options": 3,
+    "special_budget": 48
+  },
+  "most_failed_edges": [
+    [
+      "41->4",
+      40
+    ],
+    [
+      "46->4",
+      38
+    ],
+    [
+      "2->4",
+      22
+    ],
+    [
+      "25->4",
+      16
+    ],
+    [
+      "10->4",
+      12
+    ],
+    [
+      "41->25",
+      10
+    ],
+    [
+      "22->4",
+      10
+    ],
+    [
+      "25->41",
+      9
+    ],
+    [
+      "37->41",
+      6
+    ],
+    [
+      "13->4",
+      6
+    ],
+    [
+      "12->4",
+      5
+    ],
+    [
+      "41->22",
+      5
+    ]
+  ],
+  "closest_repair": {
+    "attempt": 79,
+    "source": "v9_archive_3",
+    "cut": 13,
+    "end": 38,
+    "removed": [
+      40
+    ],
+    "added": [
+      17,
+      4
+    ],
+    "kind": "rescue_rotate_block",
+    "depth": 2,
+    "legs_repaired": 22,
+    "legs_needed": 27,
+    "failed_edge": {
+      "from": 12,
+      "to": 4,
+      "repair_leg_index": 23
+    }
+  },
+  "candidate_context": null,
+  "protected_38_sha256": "5f26b213e308be62ed6e9852abfbd23226325928ec200ecb802f41a9cea13cc0",
+  "protected_39_sha256": "f0df74ec09d32c3b3211df96daacb11303ea71ecdf62df5e7bf287b5a04be930",
+  "protected_v14_report_sha256": "625471ccdf6b1abc3076095a3c19ab103900237ccb64642be0fc70bdf77dabb3",
+  "script_sha256": "b42c817ef3a934235d6ca3739b48ba3e0a86e55c60ea5050a14a4069e2ed1547",
+  "time_limit_reached": false,
+  "evaluation_limit_reached": false,
+  "elapsed_seconds": 15.998,
+  "seed": 18515
+}
