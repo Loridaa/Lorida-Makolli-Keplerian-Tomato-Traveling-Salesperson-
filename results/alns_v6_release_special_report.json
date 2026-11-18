@@ -1,0 +1,43 @@
+{
+  "algorithm": "ALNS V6: verified SPECIAL-release and targeted insertion",
+  "base_level": 39,
+  "best_level": 39,
+  "candidate_verified": false,
+  "alternative_39_verified": false,
+  "best_39_special_used": 5,
+  "release_attempts": 140,
+  "release_variants": 0,
+  "insertion_attempts": 0,
+  "full_temporal_repairs": 0,
+  "transfer_evaluations": 44951,
+  "evaluation_limit": 160000,
+  "evaluation_limit_reached": false,
+  "release_failure_reasons": {
+    "special_budget": 133,
+    "no_transfer_under_threshold": 7
+  },
+  "insert_failure_reasons": {},
+  "best_release_partial": {
+    "attempt": 1,
+    "cut": 2,
+    "end": 38,
+    "operator": "keep",
+    "anchor": 20,
+    "legs_repaired": 34,
+    "legs_needed": 37,
+    "failed_edge": {
+      "from": 12,
+      "to": 18,
+      "repair_leg_index": 35
+    }
+  },
+  "best_insert_partial": {
+    "legs_repaired": 0,
+    "legs_needed": 0
+  },
+  "candidate_context": null,
+  "protected_38_sha256": "5f26b213e308be62ed6e9852abfbd23226325928ec200ecb802f41a9cea13cc0",
+  "protected_39_sha256": "f0df74ec09d32c3b3211df96daacb11303ea71ecdf62df5e7bf287b5a04be930",
+  "seed": 17406,
+  "elapsed_seconds": 5.3
+}

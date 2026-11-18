@@ -309,3 +309,16 @@ modifications for this educational project.
 - Riparime te plota: 0.
 - Kandidat i verifikuar: False.
 - Rekordet e vjetra nuk u mbishkruan.
+
+
+## Hapi 175 - ALNS V6 Special Release
+- Algoritmi: ALNS V6 + Dynamic Programming.
+- Strategjia: lirimi i transferimeve SPECIAL para futjes se domates 40.
+- Baseline: 39/49 domate.
+- Rezultati: 39/49.
+- Prova release: 140.
+- Variante 39: 0.
+- Prova insertion: 0.
+- Vleresime: 44951.
+- Kandidat 40 i verifikuar: False.
+- Rekordet 38 dhe 39 nuk u mbishkruan.
