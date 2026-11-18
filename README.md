@@ -229,3 +229,12 @@ modifications for this educational project.
 - Vleresime orbitale: 2124.
 - Verifikimi: True.
 - Rekordi origjinal 38/49 nuk eshte mbishkruar.
+
+
+## Hapi 170A - ALNS V2 Append Probe
+- Baza: 38/49 domate, 5/5 SPECIAL.
+- Testi: shtim i domates ne fund te rruges.
+- Rezultati: nuk u gjet transferim NORMAL.
+- Vleresime: 2354.
+- Hapi pasues: futje brenda rruges.
+- Rekordi origjinal mbetet i pandryshuar.

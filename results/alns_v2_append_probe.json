@@ -1,0 +1,76 @@
+{
+  "method": "ALNS V2 diagnostic - end insertion",
+  "base_level": 38,
+  "best_level": 38,
+  "evaluations": 2354,
+  "normal_threshold": 100.0,
+  "missing": [
+    {
+      "tomato": 4,
+      "min_dv": 1639.629,
+      "earliest_best_dv_arrival": 183.516876,
+      "normal_options": 0
+    },
+    {
+      "tomato": 6,
+      "min_dv": 1282.1938,
+      "earliest_best_dv_arrival": 191.766876,
+      "normal_options": 0
+    },
+    {
+      "tomato": 11,
+      "min_dv": 1667.1549,
+      "earliest_best_dv_arrival": 188.516876,
+      "normal_options": 0
+    },
+    {
+      "tomato": 16,
+      "min_dv": 2290.8311,
+      "earliest_best_dv_arrival": 185.016876,
+      "normal_options": 0
+    },
+    {
+      "tomato": 17,
+      "min_dv": 1685.0684,
+      "earliest_best_dv_arrival": 184.266876,
+      "normal_options": 0
+    },
+    {
+      "tomato": 24,
+      "min_dv": 1260.2248,
+      "earliest_best_dv_arrival": 196.516876,
+      "normal_options": 0
+    },
+    {
+      "tomato": 26,
+      "min_dv": 1250.4831,
+      "earliest_best_dv_arrival": 196.266876,
+      "normal_options": 0
+    },
+    {
+      "tomato": 27,
+      "min_dv": 2282.3039,
+      "earliest_best_dv_arrival": 190.016876,
+      "normal_options": 0
+    },
+    {
+      "tomato": 32,
+      "min_dv": 2283.2839,
+      "earliest_best_dv_arrival": 183.516876,
+      "normal_options": 0
+    },
+    {
+      "tomato": 35,
+      "min_dv": 1262.1758,
+      "earliest_best_dv_arrival": 192.016876,
+      "normal_options": 0
+    },
+    {
+      "tomato": 38,
+      "min_dv": 1281.4775,
+      "earliest_best_dv_arrival": 199.516876,
+      "normal_options": 0
+    }
+  ],
+  "candidate_verified": false
+}
