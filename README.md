@@ -298,3 +298,14 @@ modifications for this educational project.
 - Verifikuar me PyKEP.
 - Rekordi 38/49 mbetet i ruajtur.
 - Objektivi i ardhshem: 40/49.
+
+
+## Hapi 174 - ALNS V5 nga 39/49
+- Algoritmi: targeted neighborhood repair me Dynamic Programming.
+- Baza: rekordi i verifikuar 39/49.
+- Rezultati: 39/49.
+- Prova: 210.
+- Vleresime orbitale: 51885.
+- Riparime te plota: 0.
+- Kandidat i verifikuar: False.
+- Rekordet e vjetra nuk u mbishkruan.

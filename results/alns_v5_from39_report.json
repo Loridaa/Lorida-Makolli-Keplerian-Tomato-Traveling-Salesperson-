@@ -1,0 +1,43 @@
+{
+  "algorithm": "V5: diverse targeted insertion/mutation with V4 time/SPECIAL DP",
+  "base_level": 39,
+  "best_level": 39,
+  "candidate_verified": false,
+  "instance": "easy.kttsp (49 tomatoes)",
+  "seed": 17340,
+  "attempts": 210,
+  "max_attempts": 210,
+  "full_temporal_repairs": 0,
+  "transfer_evaluations": 51885,
+  "evaluation_limit": 160000,
+  "evaluation_limit_reached": false,
+  "best_partial_repair": {
+    "attempt": 199,
+    "cut": 13,
+    "end_index": 38,
+    "missing_tomato": 17,
+    "operator": "rotate3",
+    "legs_repaired": 26,
+    "legs_needed": 27,
+    "failed_edge": {
+      "from": 23,
+      "to": 17,
+      "repair_leg_index": 27
+    }
+  },
+  "failure_reasons": {
+    "no_transfer_under_threshold": 154,
+    "special_budget": 42,
+    "no_time_options": 14
+  },
+  "operators_tried": {
+    "reverse3": 34,
+    "swap": 37,
+    "keep": 104,
+    "rotate3": 35
+  },
+  "candidate_context": null,
+  "elapsed_seconds": 6.51,
+  "protected_38_sha256": "5f26b213e308be62ed6e9852abfbd23226325928ec200ecb802f41a9cea13cc0",
+  "protected_39_sha256": "f0df74ec09d32c3b3211df96daacb11303ea71ecdf62df5e7bf287b5a04be930"
+}
