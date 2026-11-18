@@ -335,3 +335,16 @@ modifications for this educational project.
 - Vleresime: 24404.
 - Kandidat 40 i verifikuar: False.
 - Rekordet 38 dhe 39 mbeten te pandryshuara.
+
+
+## Hapi 177 - ALNS V8 Edge Escape
+- Metoda: ALNS Edge Escape + Dynamic Programming.
+- Baza: 39/49 domate.
+- Burimet: rekordi 39 dhe alternativa e V7.
+- Strategjia: pozicione dhe renditje te reja per te shmangur lidhjet problematike.
+- Rezultati: 39/49.
+- Prova: 320.
+- Vleresime: 45256.
+- Riparime te plota: 0.
+- Kandidat 40 i verifikuar: False.
+- Rekordet 38/39 mbeten te pandryshuara.

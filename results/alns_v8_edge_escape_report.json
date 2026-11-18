@@ -1,0 +1,96 @@
+{
+  "algorithm": "ALNS V8 edge-escape multi-offset + local permutation DP repair",
+  "base_level": 39,
+  "best_level": 39,
+  "candidate_verified": false,
+  "attempts": 320,
+  "max_attempts": 320,
+  "full_temporal_repairs": 0,
+  "transfer_evaluations": 45256,
+  "evaluation_limit": 160000,
+  "evaluation_limit_reached": false,
+  "failure_reasons": {
+    "no_transfer_under_threshold": 284,
+    "special_budget": 30,
+    "no_time_options": 6
+  },
+  "most_failed_edges": [
+    [
+      "20->37",
+      13
+    ],
+    [
+      "20->27",
+      10
+    ],
+    [
+      "37->27",
+      9
+    ],
+    [
+      "37->17",
+      9
+    ],
+    [
+      "20->35",
+      8
+    ],
+    [
+      "20->32",
+      8
+    ],
+    [
+      "37->38",
+      8
+    ],
+    [
+      "37->6",
+      8
+    ],
+    [
+      "20->38",
+      7
+    ],
+    [
+      "20->17",
+      7
+    ]
+  ],
+  "closest_repair": {
+    "attempt": 215,
+    "source": "v7_neutral",
+    "cut": 26,
+    "end": 38,
+    "tomato": 38,
+    "operator": "swap_left",
+    "legs_repaired": 12,
+    "legs_needed": 14,
+    "failed_edge": {
+      "from": 23,
+      "to": 38,
+      "repair_leg_index": 13
+    }
+  },
+  "candidate_context": null,
+  "sources": [
+    "verified39",
+    "v7_neutral"
+  ],
+  "missing_tomatoes": [
+    4,
+    6,
+    11,
+    16,
+    17,
+    24,
+    27,
+    32,
+    35,
+    38
+  ],
+  "protected_38_sha256": "5f26b213e308be62ed6e9852abfbd23226325928ec200ecb802f41a9cea13cc0",
+  "protected_39_sha256": "f0df74ec09d32c3b3211df96daacb11303ea71ecdf62df5e7bf287b5a04be930",
+  "protected_alt39_sha256": "0d761a9fa435474dca70f89447992ab8c64c61b663d8e7e86bd86eceb2a2c073",
+  "elapsed_seconds": 6.16,
+  "seed": 17708
+}
