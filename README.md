@@ -260,3 +260,17 @@ modifications for this educational project.
 - Vleresime orbitale: 24536.
 - Kandidat i verifikuar: False.
 - Rekordi origjinal mbetet i paprekur.
+
+
+## Hapi 171 - ALNS V3 Suffix Rebuild
+- Metoda: ALNS V3 me riorganizim segmentesh dhe rillogaritje te transferimeve.
+- Instanca: easy.kttsp.
+- Baseline: 38/49 domate.
+- Rezultati: 38/49.
+- Prova: 75.
+- Vleresime orbitale: 67648.
+- Riparime te plota: 0.
+- Maksimumi i transferimeve te riparuara: 19.
+- Nuk u gjet kandidat i ri i verifikuar.
+- Rekordi 38/49 mbeti i paprekur.
+- Hapi tjeter: analiza e pikes ku deshton riparimi i rruges.

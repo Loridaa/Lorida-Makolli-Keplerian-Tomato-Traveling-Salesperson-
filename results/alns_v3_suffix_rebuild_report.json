@@ -1,0 +1,40 @@
+{
+  "method": "ALNS V3 adaptive neighborhood + downstream resource-constrained suffix retiming",
+  "base_level": 38,
+  "best_level": 38,
+  "candidate_verified": false,
+  "instance": "easy.kttsp (49 tomatoes)",
+  "seed": 171,
+  "attempts": 75,
+  "max_attempts": 75,
+  "full_temporal_repairs": 0,
+  "transfer_evaluations": 67648,
+  "evaluation_limit": 180000,
+  "reached_evaluation_limit": false,
+  "max_legs_repaired": 19,
+  "closest_repair": {
+    "attempt": 57,
+    "cut": 8,
+    "k": 3,
+    "repair_end_original_index": 37,
+    "missing_tomato": 35,
+    "legs_repaired": 19,
+    "legs_needed": 31
+  },
+  "operators_tried": {
+    "reverse": 16,
+    "shuffle": 21,
+    "keep": 22,
+    "swap": 12,
+    "rotate": 4
+  },
+  "adaptive_weights": {
+    "keep": 2.8715,
+    "swap": 2.0016,
+    "reverse": 1.5238,
+    "rotate": 1.1361,
+    "shuffle": 1.6692
+  },
+  "elapsed_seconds": 5.88,
+  "candidate_details": null
+}
