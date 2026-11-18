@@ -370,3 +370,15 @@ modifications for this educational project.
 - Vleresime: 20286.
 - Kandidat 40: False.
 - Rekordet 38/39 mbeten te pandryshuara.
+
+
+## Hapi 180 - ALNS V11 Exchange + Insert
+- Metoda: zevendesim i nje domateje, pastaj futje per 40/49.
+- Baseline: 39/49 domate.
+- Variante 39: 0.
+- Prova exchange: 160.
+- Prova insertion: 0.
+- Vleresime: 18955.
+- Rezultati: 39/49.
+- Kandidat 40: False.
+- Rekordet origjinale te paprekura.

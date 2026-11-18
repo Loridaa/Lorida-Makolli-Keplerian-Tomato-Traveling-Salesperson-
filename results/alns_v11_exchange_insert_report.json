@@ -1,0 +1,114 @@
+{
+  "algorithm": "ALNS V11 - verified 1-for-1 subset exchange + temporal insertion",
+  "base_level": 39,
+  "best_level": 39,
+  "candidate_verified": false,
+  "seed": 17911,
+  "source_seed_names": [
+    "record39",
+    "v7_alternative",
+    "v9_archive_1",
+    "v9_archive_2",
+    "v9_archive_3"
+  ],
+  "exchange_attempts": 160,
+  "exchange_full_repairs": 0,
+  "new_39_subsets": 0,
+  "exchange_failure_reasons": {
+    "no_transfer_under_threshold": 158,
+    "special_budget": 2
+  },
+  "exchange_closest_repair": {
+    "source": "v9_archive_2",
+    "tomato": 38,
+    "removed": 31,
+    "cut": 25,
+    "end": 27,
+    "operator": "replace_swap_next",
+    "legs_repaired": 1,
+    "legs_needed": 3,
+    "failed_edge": {
+      "from": 37,
+      "to": 38,
+      "repair_leg_index": 2
+    }
+  },
+  "insertion_attempts": 0,
+  "insertion_full_repairs": 0,
+  "insertion_failure_reasons": {},
+  "insertion_closest_repair": {
+    "legs_repaired": 0,
+    "legs_needed": 0
+  },
+  "most_failed_edges": [
+    [
+      "31->32",
+      8
+    ],
+    [
+      "31->16",
+      8
+    ],
+    [
+      "31->11",
+      7
+    ],
+    [
+      "31->38",
+      7
+    ],
+    [
+      "31->17",
+      7
+    ],
+    [
+      "31->6",
+      7
+    ],
+    [
+      "31->35",
+      6
+    ],
+    [
+      "31->27",
+      6
+    ],
+    [
+      "31->24",
+      6
+    ],
+    [
+      "20->11",
+      4
+    ],
+    [
+      "20->24",
+      3
+    ],
+    [
+      "20->4",
+      3
+    ],
+    [
+      "31->4",
+      3
+    ],
+    [
+      "20->17",
+      3
+    ],
+    [
+      "37->35",
+      3
+    ]
+  ],
+  "transfer_evaluations": 18955,
+  "evaluation_limit_reached": false,
+  "elapsed_seconds": 2.848,
+  "runtime_limit_reached": false,
+  "candidate_context": null,
+  "protected_38_sha256": "5f26b213e308be62ed6e9852abfbd23226325928ec200ecb802f41a9cea13cc0",
+  "protected_39_sha256": "f0df74ec09d32c3b3211df96daacb11303ea71ecdf62df5e7bf287b5a04be930",
+  "protected_v9_archive_sha256": "015470fe3059a852fcdb138dffd37a4251d037f546851242d29cf242e29f016f",
+  "protected_v10_report_sha256": "c2701c681a209248e53b51594678058c8b77639f3a3e834ca927156bc0067ee7"
+}
