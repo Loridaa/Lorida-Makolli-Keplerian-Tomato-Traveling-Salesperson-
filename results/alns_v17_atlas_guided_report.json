@@ -1,0 +1,126 @@
+{
+  "algorithm": "V17 atlas-guided targeted insertion with temporal DP",
+  "base_level": 39,
+  "best_level": 39,
+  "candidate_verified": false,
+  "attempts": 170,
+  "full_temporal_repairs": 0,
+  "transfer_evaluations": 33713,
+  "best_partial_repair": {
+    "attempt": 78,
+    "source": "v9_archive_1",
+    "cut": 23,
+    "end": 28,
+    "inserted": 11,
+    "legs_repaired": 5,
+    "legs_needed": 7,
+    "failed_edge": {
+      "from": 11,
+      "to": 20,
+      "repair_leg_index": 6
+    }
+  },
+  "failure_reasons": {
+    "special_budget": 50,
+    "no_transfer_under_threshold": 118,
+    "no_time_options": 2
+  },
+  "most_failed_edges": [
+    [
+      "9->40",
+      13
+    ],
+    [
+      "20->24",
+      5
+    ],
+    [
+      "24->26",
+      5
+    ],
+    [
+      "5->27",
+      5
+    ],
+    [
+      "38->26",
+      4
+    ],
+    [
+      "21->24",
+      4
+    ],
+    [
+      "21->6",
+      4
+    ],
+    [
+      "21->35",
+      4
+    ],
+    [
+      "47->16",
+      4
+    ],
+    [
+      "6->26",
+      4
+    ],
+    [
+      "47->32",
+      4
+    ],
+    [
+      "21->38",
+      3
+    ]
+  ],
+  "attempts_per_tomato": {
+    "4": 15,
+    "6": 20,
+    "11": 15,
+    "16": 15,
+    "17": 15,
+    "24": 20,
+    "27": 15,
+    "32": 15,
+    "35": 20,
+    "38": 20
+  },
+  "ranking_used": [
+    38,
+    24,
+    6,
+    35,
+    32,
+    11,
+    27,
+    4,
+    16,
+    17
+  ],
+  "seed_sources": [
+    "record39",
+    "v7_neutral_1",
+    "v9_archive_1",
+    "v9_archive_2",
+    "v9_archive_3"
+  ],
+  "protected_38_sha256": "5f26b213e308be62ed6e9852abfbd23226325928ec200ecb802f41a9cea13cc0",
+  "protected_39_sha256": "f0df74ec09d32c3b3211df96daacb11303ea71ecdf62df5e7bf287b5a04be930",
+  "protected_atlas_sha256": "3aa310ac4a49becc1bb47fc395f7a562e67c59128269d13238afbb4067a3cce2",
+  "protected_sources_sha256": {
+    "/kaggle/working/esa-spoc4-github-restore/results/best_verified_38.json": "5f26b213e308be62ed6e9852abfbd23226325928ec200ecb802f41a9cea13cc0",
+    "/kaggle/working/esa-spoc4-github-restore/kaggle_backups/results/best_verified_38.json": "5f26b213e308be62ed6e9852abfbd23226325928ec200ecb802f41a9cea13cc0",
+    "/kaggle/working/esa-spoc4-github-restore/results/best_verified_39.json": "f0df74ec09d32c3b3211df96daacb11303ea71ecdf62df5e7bf287b5a04be930",
+    "/kaggle/working/esa-spoc4-github-restore/results/alns_v7_verified_39_neutral.json": "0d761a9fa435474dca70f89447992ab8c64c61b663d8e7e86bd86eceb2a2c073",
+    "/kaggle/working/esa-spoc4-github-restore/results/alns_v9_multistart_verified_39_archive.json": "015470fe3059a852fcdb138dffd37a4251d037f546851242d29cf242e29f016f",
+    "/kaggle/working/esa-spoc4-github-restore/results/v16_orbital_feasibility_atlas_report.json": "3aa310ac4a49becc1bb47fc395f7a562e67c59128269d13238afbb4067a3cce2"
+  },
+  "script_sha256": "b50ce3a427a9be0d171875de65b41e425d7b5e5e7df93566b5500b7b9d1ef136",
+  "candidate_context": null,
+  "evaluation_limit_reached": false,
+  "time_limit_reached": false,
+  "elapsed_seconds": 5.89,
+  "note": "Atlas pair feasibility does not prove route feasibility."
+}

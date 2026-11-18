@@ -450,3 +450,17 @@ modifications for this educational project.
 - Rezultatet jane lidhje individuale, jo rruge te plota te verifikuara.
 - Nuk vertetohet pamundesia globale.
 - Rekordet 38 dhe 39 jane te paprekura.
+
+
+## Hapi 187 - ALNS V17 Atlas-Guided
+- Metoda: kerkim i orientuar nga Atlasi V16 dhe Dynamic Programming.
+- Baza: rekordi i verifikuar 39/49.
+- Domatet prioritare sipas skanimit: 38, 24, 6, 35, 32.
+- Kandidati 4 testohet edhe prane 17.
+- Rezultati: 39/49.
+- Prova: 170.
+- Vleresime: 33713.
+- Riparime te plota: 0.
+- Kandidat 40: False.
+- Rezultatet e atlasit jane indikative, jo garanci per rruge te plote.
+- Rekordet 38 dhe 39 mbeten te paprekura.
