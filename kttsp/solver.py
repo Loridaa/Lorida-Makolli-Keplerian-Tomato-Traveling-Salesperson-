@@ -297,7 +297,12 @@ class Solver:
         n_acc = 0
         improved = True
         sweep = 0
-        while improved and time.time() < t_end:
+        while time.time() < t_end:
+            if not improved:
+                # systematic neighbourhood exhausted -> random longer-range moves
+                if self._random_moves(order, flags, arr, legs, t_end):
+                    improved = True  # new local optimum region: sweep again
+                continue
             improved = False
             sweep += 1
             for k in range(1, n - 1):
@@ -348,6 +353,57 @@ class Solver:
             self.log(f"    LS sweep {sweep}: f={arr[-1]:.4f} accepted={n_acc}")
         return np.array(order), np.array(flags)
 
+    def _random_moves(self, order, flags, arr, legs, t_end, max_d=15, batch=400):
+        """Random or-opt moves with a longer reach (2..max_d positions).
+        Works in place on order/flags/arr/legs. Returns True if something improved."""
+        P = self.P
+        n = len(order)
+        improved = False
+        for _ in range(batch):
+            if time.time() > t_end:
+                break
+            p = int(self.rng.integers(1, n))
+            d = int(self.rng.integers(2, max_d + 1)) * (1 if self.rng.random() < 0.5 else -1)
+            q = min(max(p + d, 1), n - 1)
+            if q == p:
+                continue
+            new = order[:]
+            node = new.pop(p)
+            new.insert(q, node)
+            k = min(p, q)
+            end = max(p, q) + 1
+            nf = flags[:]
+            for m in range(k - 1, min(end, n - 1)):
+                nf[m] = self.needs_exc(new[m], new[m + 1])
+            if sum(nf) > P.p.n_exc:
+                continue
+            t = arr[k - 1]
+            bound = arr[end] if end < n else arr[-1]
+            ok = True
+            last = min(end, n - 1)
+            for m in range(k - 1, last):
+                cap = bound if (m == last - 1 and end < n) else np.inf
+                r = self.ea(new[m], new[m + 1], t, exc=nf[m], t_cap=cap)
+                if r is None:
+                    ok = False
+                    break
+                t = r[0]
+            if not ok or t >= bound - 1e-6:
+                continue
+            tail = self._legs_from(new, nf, k - 1, arr[k - 1], stop_pos=end, stop_time=arr)
+            if tail is None:
+                continue
+            order[:] = new
+            flags[:] = nf
+            for idx, r in enumerate(tail):
+                m = k - 1 + idx
+                legs[m] = r
+                arr[m + 1] = r[0]
+            improved = True
+        if improved:
+            self.log(f"    random moves: f={arr[-1]:.4f}")
+        return improved
+
     # -------------------------------------------------------------- solve
     def to_x(self, order, legs):
         dep = [r[1] for r in legs]
@@ -360,7 +416,7 @@ class Solver:
             return None
         return dp
 
-    def solve(self, time_limit=600.0, ls=True, ls_share=0.35, on_best=None):
+    def solve(self, time_limit=600.0, ls=True, ls_share=0.35, on_best=None, init_order=None):
         """Multi-start: (guide variant, window, randomisation) -> greedy -> DP,
         then local search on the best order with the remaining time."""
         from .static_order import static_cost, edge_weight, nearest_neighbour, two_opt, or_opt
@@ -368,6 +424,12 @@ class Solver:
         t0 = time.time()
         deadline = t0 + time_limit
         best = None  # (f, order, flags)
+        if init_order is not None:
+            # warm start: begin from the best solution found so far
+            dp = self.dp_exceptions(np.asarray(init_order))
+            if dp is not None:
+                best = (dp[1], np.asarray(init_order), dp[0])
+                self.log(f"[warm start] stored best order -> f = {dp[1]:.4f}")
         it = 0
         est = self.est
         W0 = edge_weight(est, P.p.dv_max, P.p.dv_exc)

@@ -33,6 +33,7 @@ def main():
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--window", type=int, default=160)
     ap.add_argument("--no-ls", action="store_true")
+    ap.add_argument("--fresh", action="store_true", help="do not start from the stored best solution")
     args = ap.parse_args()
 
     P = Problem(ROOT / "problems" / f"{args.level}.kttsp")
@@ -60,8 +61,13 @@ def main():
         print(f"   ** new best f={f:.4f} saved -> {best_file.name}")
         return True
 
+    init_order = None
+    if best_file.exists() and not args.fresh:
+        xs = json.loads(best_file.read_text())["x"]
+        init_order = [int(v) for v in xs[2 * (P.n - 1):]]
+        print(f"starting from stored best (f={json.loads(best_file.read_text())['f']:.4f}); use --fresh to ignore it")
     S = Solver(P, seed=args.seed, window=args.window)
-    x, f = S.solve(time_limit=args.time, ls=not args.no_ls, on_best=save_if_better)
+    x, f = S.solve(time_limit=args.time, ls=not args.no_ls, on_best=save_if_better, init_order=init_order)
     ok, f_chk, info = P.evaluate(x)
     if ok:
         print(f"done in {time.time()-t0:.0f}s  f={f_chk:.4f}  feasible=True  "
@@ -70,7 +76,8 @@ def main():
     else:
         print(f"done in {time.time()-t0:.0f}s  final solution rejected ({info}); best stored one kept")
     d = json.loads(best_file.read_text())
-    print(f"stored best for {args.level}: f={d['f']:.4f}")
+    print(f"==> BEST solution for {args.level}: f={d['f']:.4f} days  (solutions/{args.level}_best.json, "
+          f"submissions/{args.level}_submission.json)")
 
 
 if __name__ == "__main__":
