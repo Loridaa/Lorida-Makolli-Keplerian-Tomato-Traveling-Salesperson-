@@ -1,0 +1,4 @@
+numpy>=1.24
+matplotlib>=3.6
+# optional, only for `python validate.py <level> --pykep` (official check):
+# pykep<3   (pykep 2.x; on conda: conda install -c conda-forge "pykep<3")
