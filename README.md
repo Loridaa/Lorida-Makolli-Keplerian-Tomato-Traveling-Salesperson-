@@ -1,4 +1,5 @@
-# SpOC-4 · Keplerian Tomato Traveling Salesperson (KTTSP)
+# Lorida Makolli – SpOC-4 Keplerian Tomato Traveling Salesperson
+
 
 Projekt për lëndën **Dizajni dhe Analiza e Algoritmeve**.
 Sfida: <https://optimise.esa.int/challenge/spoc-4-keplerian-tomato-traveling-salesperson/About>
