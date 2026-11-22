@@ -299,10 +299,7 @@ class Solver:
         sweep = 0
         while time.time() < t_end:
             if not improved:
-                # systematic neighbourhood exhausted -> random longer-range moves
-                if self._random_moves(order, flags, arr, legs, t_end):
-                    improved = True  # new local optimum region: sweep again
-                continue
+                break  # systematic neighbourhood exhausted -> ILS phase below
             improved = False
             sweep += 1
             for k in range(1, n - 1):
@@ -351,27 +348,119 @@ class Solver:
                 n_acc += 1
                 improved = True
             self.log(f"    LS sweep {sweep}: f={arr[-1]:.4f} accepted={n_acc}")
+        order, flags = self._ils(order, flags, arr, legs, t_end)
         return np.array(order), np.array(flags)
 
+    def _ils(self, order, flags, arr, legs, t_end, kick_tol=0.02):
+        """Iterated Local Search: random-move descent; at a local optimum keep
+        the best solution, then 'kick' it (1-3 random changes accepted even if
+        slightly worse) and descend again. Always returns the best found."""
+        P = self.P
+        n = len(order)
+        best = (arr[-1], order[:], flags[:], arr[:], legs[:])
+        fails = 0
+        kicks = 0
+        while time.time() < t_end:
+            f_before = arr[-1]
+            self._random_moves(order, flags, arr, legs, t_end, batch=300)
+            if arr[-1] < f_before - 1e-4:  # final time improved -> keep descending
+                fails = 0
+                continue
+            fails += 1
+            if fails < 3:
+                continue
+            # local optimum reached
+            if arr[-1] < best[0] - 1e-9:
+                best = (arr[-1], order[:], flags[:], arr[:], legs[:])
+                self.log(f"    ILS new best: f={arr[-1]:.4f} (after {kicks} kicks)")
+            else:
+                order[:], flags[:], arr[:], legs[:] = best[1][:], best[2][:], best[3][:], best[4][:]
+            # kick
+            n_k = int(self.rng.integers(1, 4))
+            done = 0
+            for _ in range(30):
+                if done >= n_k or time.time() > t_end:
+                    break
+                new, k, end = self._propose(order, max_d=20)
+                if k < 1 or new == order:
+                    continue
+                nf = flags[:]
+                for m in range(k - 1, min(end, n - 1)):
+                    nf[m] = self.needs_exc(new[m], new[m + 1])
+                if sum(nf) > P.p.n_exc:
+                    continue
+                tail = self._legs_from(new, nf, k - 1, arr[k - 1], stop_pos=end, stop_time=arr)
+                if tail is None:
+                    continue
+                last_m = k - 1 + len(tail)  # arrival index of last recomputed leg
+                new_final = tail[-1][0] if last_m == n - 1 else arr[-1] + (tail[-1][0] - arr[last_m])
+                if new_final > best[0] * (1 + kick_tol):
+                    continue
+                order[:] = new
+                flags[:] = nf
+                for idx, r in enumerate(tail):
+                    m = k - 1 + idx
+                    legs[m] = r
+                    arr[m + 1] = r[0]
+                done += 1
+            kicks += 1
+            fails = 0
+        if arr[-1] < best[0] - 1e-9:
+            best = (arr[-1], order[:], flags[:], arr[:], legs[:])
+        order[:], flags[:], arr[:], legs[:] = best[1][:], best[2][:], best[3][:], best[4][:]
+        self.log(f"    ILS done: f={best[0]:.4f}  kicks={kicks}")
+        return order, flags
+
+    def _propose(self, order, max_d):
+        """Random neighbour of the order. Returns (new_order, k, end): positions
+        k..end-1 may have changed, everything else is identical."""
+        n = len(order)
+        kind = self.rng.random()
+        new = order[:]
+        if kind < 0.35:  # move a block of 1-3 tomatoes (optionally reversed)
+            L = int(self.rng.integers(1, 4))
+            p = int(self.rng.integers(1, n - L + 1))
+            seg = new[p:p + L]
+            if self.rng.random() < 0.3:
+                seg = seg[::-1]
+            rest = new[:p] + new[p + L:]
+            d = int(self.rng.integers(1, max_d + 1)) * (1 if self.rng.random() < 0.5 else -1)
+            q = min(max(p + d, 1), len(rest))
+            new = rest[:q] + seg + rest[q:]
+            k, end = min(p, q), max(p, q) + L
+        elif kind < 0.65:  # reverse a segment (time-dependent 2-opt)
+            L = int(self.rng.integers(2, min(max_d, n - 1) + 1))
+            p = int(self.rng.integers(1, n - L + 1))
+            new[p:p + L] = new[p:p + L][::-1]
+            k, end = p, p + L
+        elif kind < 0.85:  # swap two tomatoes
+            p = int(self.rng.integers(1, n))
+            q = min(max(p + int(self.rng.integers(1, max_d + 1)) * (1 if self.rng.random() < 0.5 else -1), 1), n - 1)
+            new[p], new[q] = new[q], new[p]
+            k, end = min(p, q), max(p, q) + 1
+        else:  # double bridge inside a window: A B C D -> A C B D
+            w = int(self.rng.integers(4, max(5, 2 * max_d)))
+            p = int(self.rng.integers(1, max(2, n - w)))
+            c1 = p + int(self.rng.integers(1, w - 1))
+            c2 = c1 + int(self.rng.integers(1, max(2, p + w - c1)))
+            c2 = min(c2, n)
+            new = new[:p] + new[c1:c2] + new[p:c1] + new[c2:]
+            k, end = p, c2
+        return new, k, min(end, n)
+
     def _random_moves(self, order, flags, arr, legs, t_end, max_d=15, batch=400):
-        """Random or-opt moves with a longer reach (2..max_d positions).
-        Works in place on order/flags/arr/legs. Returns True if something improved."""
+        """Random neighbourhood moves (block move, segment reversal, swap,
+        double bridge). Accepted iff the arrival at the first unchanged position
+        gets earlier (FIFO => global improvement). Works in place."""
         P = self.P
         n = len(order)
         improved = False
         for _ in range(batch):
             if time.time() > t_end:
                 break
-            p = int(self.rng.integers(1, n))
-            d = int(self.rng.integers(2, max_d + 1)) * (1 if self.rng.random() < 0.5 else -1)
-            q = min(max(p + d, 1), n - 1)
-            if q == p:
+            new, k, end = self._propose(order, max_d)
+            if k < 1 or new == order:
                 continue
-            new = order[:]
-            node = new.pop(p)
-            new.insert(q, node)
-            k = min(p, q)
-            end = max(p, q) + 1
             nf = flags[:]
             for m in range(k - 1, min(end, n - 1)):
                 nf[m] = self.needs_exc(new[m], new[m + 1])
@@ -430,6 +519,7 @@ class Solver:
             if dp is not None:
                 best = (dp[1], np.asarray(init_order), dp[0])
                 self.log(f"[warm start] stored best order -> f = {dp[1]:.4f}")
+                ls_share = max(ls_share, 0.75)  # spend most of the time improving it
         it = 0
         est = self.est
         W0 = edge_weight(est, P.p.dv_max, P.p.dv_exc)
